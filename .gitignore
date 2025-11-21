@@ -1,0 +1,61 @@
+# Browser state (contains login session)
+browser_state/linkedin_state.json
+
+# INCLUDE encrypted session for GitHub Actions
+!browser_state/linkedin_state.json.enc
+!browser_state/.gitkeep
+
+# Scraped data (old files)
+posts.json
+linkedin_feed.xml
+
+# Debug files
+debug_screenshot.png
+error_screenshot.png
+after_sort_screenshot.png
+feed_screenshot.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log

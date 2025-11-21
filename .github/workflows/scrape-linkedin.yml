@@ -1,0 +1,112 @@
+name: Scrape LinkedIn Feeds
+
+on:
+  # Schedule: Run at 10 AM and 2 PM HKT (2 AM and 6 AM UTC)
+  schedule:
+    - cron: '0 2,6 * * *'  # 10 AM and 2 PM HKT
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      page:
+        description: 'Page to scrape (master-concept, digital-action-lab, or both)'
+        required: false
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - master-concept
+          - digital-action-lab
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps
+
+      - name: Restore encrypted session
+        env:
+          SESSION_KEY: ${{ secrets.SESSION_ENCRYPTION_KEY }}
+        run: |
+          mkdir -p browser_state
+          if [ -f "browser_state/linkedin_state.json.enc" ]; then
+            echo "📂 Decrypting session file..."
+            openssl enc -aes-256-cbc -d -pbkdf2 \
+              -in browser_state/linkedin_state.json.enc \
+              -out browser_state/linkedin_state.json \
+              -k "$SESSION_KEY"
+            echo "✅ Session restored"
+          else
+            echo "⚠️  No encrypted session found - first run will require login"
+          fi
+
+      - name: Scrape Master Concept
+        if: github.event.inputs.page == 'both' || github.event.inputs.page == 'master-concept' || github.event_name == 'schedule'
+        run: |
+          python linkedin_scraper.py "https://www.linkedin.com/company/master-concept/posts/?feedView=all&sortBy=recent&viewAsMember=true"
+          python generate_rss.py master-concept
+
+      - name: Scrape Digital Action Lab
+        if: github.event.inputs.page == 'both' || github.event.inputs.page == 'digital-action-lab' || github.event_name == 'schedule'
+        run: |
+          python linkedin_scraper.py "https://www.linkedin.com/showcase/digital-action-lab/posts/?feedView=all&sortBy=recent&viewAsMember=true"
+          python generate_rss.py digital-action-lab
+
+      - name: Encrypt and save session
+        if: always()
+        env:
+          SESSION_KEY: ${{ secrets.SESSION_ENCRYPTION_KEY }}
+        run: |
+          if [ -f "browser_state/linkedin_state.json" ]; then
+            echo "🔒 Encrypting session file..."
+            openssl enc -aes-256-cbc -salt -pbkdf2 \
+              -in browser_state/linkedin_state.json \
+              -out browser_state/linkedin_state.json.enc \
+              -k "$SESSION_KEY"
+            echo "✅ Session encrypted"
+            rm browser_state/linkedin_state.json
+          fi
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Commit and push changes
+        run: |
+          git add feed/*.xml feed/*.json feed/*.xsl browser_state/*.enc
+
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "📝 No changes to commit"
+          else
+            TIMESTAMP=$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %I:%M %p HKT')
+            git commit -m "Update feeds - ${TIMESTAMP}"
+            git push
+            echo "✅ Changes pushed"
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./feed
+          publish_branch: gh-pages
+          enable_jekyll: false
+          cname: false
