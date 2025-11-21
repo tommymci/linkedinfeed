@@ -87,14 +87,17 @@ class RSSFeedGenerator:
         else:
             linkedin_url = f"https://www.linkedin.com/company/{self.slug}/"
 
-        # Set feed metadata using page name
+        # Set feed metadata using page name with last updated timestamp
+        now_hkt = datetime.now(timezone(timedelta(hours=8)))  # HKT timezone
+        last_updated = now_hkt.strftime("%Y-%m-%d %I:%M %p HKT")
+
         fg.id(linkedin_url)
         fg.title(f"{self.page_name} - LinkedIn Posts ({len(posts)} posts)")
         fg.author({"name": self.page_name, "email": "noreply@linkedin.com"})
         fg.link(href=linkedin_url, rel="alternate")
-        fg.description(f"Latest posts from {self.page_name} LinkedIn page - {len(posts)} posts total")
+        fg.description(f"Latest posts from {self.page_name} LinkedIn page - {len(posts)} posts total | Last updated: {last_updated}")
         fg.language("en")
-        fg.updated(datetime.now().astimezone())
+        fg.updated(now_hkt)
 
         # Add posts to feed
         for post in posts:

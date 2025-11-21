@@ -58,12 +58,16 @@ jobs:
 
       - name: Scrape Master Concept
         if: github.event.inputs.page == 'both' || github.event.inputs.page == 'master-concept' || github.event_name == 'schedule'
+        env:
+          HEADLESS: 'true'
         run: |
           python linkedin_scraper.py "https://www.linkedin.com/company/master-concept/posts/?feedView=all&sortBy=recent&viewAsMember=true"
           python generate_rss.py master-concept
 
       - name: Scrape Digital Action Lab
         if: github.event.inputs.page == 'both' || github.event.inputs.page == 'digital-action-lab' || github.event_name == 'schedule'
+        env:
+          HEADLESS: 'true'
         run: |
           python linkedin_scraper.py "https://www.linkedin.com/showcase/digital-action-lab/posts/?feedView=all&sortBy=recent&viewAsMember=true"
           python generate_rss.py digital-action-lab
@@ -99,14 +103,5 @@ jobs:
             TIMESTAMP=$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %I:%M %p HKT')
             git commit -m "Update feeds - ${TIMESTAMP}"
             git push
-            echo "✅ Changes pushed"
+            echo "✅ Changes pushed to main branch"
           fi
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./feed
-          publish_branch: gh-pages
-          enable_jekyll: false
-          cname: false

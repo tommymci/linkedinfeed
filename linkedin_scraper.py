@@ -681,7 +681,7 @@ def main():
 
     # Default configuration
     COMPANY_URL = "https://www.linkedin.com/company/master-concept/posts/?feedView=all&sortBy=recent&viewAsMember=true"
-    HEADLESS = False
+    HEADLESS = os.getenv('HEADLESS', 'false').lower() == 'true'
     MAX_POSTS_INITIAL = 10
 
     # Allow URL as command line argument

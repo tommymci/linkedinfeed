@@ -81,12 +81,12 @@ git push -u origin main
 
 1. Go to: https://github.com/tommykhs/linkedinfeed/settings/pages
 2. Source: **Deploy from a branch**
-3. Branch: **gh-pages** / **(root)**
+3. Branch: **main** / **/feed**
 4. Click **Save**
 
 Your feeds will be available at:
-- https://tommykhs.github.io/linkedinfeed/master-concept.xml
-- https://tommykhs.github.io/linkedinfeed/digital-action-lab.xml
+- https://tommykhs.github.io/linkedinfeed/feed/master-concept.xml
+- https://tommykhs.github.io/linkedinfeed/feed/digital-action-lab.xml
 
 ---
 
@@ -104,7 +104,7 @@ GitHub Actions runs **twice daily**:
 3. Scrape Digital Action Lab → Generate RSS
 4. Re-encrypt session (in case cookies updated)
 5. Commit feeds to `main` branch
-6. Deploy to GitHub Pages (`gh-pages` branch)
+6. GitHub Pages serves from `main` branch `/feed` folder
 
 ### Manual Trigger
 
@@ -237,8 +237,8 @@ ls -lh feed/
 
 ### Feed URLs (After GitHub Pages enabled)
 
-- **Master Concept**: https://tommykhs.github.io/linkedinfeed/master-concept.xml
-- **Digital Action Lab**: https://tommykhs.github.io/linkedinfeed/digital-action-lab.xml
+- **Master Concept**: https://tommykhs.github.io/linkedinfeed/feed/master-concept.xml
+- **Digital Action Lab**: https://tommykhs.github.io/linkedinfeed/feed/digital-action-lab.xml
 
 ### RSS Readers
 
