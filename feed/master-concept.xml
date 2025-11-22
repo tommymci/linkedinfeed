@@ -2,13 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="rss-style.xsl"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Master Concept Group - LinkedIn Posts (11 posts)</title>
+    <title>Master Concept Group - LinkedIn Posts (12 posts)</title>
     <link>https://www.linkedin.com/company/master-concept/</link>
-    <description><![CDATA[Latest posts from Master Concept Group LinkedIn page - 11 posts total | Last updated: 2025-11-21 04:18 PM HKT]]></description>
+    <description><![CDATA[Latest posts from Master Concept Group LinkedIn page - 12 posts total | Last updated: 2025-11-22 11:00 AM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Nov 2025 16:18:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 11:00:49 +0800</lastBuildDate>
+    <item>
+      <title>Congratulations to Athena Wong, our Regional Director of Geospatial Solutions! 🎉</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7397820273309339649</link>
+      <description><![CDATA[Congratulations to Athena Wong, our Regional Director of Geospatial Solutions! 🎉<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQEC9-W-n4LSKA/feedshare-shrink_800/B56ZqXJRCuJ8Ag-/0/1763472380972?e=1765411200&v=beta&t=fIg7tONPIh77TdQSGwc6ZHUVQTDImFiryg1Td9S9OpQ" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[Congratulations to Athena Wong, our Regional Director of Geospatial Solutions! 🎉<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQEC9-W-n4LSKA/feedshare-shrink_800/B56ZqXJRCuJ8Ag-/0/1763472380972?e=1765411200&v=beta&t=fIg7tONPIh77TdQSGwc6ZHUVQTDImFiryg1Td9S9OpQ" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7397820273309339649</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5622AQEC9-W-n4LSKA/feedshare-shrink_800/B56ZqXJRCuJ8Ag-/0/1763472380972?e=1765411200&amp;v=beta&amp;t=fIg7tONPIh77TdQSGwc6ZHUVQTDImFiryg1Td9S9OpQ" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 22 Nov 2025 10:16:38 +0800</pubDate>
+    </item>
     <item>
       <title>The AI evolution is moving fast, and we're keeping pace! 🚀 
 
