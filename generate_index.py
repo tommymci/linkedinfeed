@@ -16,7 +16,7 @@ def extract_feed_info(xml_path):
     Extract feed information from RSS XML file
 
     Returns:
-        dict with keys: title, link, post_count, last_updated, posts
+        dict with keys: title, link, post_count, last_updated, last_post_date, posts
     """
     try:
         tree = ET.parse(xml_path)
@@ -50,8 +50,9 @@ def extract_feed_info(xml_path):
             except ValueError:
                 pass
 
-        # Extract all posts
+        # Extract all posts and track latest post date
         posts = []
+        latest_post_date = None
         for item in channel.findall('item'):
             post_title_elem = item.find('title')
             post_link_elem = item.find('link')
@@ -62,6 +63,9 @@ def extract_feed_info(xml_path):
                 if post_date_elem is not None and post_date_elem.text:
                     try:
                         post_date_dt = datetime.strptime(post_date_elem.text, "%a, %d %b %Y %H:%M:%S %z")
+                        # Track latest post date
+                        if latest_post_date is None or post_date_dt > latest_post_date:
+                            latest_post_date = post_date_dt
                     except ValueError:
                         pass
 
@@ -75,9 +79,13 @@ def extract_feed_info(xml_path):
         # Count actual posts
         post_count = len(posts)
 
-        # Use last build date (scrape time) as last updated
+        # Use last build date (scrape time) for header
         last_updated = last_build_dt.strftime("%Y-%m-%d %I:%M %p") if last_build_dt else "Unknown"
         last_updated_dt = last_build_dt
+
+        # Use latest post date for table display
+        last_post_date = latest_post_date.strftime("%Y-%m-%d %I:%M %p") if latest_post_date else "Unknown"
+        last_post_date_dt = latest_post_date
 
         return {
             'title': clean_title,
@@ -85,6 +93,8 @@ def extract_feed_info(xml_path):
             'post_count': post_count,
             'last_updated': last_updated,
             'last_updated_dt': last_updated_dt,
+            'last_post_date': last_post_date,
+            'last_post_date_dt': last_post_date_dt,
             'feed_url': f'feed/{feed_filename}',
             'posts': posts
         }
@@ -134,6 +144,24 @@ def get_base_url():
 
 def generate_index_html(feeds, base_url=None):
     """Generate HTML content for index page"""
+
+    # Load config to get status for each page
+    config_file = Path(__file__).parent / "pages_config.json"
+    status_map = {}
+    if config_file.exists():
+        with open(config_file) as f:
+            config = json.load(f)
+            # Map LinkedIn URL to status
+            for page in config.get('pages', []):
+                # Extract slug from URL to match with feed
+                url = page['url']
+                if '/company/' in url:
+                    slug = url.split('/company/')[1].rstrip('/')
+                elif '/showcase/' in url:
+                    slug = url.split('/showcase/')[1].rstrip('/')
+                else:
+                    continue
+                status_map[slug] = page.get('status', 'active')
 
     # Calculate totals
     total_feeds = len(feeds)
@@ -364,17 +392,44 @@ def generate_index_html(feeds, base_url=None):
 """
 
     # Sort feeds by latest post date (most recent first)
-    sorted_feeds = sorted(feeds, key=lambda x: x['last_updated_dt'] if x['last_updated_dt'] else datetime.min.replace(tzinfo=None), reverse=True)
+    sorted_feeds = sorted(feeds, key=lambda x: x['last_post_date_dt'] if x.get('last_post_date_dt') else datetime.min.replace(tzinfo=None), reverse=True)
 
     # Add feed rows
     for feed in sorted_feeds:
         full_feed_url = f"{feed_url_prefix}/{feed['feed_url']}" if feed_url_prefix else feed['feed_url']
+
+        # Get status for this feed by extracting slug from link
+        feed_link = feed.get('link', '')
+        feed_slug = ''
+        if '/company/' in feed_link:
+            feed_slug = feed_link.split('/company/')[1].rstrip('/')
+        elif '/showcase/' in feed_link:
+            feed_slug = feed_link.split('/showcase/')[1].rstrip('/')
+
+        status = status_map.get(feed_slug, 'active')
+
+        # Set icon color based on status
+        icon_colors = {
+            'active': '#0077b5',   # Blue
+            'paused': '#dc3545',   # Red
+            'error': '#ffc107'     # Orange/Yellow
+        }
+        icon_color = icon_colors.get(status, '#0077b5')
+
+        # Set tooltip based on status
+        status_text = {
+            'active': 'Active - Click to copy RSS feed URL',
+            'paused': 'Paused - Click to copy RSS feed URL',
+            'error': 'Error - Click to copy RSS feed URL'
+        }
+        tooltip = status_text.get(status, 'Click to copy RSS feed URL')
+
         html += f"""                    <tr>
                         <td>
                             <div class="feed-name">
-                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5"
+                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="{icon_color}"
                                      onclick="copyFeedUrl('{full_feed_url}')"
-                                     title="Click to copy RSS feed URL">
+                                     title="{tooltip}">
                                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                                 </svg>
                                 <a href="{feed['feed_url']}" target="_blank" class="feed-link">{feed['title']}</a>
@@ -382,7 +437,7 @@ def generate_index_html(feeds, base_url=None):
                             </div>
                         </td>
                         <td>
-                            <span class="last-updated">{feed['last_updated']}</span>
+                            <span class="last-updated">{feed['last_post_date']}</span>
                         </td>
                     </tr>
 """

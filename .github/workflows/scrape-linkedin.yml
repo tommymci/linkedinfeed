@@ -56,8 +56,24 @@ jobs:
             echo "⚠️  No encrypted session found - first run will require login"
           fi
 
-      - name: Scrape All Pages
-        if: github.event.inputs.page == 'all' || github.event_name == 'schedule'
+      - name: Check Schedule Config
+        if: github.event_name == 'schedule'
+        id: check_schedule
+        run: |
+          ENABLED=$(jq -r '.schedule.enabled' pages_config.json)
+          echo "enabled=$ENABLED" >> $GITHUB_OUTPUT
+          if [ "$ENABLED" != "true" ]; then
+            echo "⏸️  Scheduled scraping is disabled in config"
+          fi
+
+      - name: Scrape All Pages (Scheduled)
+        if: github.event_name == 'schedule' && steps.check_schedule.outputs.enabled == 'true'
+        env:
+          HEADLESS: 'true'
+        run: python scrape_all.py all
+
+      - name: Scrape All Pages (Manual)
+        if: github.event.inputs.page == 'all' && github.event_name == 'workflow_dispatch'
         env:
           HEADLESS: 'true'
         run: python scrape_all.py all

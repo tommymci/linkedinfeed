@@ -43,12 +43,13 @@ def normalize_url(url):
     return f"{url}/posts/?feedView=all&sortBy=recent&viewAsMember=true"
 
 
-def scrape_all_pages(specific_page=None):
+def scrape_all_pages(specific_page=None, force=False):
     """
     Scrape all pages from config or a specific page
 
     Args:
         specific_page: Optional slug to scrape only one page, or 'all' for all pages
+        force: If True, scrape even paused pages
     """
     config_file = Path(__file__).parent / "pages_config.json"
 
@@ -60,16 +61,18 @@ def scrape_all_pages(specific_page=None):
     with open(config_file) as f:
         config = json.load(f)
 
-    # Process pages: extract slug and normalize URL
+    # Process pages: extract slug, normalize URL, and get status
     pages = []
     for page in config['pages']:
         url = page['url']
         slug = extract_slug_from_url(url)
         normalized_url = normalize_url(url)
+        status = page.get('status', 'active')
         pages.append({
             'url': normalized_url,
             'slug': slug,
-            'original_url': url
+            'original_url': url,
+            'status': status
         })
 
     # Filter to specific page if requested
@@ -92,7 +95,14 @@ def scrape_all_pages(specific_page=None):
     for i, page in enumerate(pages, 1):
         print(f"[{i}/{len(pages)}] 📄 {page['slug']}")
         print(f"  URL: {page['original_url']}")
+        print(f"  Status: {page['status']}")
         print("-" * 60)
+
+        # Check if page is paused and force mode is not enabled
+        if page['status'] == 'paused' and not force:
+            print(f"  ⏸️  Skipping {page['slug']} (paused)")
+            print()
+            continue
 
         # Run scraper
         print(f"  🔍 Scraping posts...")
@@ -149,6 +159,19 @@ def scrape_all_pages(specific_page=None):
 
 
 if __name__ == "__main__":
-    page = sys.argv[1] if len(sys.argv) > 1 else 'all'
-    exit_code = scrape_all_pages(page)
+    # Parse command line arguments
+    page = 'all'
+    force = False
+
+    for arg in sys.argv[1:]:
+        if arg == '--force':
+            force = True
+        else:
+            page = arg
+
+    if force:
+        print("🔓 Force mode enabled: will scrape even paused pages")
+        print()
+
+    exit_code = scrape_all_pages(page, force=force)
     sys.exit(exit_code)
