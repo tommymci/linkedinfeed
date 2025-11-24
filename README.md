@@ -16,6 +16,7 @@ Scrape posts from your LinkedIn company/showcase pages and convert them to RSS f
 - 🏷️ **Multi-page support** - scrape multiple company/showcase pages
 - 🎯 **Smart exit conditions** - avoids infinite loops (max 20 scrolls or 100 posts)
 - 📛 **Automatic page name extraction** - uses real page names in feeds
+- 🏠 **Dynamic index page** - auto-generated directory of all available feeds
 
 ## Prerequisites
 
@@ -136,15 +137,34 @@ Start a local server to view the styled RSS feed:
 python3 serve.py
 ```
 
-Then open the feed in your browser:
-- Master Concept: http://localhost:8000/master-concept.xml
-- Digital Action Lab: http://localhost:8000/digital-action-lab.xml
+Then open in your browser:
+- **Index Page**: http://localhost:8000/index.html - Directory of all feeds
+- Master Concept: http://localhost:8000/feed/master-concept.xml
+- Digital Action Lab: http://localhost:8000/feed/digital-action-lab.xml
 
 The feed displays with a beautifully styled compact layout:
 - Thumbnail images (16:9) on the left
 - Title and truncated description on the right
 - "Read more →" to expand inline (no page navigation)
 - Date in bottom-right corner
+
+### Dynamic Index Page
+
+The index page (`index.html`) automatically lists all available RSS feeds with:
+- Feed name with LinkedIn page name
+- Post count badge (e.g., "12 posts")
+- Last updated timestamp
+- Direct links to RSS feeds (opens in new window)
+- Links to original LinkedIn pages
+- Auto-updated after every scrape
+
+To manually regenerate the index page:
+
+```bash
+python3 generate_index.py
+```
+
+The index is automatically regenerated when running `scrape_all.py`.
 
 ### Configuration
 
@@ -167,18 +187,22 @@ MAX_POSTS_INITIAL = 10  # Number of posts to scrape on first run
 LinkedinFeed/
 ├── linkedin_scraper.py          # Main scraper script (multi-page support)
 ├── generate_rss.py              # RSS feed generator
+├── generate_index.py            # Index page generator
+├── scrape_all.py                # Wrapper to scrape all configured pages
 ├── cleanup_old_files.py         # Cleanup script for old generic files
 ├── serve.py                     # Local HTTP server
 ├── test_feed.py                 # Test feed page for debugging
 ├── requirements.txt             # Python dependencies
+├── pages_config.json            # Configuration for pages to scrape
 ├── README.md                    # This file
-├── rss-style.xsl                # XSLT stylesheet for RSS (generated)
-├── {slug}_posts.json            # Scraped posts per page (generated)
-│   ├── master-concept_posts.json
-│   └── digital-action-lab_posts.json
-├── {slug}.xml                   # RSS feed per page (generated)
-│   ├── master-concept.xml
-│   └── digital-action-lab.xml
+├── index.html                   # Dynamic feed directory (generated)
+├── feed/                        # RSS feeds directory (generated)
+│   ├── rss-style.xsl            # XSLT stylesheet for RSS
+│   ├── master-concept.xml       # RSS feed per page
+│   ├── master-concept_posts.json # Scraped posts per page
+│   ├── digital-action-lab.xml
+│   ├── digital-action-lab_posts.json
+│   └── ...
 ├── browser_state/               # Saved login session (generated, shared)
 │   └── linkedin_state.json
 └── .gitignore                   # Git ignore file

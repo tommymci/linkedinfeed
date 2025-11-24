@@ -123,6 +123,19 @@ def scrape_all_pages(specific_page=None):
 
         print()
 
+    # Generate index page
+    if success_count > 0:
+        print("=" * 60)
+        print("🏠 Generating index page...")
+        print("=" * 60)
+        result = subprocess.run(
+            ['python3', 'generate_index.py'],
+            capture_output=False
+        )
+        if result.returncode != 0:
+            print("⚠️  Warning: Failed to generate index page")
+        print()
+
     # Summary
     print("=" * 60)
     print("📊 SUMMARY")

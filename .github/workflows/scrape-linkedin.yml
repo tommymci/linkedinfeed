@@ -90,7 +90,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add feed/*.xml feed/*.json feed/*.xsl browser_state/*.enc
+          git add feed/*.xml feed/*.json feed/*.xsl browser_state/*.enc index.html
 
           # Check if there are changes
           if git diff --staged --quiet; then

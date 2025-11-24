@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn RSS Feeds Directory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: #0077b5;
+            color: white;
+            padding: 24px 20px;
+            border-radius: 4px 4px 0 0;
+        }
+        .header h1 {
+            font-size: 1.5em;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .header p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            text-align: left;
+            padding: 8px 0;
+            font-size: 0.85em;
+            color: #666;
+            font-weight: 600;
+            border-bottom: 2px solid #e9ecef;
+        }
+        td {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .feed-name {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .linkedin-icon {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+        }
+        .feed-link {
+            color: #0077b5;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95em;
+        }
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        .post-count {
+            color: #666;
+            font-size: 0.85em;
+            margin-left: 6px;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.85em;
+        }
+        .latest-posts {
+            list-style: none;
+        }
+        .latest-posts li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .latest-posts li:last-child {
+            border-bottom: none;
+        }
+        .post-link {
+            color: #0077b5;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: block;
+            line-height: 1.4;
+        }
+        .post-link:hover {
+            text-decoration: underline;
+        }
+        .post-meta {
+            color: #999;
+            font-size: 0.8em;
+            margin-top: 4px;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 16px 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.85em;
+            border-radius: 0 0 4px 4px;
+        }
+        .footer-stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .footer-stat {
+            display: inline-block;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .header {
+                padding: 16px;
+            }
+            .section {
+                padding: 16px;
+            }
+            .footer {
+                padding: 12px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LinkedIn RSS Feeds</h1>
+            <p>Subscribe to company updates via RSS</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Available Feeds</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feed Name</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="feed-name">
+                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                                <a href="feed/mc-zero-trust.xml" target="_blank" class="feed-link">CyberSecurity Insight Hub</a>
+                                <span class="post-count">(10 posts)</span>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="last-updated">2025-11-24 11:22 AM</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="feed-name">
+                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                                <a href="feed/digital-action-lab.xml" target="_blank" class="feed-link">Digital Action Lab (DAL)</a>
+                                <span class="post-count">(10 posts)</span>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="last-updated">2025-11-24 11:20 AM</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="feed-name">
+                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                                <a href="feed/finda-cloud.xml" target="_blank" class="feed-link">Finda Cloud Technology</a>
+                                <span class="post-count">(12 posts)</span>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="last-updated">2025-11-24 11:21 AM</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="feed-name">
+                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                                <a href="feed/master-concept.xml" target="_blank" class="feed-link">Master Concept Group</a>
+                                <span class="post-count">(12 posts)</span>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="last-updated">2025-11-24 11:20 AM</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Latest Posts</h2>
+            <ul class="latest-posts">
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397820273309339649" target="_blank" class="post-link">Congratulations to Athena Wong, our Regional Director of Geospatial Solutions! 🎉</a>
+                    <div class="post-meta">Master Concept Group • 2025-11-22 10:16 AM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397633783052566528" target="_blank" class="post-link">We are excited to invite you to an insightful webinar organized by GlobalSign GMO in partnership wit...</a>
+                    <div class="post-meta">Finda Cloud Technology • 2025-11-21 09:55 PM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397535863171137536" target="_blank" class="post-link">We are excited to invite you to an insightful webinar organized by GlobalSign GMO in partnership wit...</a>
+                    <div class="post-meta">Finda Cloud Technology • 2025-11-21 03:26 PM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397509933098795008" target="_blank" class="post-link">The AI evolution is moving fast, and we're keeping pace! 🚀 
+
+Big thank you to Google Cloud for hosti...</a>
+                    <div class="post-meta">Master Concept Group • 2025-11-21 01:43 PM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397442377038196736" target="_blank" class="post-link">🛒 When FreshDirect's legacy routing system couldn't keep up with its needs, the NYC area food delive...</a>
+                    <div class="post-meta">Master Concept Group • 2025-11-21 09:15 AM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397133159110393856" target="_blank" class="post-link">Static campaigns are dead. Long live the Loop. 🔄
+Incredible energy at our "Beyond the Funnel" execut...</a>
+                    <div class="post-meta">Digital Action Lab (DAL) • 2025-11-20 12:46 PM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397107738230763520" target="_blank" class="post-link">🚀 BREAKING NEWS: Gemini 3 Launch Integration!
+
+Join us at the Singapore Google Office for "AI in Act...</a>
+                    <div class="post-meta">Master Concept Group • 2025-11-20 11:05 AM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7396855760787402752" target="_blank" class="post-link">🚨 Gemini 3 Tops the Charts, Surpassing GPT-5.1!
+Google DeepMind's Gemini 3 is here...the key step on...</a>
+                    <div class="post-meta">Master Concept Group • 2025-11-19 06:24 PM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7396465861349314560" target="_blank" class="post-link">🌟 We Did It! 1,000 Followers! 🌟
+
+Today, we are thrilled to announce that Finda Cloud has reached a s...</a>
+                    <div class="post-meta">Finda Cloud Technology • 2025-11-18 04:34 PM</div>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7396024490729721856" target="_blank" class="post-link">A strong week in Manila at the GlobalSign APAC Partner Summit — and an even stronger milestone for F...</a>
+                    <div class="post-meta">Finda Cloud Technology • 2025-11-17 11:20 AM</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div class="footer-stats">
+                <span class="footer-stat">Feeds: 4</span>
+                <span class="footer-stat">Posts: 44</span>
+                <span class="footer-stat">Last Update: 2025-11-24 11:22 AM HKT</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
