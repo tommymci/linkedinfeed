@@ -41,9 +41,17 @@ def extract_feed_info(xml_path):
         # Get feed filename
         feed_filename = xml_path.name
 
+        # Extract last build date (scrape time)
+        last_build_elem = channel.find('lastBuildDate')
+        last_build_dt = None
+        if last_build_elem is not None and last_build_elem.text:
+            try:
+                last_build_dt = datetime.strptime(last_build_elem.text, "%a, %d %b %Y %H:%M:%S %z")
+            except ValueError:
+                pass
+
         # Extract all posts
         posts = []
-        latest_post_date = None
         for item in channel.findall('item'):
             post_title_elem = item.find('title')
             post_link_elem = item.find('link')
@@ -54,9 +62,6 @@ def extract_feed_info(xml_path):
                 if post_date_elem is not None and post_date_elem.text:
                     try:
                         post_date_dt = datetime.strptime(post_date_elem.text, "%a, %d %b %Y %H:%M:%S %z")
-                        # Track latest post date
-                        if latest_post_date is None or post_date_dt > latest_post_date:
-                            latest_post_date = post_date_dt
                     except ValueError:
                         pass
 
@@ -70,9 +75,9 @@ def extract_feed_info(xml_path):
         # Count actual posts
         post_count = len(posts)
 
-        # Use latest post date as last updated
-        last_updated = latest_post_date.strftime("%Y-%m-%d %I:%M %p") if latest_post_date else "Unknown"
-        last_updated_dt = latest_post_date
+        # Use last build date (scrape time) as last updated
+        last_updated = last_build_dt.strftime("%Y-%m-%d %I:%M %p") if last_build_dt else "Unknown"
+        last_updated_dt = last_build_dt
 
         return {
             'title': clean_title,

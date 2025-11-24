@@ -279,7 +279,11 @@
             <body>
                 <div class="container">
                     <div class="header">
-                        <h1><xsl:value-of select="channel/title"/></h1>
+                        <h1>
+                            <a href="{channel/link}" target="_blank" style="color: white; text-decoration: none;">
+                                <xsl:value-of select="channel/title"/>
+                            </a>
+                        </h1>
                         <p><xsl:value-of select="channel/description"/></p>
                     </div>
 
@@ -305,8 +309,7 @@
                     </div>
 
                     <div class="footer">
-                        LinkedIn Feed Scraper |
-                        <a href="{channel/link}" target="_blank">View on LinkedIn</a>
+                        © 2025 LinkedIn Feed. All rights reserved.
                     </div>
                 </div>
             </body>
