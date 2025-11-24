@@ -91,6 +91,7 @@ def scrape_all_pages(specific_page=None, force=False):
 
     success_count = 0
     failed_pages = []
+    skipped_pages = []
 
     for i, page in enumerate(pages, 1):
         print(f"[{i}/{len(pages)}] 📄 {page['slug']}")
@@ -101,6 +102,7 @@ def scrape_all_pages(specific_page=None, force=False):
         # Check if page is paused and force mode is not enabled
         if page['status'] == 'paused' and not force:
             print(f"  ⏸️  Skipping {page['slug']} (paused)")
+            skipped_pages.append(page['slug'])
             print()
             continue
 
@@ -150,12 +152,18 @@ def scrape_all_pages(specific_page=None, force=False):
     print("=" * 60)
     print("📊 SUMMARY")
     print("=" * 60)
-    print(f"✅ Success: {success_count}/{len(pages)} pages")
+
+    # Calculate expected success count (active pages only)
+    active_pages = len(pages) - len(skipped_pages)
+    print(f"✅ Success: {success_count}/{active_pages} active pages")
+    if skipped_pages:
+        print(f"⏸️  Skipped: {', '.join(skipped_pages)} (paused)")
     if failed_pages:
         print(f"❌ Failed: {', '.join(failed_pages)}")
     print("=" * 60)
 
-    return 0 if success_count == len(pages) else 1
+    # Return success (0) if all active pages succeeded
+    return 0 if success_count == active_pages else 1
 
 
 if __name__ == "__main__":
