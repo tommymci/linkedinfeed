@@ -42,27 +42,12 @@ def extract_feed_info(xml_path):
         link_elem = channel.find('link')
         link = link_elem.text if link_elem is not None else ""
 
-        # Extract last build date
-        last_build_elem = channel.find('lastBuildDate')
-        last_build = last_build_elem.text if last_build_elem is not None else None
-
-        # Parse the date
-        last_updated_dt = None
-        if last_build:
-            try:
-                # Parse RFC 2822 format: "Mon, 24 Nov 2025 11:20:00 +0800"
-                last_updated_dt = datetime.strptime(last_build, "%a, %d %b %Y %H:%M:%S %z")
-                last_updated = last_updated_dt.strftime("%Y-%m-%d %I:%M %p")
-            except ValueError:
-                last_updated = last_build
-        else:
-            last_updated = "Unknown"
-
         # Get feed filename
         feed_filename = xml_path.name
 
         # Extract all posts
         posts = []
+        latest_post_date = None
         for item in channel.findall('item'):
             post_title_elem = item.find('title')
             post_link_elem = item.find('link')
@@ -73,6 +58,9 @@ def extract_feed_info(xml_path):
                 if post_date_elem is not None and post_date_elem.text:
                     try:
                         post_date_dt = datetime.strptime(post_date_elem.text, "%a, %d %b %Y %H:%M:%S %z")
+                        # Track latest post date
+                        if latest_post_date is None or post_date_dt > latest_post_date:
+                            latest_post_date = post_date_dt
                     except ValueError:
                         pass
 
@@ -82,6 +70,10 @@ def extract_feed_info(xml_path):
                     'date': post_date_dt,
                     'feed_name': clean_title
                 })
+
+        # Use latest post date as last updated
+        last_updated = latest_post_date.strftime("%Y-%m-%d %I:%M %p") if latest_post_date else "Unknown"
+        last_updated_dt = latest_post_date
 
         return {
             'title': clean_title,
@@ -97,7 +89,46 @@ def extract_feed_info(xml_path):
         return None
 
 
-def generate_index_html(feeds):
+def get_base_url():
+    """
+    Detect the base URL from git remote or use default
+    Returns the GitHub Pages URL
+    """
+    try:
+        import subprocess
+        result = subprocess.run(
+            ['git', 'remote', 'get-url', 'origin'],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        remote_url = result.stdout.strip()
+
+        # Parse GitHub URL
+        # Format: https://github.com/username/repo.git or git@github.com:username/repo.git
+        if 'github.com' in remote_url:
+            # Extract username and repo
+            if remote_url.startswith('https://'):
+                # https://github.com/username/repo.git
+                parts = remote_url.replace('https://github.com/', '').replace('.git', '').split('/')
+            elif remote_url.startswith('git@'):
+                # git@github.com:username/repo.git
+                parts = remote_url.replace('git@github.com:', '').replace('.git', '').split('/')
+            else:
+                return None
+
+            if len(parts) >= 2:
+                username = parts[0]
+                repo = parts[1]
+                # GitHub Pages URL format
+                return f"https://{username}.github.io/{repo}"
+    except Exception as e:
+        print(f"Could not detect base URL: {e}")
+
+    return None
+
+
+def generate_index_html(feeds, base_url=None):
     """Generate HTML content for index page"""
 
     # Calculate totals
@@ -122,12 +153,16 @@ def generate_index_html(feeds):
     all_posts.sort(key=lambda x: x['date'] if x['date'] else datetime.min.replace(tzinfo=None), reverse=True)
     latest_posts = all_posts[:10]
 
+    # Determine full feed URLs for copying
+    feed_url_prefix = base_url if base_url else ""
+
     html = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkedIn RSS Feeds Directory</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230077b5'%3E%3Cpath d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z'/%3E%3C/svg%3E">
     <style>
         * {
             margin: 0;
@@ -204,6 +239,14 @@ def generate_index_html(feeds):
             width: 18px;
             height: 18px;
             flex-shrink: 0;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .linkedin-icon:hover {
+            transform: scale(1.2);
+        }
+        .linkedin-icon:active {
+            transform: scale(0.95);
         }
         .feed-link {
             color: #0077b5;
@@ -265,6 +308,23 @@ def generate_index_html(feeds):
         .footer-stat {
             display: inline-block;
         }
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0077b5;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            z-index: 1000;
+        }
+        .toast.show {
+            opacity: 1;
+        }
         @media (max-width: 600px) {
             body {
                 padding: 10px;
@@ -294,7 +354,7 @@ def generate_index_html(feeds):
                 <thead>
                     <tr>
                         <th>Feed Name</th>
-                        <th>Last Updated</th>
+                        <th>Latest Post</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -305,10 +365,13 @@ def generate_index_html(feeds):
 
     # Add feed rows
     for feed in sorted_feeds:
+        full_feed_url = f"{feed_url_prefix}/{feed['feed_url']}" if feed_url_prefix else feed['feed_url']
         html += f"""                    <tr>
                         <td>
                             <div class="feed-name">
-                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5">
+                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077b5"
+                                     onclick="copyFeedUrl('{full_feed_url}')"
+                                     title="Click to copy RSS feed URL">
                                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                                 </svg>
                                 <a href="{feed['feed_url']}" target="_blank" class="feed-link">{feed['title']}</a>
@@ -350,6 +413,36 @@ def generate_index_html(feeds):
             </div>
         </div>
     </div>
+
+    <div id="toast" class="toast">Feed URL copied to clipboard!</div>
+
+    <script>
+        function copyFeedUrl(url) {
+            // Create temporary input element
+            const input = document.createElement('input');
+            input.value = url;
+            document.body.appendChild(input);
+            input.select();
+
+            try {
+                // Copy to clipboard
+                document.execCommand('copy');
+                showToast();
+            } catch (err) {
+                console.error('Failed to copy:', err);
+            }
+
+            document.body.removeChild(input);
+        }
+
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2000);
+        }
+    </script>
 </body>
 </html>
 """
@@ -387,9 +480,16 @@ def main():
         print("❌ No valid feeds found")
         return 1
 
+    # Detect base URL from git remote
+    base_url = get_base_url()
+    if base_url:
+        print(f"📍 Detected base URL: {base_url}")
+    else:
+        print("⚠️  Could not detect base URL, using relative URLs")
+
     # Generate HTML
     print(f"\n📝 Generating index.html...")
-    html_content = generate_index_html(feeds)
+    html_content = generate_index_html(feeds, base_url)
 
     # Write to file
     output_file = Path(__file__).parent / 'index.html'
