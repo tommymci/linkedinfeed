@@ -92,10 +92,10 @@ class RSSFeedGenerator:
         last_updated = now_hkt.strftime("%Y-%m-%d %I:%M %p HKT")
 
         fg.id(linkedin_url)
-        fg.title(f"{self.page_name} - LinkedIn Posts ({len(posts)} posts)")
+        fg.title(f"{self.page_name}")
         fg.author({"name": self.page_name, "email": "noreply@linkedin.com"})
         fg.link(href=linkedin_url, rel="alternate")
-        fg.description(f"Latest posts from {self.page_name} LinkedIn page - {len(posts)} posts total | Last updated: {last_updated}")
+        fg.description(f"Posts: {len(posts)} | Last Update: {last_updated}")
         fg.language("en")
         fg.updated(now_hkt)
 

@@ -31,12 +31,8 @@ def extract_feed_info(xml_path):
         title_elem = channel.find('title')
         title = title_elem.text if title_elem is not None else "Unknown"
 
-        # Extract post count from title (e.g., "Master Concept - LinkedIn Posts (12 posts)")
-        post_count_match = re.search(r'\((\d+)\s+posts?\)', title)
-        post_count = int(post_count_match.group(1)) if post_count_match else 0
-
-        # Clean up title - remove the post count part
-        clean_title = re.sub(r'\s*-\s*LinkedIn Posts.*$', '', title)
+        # Title is now just the page name (e.g., "Master Concept Group")
+        clean_title = title
 
         # Extract link
         link_elem = channel.find('link')
@@ -70,6 +66,9 @@ def extract_feed_info(xml_path):
                     'date': post_date_dt,
                     'feed_name': clean_title
                 })
+
+        # Count actual posts
+        post_count = len(posts)
 
         # Use latest post date as last updated
         last_updated = latest_post_date.strftime("%Y-%m-%d %I:%M %p") if latest_post_date else "Unknown"
@@ -161,7 +160,7 @@ def generate_index_html(feeds, base_url=None):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn RSS Feeds Directory</title>
+    <title>LinkedIn Feed</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230077b5'%3E%3Cpath d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z'/%3E%3C/svg%3E">
     <style>
         * {
@@ -344,12 +343,11 @@ def generate_index_html(feeds, base_url=None):
 <body>
     <div class="container">
         <div class="header">
-            <h1>LinkedIn RSS Feeds</h1>
-            <p>Subscribe to company updates via RSS</p>
+            <h1>LinkedIn Feed</h1>
+            <p>Feeds: """ + str(total_feeds) + """ | Posts: """ + str(total_posts) + """ | Last Update: """ + latest_update_str + """</p>
         </div>
 
         <div class="section">
-            <h2 class="section-title">Available Feeds</h2>
             <table>
                 <thead>
                     <tr>
@@ -360,8 +358,8 @@ def generate_index_html(feeds, base_url=None):
                 <tbody>
 """
 
-    # Sort feeds by title
-    sorted_feeds = sorted(feeds, key=lambda x: x['title'])
+    # Sort feeds by latest post date (most recent first)
+    sorted_feeds = sorted(feeds, key=lambda x: x['last_updated_dt'] if x['last_updated_dt'] else datetime.min.replace(tzinfo=None), reverse=True)
 
     # Add feed rows
     for feed in sorted_feeds:
@@ -375,7 +373,7 @@ def generate_index_html(feeds, base_url=None):
                                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                                 </svg>
                                 <a href="{feed['feed_url']}" target="_blank" class="feed-link">{feed['title']}</a>
-                                <span class="post-count">({feed['post_count']} posts)</span>
+                                <span class="post-count">{feed['post_count']}</span>
                             </div>
                         </td>
                         <td>
@@ -406,11 +404,7 @@ def generate_index_html(feeds, base_url=None):
         </div>
 
         <div class="footer">
-            <div class="footer-stats">
-                <span class="footer-stat">Feeds: """ + str(total_feeds) + """</span>
-                <span class="footer-stat">Posts: """ + str(total_posts) + """</span>
-                <span class="footer-stat">Last Update: """ + latest_update_str + """</span>
-            </div>
+            <p>&copy; """ + str(datetime.now().year) + """ LinkedIn Feed. All rights reserved.</p>
         </div>
     </div>
 
