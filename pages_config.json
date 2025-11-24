@@ -2,7 +2,7 @@
   "pages": [
     {
       "url": "https://www.linkedin.com/company/master-concept/",
-      "status": "active"
+      "status": "paused"
     },
     {
       "url": "https://www.linkedin.com/showcase/digital-action-lab/",
@@ -10,15 +10,15 @@
     },
     {
       "url": "https://www.linkedin.com/company/finda-cloud/",
-      "status": "active"
+      "status": "paused"
     },
     {
       "url": "https://www.linkedin.com/showcase/mc-zero-trust/",
-      "status": "active"
+      "status": "paused"
     }
   ],
   "schedule": {
-    "enabled": true,
+    "enabled": false,
     "cron": "0 2,6 * * *",
     "description": "10 AM and 2 PM HKT (2 AM and 6 AM UTC)"
   }
