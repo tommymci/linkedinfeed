@@ -195,7 +195,11 @@ class LinkedInScraper:
             # Create context with state persistence
             context_options = {
                 "viewport": {"width": 1280, "height": 720},
-                "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "locale": "en-US",
+                "extra_http_headers": {
+                    "Accept-Language": "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7"
+                }
             }
 
             # Load saved state if exists
@@ -356,44 +360,36 @@ class LinkedInScraper:
                 except Exception as e:
                     print(f"  ⚠️  Error clicking 'All' tab: {e}")
 
-                # Click "Sort by: Recent" button to ensure we get chronological order
-                print("🔘 Clicking 'Sort by: Recent' button...")
+                # Click to sort by Recent using UI elements
+                print("🔘 Clicking to sort by Recent...")
                 try:
-                    # Try to find and click the sort button
-                    sort_button_selectors = [
-                        "button:has-text('Recent')",
-                        "button:has-text('recent')",
-                        "[aria-label*='Sort by']",
-                        "button.artdeco-dropdown__trigger",
-                        ".feed-sort-toggle button"
-                    ]
+                    # Wait for the sort dropdown to be visible
+                    time.sleep(2)
 
-                    clicked = False
-                    for selector in sort_button_selectors:
+                    # Find and click the sort dropdown button (the one with "Top" or "Recent" text)
+                    sort_button = page.wait_for_selector("button.artdeco-dropdown__trigger:has-text('Top'), button.artdeco-dropdown__trigger:has-text('Recent')", timeout=10000)
+                    if sort_button:
+                        sort_button.click()
+                        print(f"  ✅ Opened sort dropdown")
+                        time.sleep(1)
+
+                        # Now wait for and click "Recent" option using exact selector from monitoring
+                        recent_clicked = False
                         try:
-                            sort_button = page.query_selector(selector)
-                            if sort_button:
-                                sort_button.click()
-                                print(f"  ✅ Clicked sort button using selector: {selector}")
+                            # Wait for the Recent button to be visible in the dropdown
+                            recent_button = page.wait_for_selector("button[role='option']:has-text('Recent')", timeout=5000, state="visible")
+                            if recent_button:
+                                recent_button.click(force=True)
+                                print(f"  ✅ Clicked 'Recent' option")
                                 time.sleep(2)
+                                recent_clicked = True
+                        except Exception as e:
+                            print(f"  ⚠️  Could not find 'Recent' option: {str(e)[:100]}")
 
-                                # If a dropdown opened, click "Recent" option
-                                try:
-                                    recent_option = page.query_selector("li:has-text('Recent'), div:has-text('Recent'), span:has-text('Recent')")
-                                    if recent_option:
-                                        recent_option.click()
-                                        print("  ✅ Selected 'Recent' from dropdown")
-                                        time.sleep(2)
-                                except:
-                                    pass
-
-                                clicked = True
-                                break
-                        except:
-                            continue
-
-                    if not clicked:
-                        print("  ⚠️  Could not find sort button - will rely on URL parameters")
+                        if not recent_clicked:
+                            print(f"  ⚠️  Could not find 'Recent' option in dropdown menu")
+                    else:
+                        print(f"  ⚠️  Could not find sort dropdown button")
 
                     # Take screenshot after sort to verify
                     screenshot_path = Path(__file__).parent / "after_sort_screenshot.png"
@@ -634,18 +630,21 @@ class LinkedInScraper:
                             post_date = datetime.now().isoformat()
 
                         # Check if this is the target post (incremental mode)
+                        is_target_post = False
                         if not is_initial_run and target_post_link and post_link:
                             # Normalize URLs for comparison (remove trailing slashes, query params)
                             current_link_normalized = post_link.split('?')[0].rstrip('/')
                             target_link_normalized = target_post_link.split('?')[0].rstrip('/')
 
                             if current_link_normalized == target_link_normalized:
-                                print(f"  🎯 Found target post! Stopping here.")
+                                print(f"  🎯 Found target post! Stopping incremental scrape.")
                                 found_target = True
-                                break  # Don't include this post (it's already in XML)
+                                is_target_post = True
+                                # Don't break immediately - we'll break after this iteration
+                                # This allows us to process any posts we collected before the target
 
-                        # Save post if we have a link (text is optional)
-                        if post_link:
+                        # Save post if we have a link and it's not the target post
+                        if post_link and not is_target_post:
                             # Ensure we have at least some text for the title
                             if not post_text or len(post_text) < 5:
                                 post_text = "[Post without text]"
@@ -663,7 +662,12 @@ class LinkedInScraper:
 
                             if processed_count % 5 == 0:  # Show progress every 5 posts
                                 print(f"  📝 Scraped {processed_count} posts...")
-                        else:
+
+                        # Break after finding target post
+                        if found_target:
+                            break
+
+                        if not post_link:
                             print(f"  ⚠️  Post {idx}: No link found")
 
                     except Exception as e:
