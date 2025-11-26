@@ -1,8 +1,18 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2025-11-25T02:54:29.760333",
+  "updated_at": "2025-11-26T06:56:52.991630",
   "posts": [
+    {
+      "title": "Ever notice AI can sometimes get location details a little bit wrong? 🗺️ We’ve all been there!\n\nThat...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7399336201113124864",
+      "description": "Ever notice AI can sometimes get location details a little bit wrong? 🗺️ We’ve all been there!\n\nThat challenge is now FIXED. We break down the magic behind \"grounding\"—how Grounding with Google Maps gives Gemini high accuracy in answering questions involving location-based context.\n\nThis is a massive game-changer for every spatial AI application!\n\nWant to know how Gemini \"sees\" the map and becomes a true expert in location to help retail, travel & tourism, real estate & construction, and logistics & transportation industries? 👇\n\nRead the article here: https://lnkd.in/gkMDiKtD\n\n\nhashtag\n#GoogleMaps \nhashtag\n#Gemini \nhashtag\n#GoogleMapsGrounding \nhashtag\n#GeospatialData \nhashtag\n#GeospatialAI \nhashtag\n#GeospatialSolutions \nhashtag\n#geospatial \nhashtag\n#LocationData \nhashtag\n#LocationAI",
+      "published": "2025-11-26T06:40:23.364000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/sync/v2/D5627AQEUgqmuwp1DHA/articleshare-shrink_160/B56Zq.3Z8UJYAk-/0/1764138790051?e=1764745200&v=beta&t=pPn9pGnzm-ezst_s79s2M3GbWgG5kfUgvZz_x27yarU"
+      ],
+      "scraped_at": "2025-11-26T06:56:52.751373"
+    },
     {
       "title": "Stop talking about AI, start doing AI! 🚀 We wrapped up our successful hands-on Google Workspace with...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7398915119444910080",
