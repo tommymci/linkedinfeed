@@ -4,11 +4,82 @@
   <channel>
     <title>Master Concept Group</title>
     <link>https://www.linkedin.com/company/master-concept/</link>
-    <description><![CDATA[Posts: 20 | Last Update: 2025-12-10 02:59 PM HKT]]></description>
+    <description><![CDATA[Posts: 21 | Last Update: 2025-12-11 12:11 PM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 14:59:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 12:11:36 +0800</lastBuildDate>
+    <item>
+      <title>🛠️ Cloudflare Outage Review: Quick Lessons in Infrastructure Resilience
+
+As a Tier 1 (T1) partner wi...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7404454931631636480</link>
+      <description><![CDATA[🛠️ Cloudflare Outage Review: Quick Lessons in Infrastructure Resilience
+
+As a Tier 1 (T1) partner with Cloudflare, we at Master Concept have been working closely with their teams, providing us with a deep understanding of operational matters and receiving numerous updates regarding recent incidents. Leveraging this insight, here is a quick summary of the key findings from Cloudflare’s official Root Cause Analysis (RAC) reports:
+
+- December 5, 2025 Outage: A critical bug in an older proxy system (FL1) was triggered by an emergency configuration change deployed to mitigate the "React2Shell" vulnerability. This configuration interaction caused a hard-fail across affected services.
+🔗 RAC Link: https://lnkd.in/gpqkhJzC
+
+- November 18, 2025 Outage: A bug in the Bot Management feature file generation created an excessively large configuration file. This oversized file led to repeated crashes in the software module responsible for traffic processing, causing an extended multi-hour outage.
+🔗 RAC Link: https://lnkd.in/gj4XDaZA
+
+[Key Takeaway]
+The resilience provided by robust CDN/WAF setups kept some of our customers unimpacted. This focus on protection aligns with the HK Critical Infrastructure Bill, a topic Master Concept details in our comprehensive e-book: https://lnkd.in/gzp59V2w
+
+Got questions? Inquire us via here: https://lnkd.in/gvKvAt7T 
+and we are here to help!
+
+
+hashtag
+#Cloudflare 
+hashtag
+#SRE 
+hashtag
+#Infrastructure 
+hashtag
+#DevOps 
+hashtag
+#RootCauseAnalysis 
+hashtag
+#MasterConcept 
+hashtag
+#HKCriticalInfrastructure<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQH4Q3ZSFpiGLQ/feedshare-shrink_800/B56ZsCqfokLMAg-/0/1765276252890?e=1767225600&v=beta&t=Sh9j_IAR4QFmYQiavdPlvIpxHB4J0uToRUeyvQ1O_fM" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[🛠️ Cloudflare Outage Review: Quick Lessons in Infrastructure Resilience
+
+As a Tier 1 (T1) partner with Cloudflare, we at Master Concept have been working closely with their teams, providing us with a deep understanding of operational matters and receiving numerous updates regarding recent incidents. Leveraging this insight, here is a quick summary of the key findings from Cloudflare’s official Root Cause Analysis (RAC) reports:
+
+- December 5, 2025 Outage: A critical bug in an older proxy system (FL1) was triggered by an emergency configuration change deployed to mitigate the "React2Shell" vulnerability. This configuration interaction caused a hard-fail across affected services.
+🔗 RAC Link: https://lnkd.in/gpqkhJzC
+
+- November 18, 2025 Outage: A bug in the Bot Management feature file generation created an excessively large configuration file. This oversized file led to repeated crashes in the software module responsible for traffic processing, causing an extended multi-hour outage.
+🔗 RAC Link: https://lnkd.in/gj4XDaZA
+
+[Key Takeaway]
+The resilience provided by robust CDN/WAF setups kept some of our customers unimpacted. This focus on protection aligns with the HK Critical Infrastructure Bill, a topic Master Concept details in our comprehensive e-book: https://lnkd.in/gzp59V2w
+
+Got questions? Inquire us via here: https://lnkd.in/gvKvAt7T 
+and we are here to help!
+
+
+hashtag
+#Cloudflare 
+hashtag
+#SRE 
+hashtag
+#Infrastructure 
+hashtag
+#DevOps 
+hashtag
+#RootCauseAnalysis 
+hashtag
+#MasterConcept 
+hashtag
+#HKCriticalInfrastructure<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQH4Q3ZSFpiGLQ/feedshare-shrink_800/B56ZsCqfokLMAg-/0/1765276252890?e=1767225600&v=beta&t=Sh9j_IAR4QFmYQiavdPlvIpxHB4J0uToRUeyvQ1O_fM" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7404454931631636480</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5622AQH4Q3ZSFpiGLQ/feedshare-shrink_800/B56ZsCqfokLMAg-/0/1765276252890?e=1767225600&amp;v=beta&amp;t=Sh9j_IAR4QFmYQiavdPlvIpxHB4J0uToRUeyvQ1O_fM" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 10 Dec 2025 17:40:23 +0800</pubDate>
+    </item>
     <item>
       <title>⚡思想科技 Master Concept 很榮幸受邀出席 AppWorks Accelerator #31、Wistron Accelerator #9 與 Tinc 聯合 Demo Day！
 

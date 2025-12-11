@@ -1,8 +1,19 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2025-12-08T07:01:39.391679",
+  "updated_at": "2025-12-11T04:11:36.633618",
   "posts": [
+    {
+      "title": "🛠️ Cloudflare Outage Review: Quick Lessons in Infrastructure Resilience\n\nAs a Tier 1 (T1) partner wi...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7404454931631636480",
+      "description": "🛠️ Cloudflare Outage Review: Quick Lessons in Infrastructure Resilience\n\nAs a Tier 1 (T1) partner with Cloudflare, we at Master Concept have been working closely with their teams, providing us with a deep understanding of operational matters and receiving numerous updates regarding recent incidents. Leveraging this insight, here is a quick summary of the key findings from Cloudflare’s official Root Cause Analysis (RAC) reports:\n\n- December 5, 2025 Outage: A critical bug in an older proxy system (FL1) was triggered by an emergency configuration change deployed to mitigate the \"React2Shell\" vulnerability. This configuration interaction caused a hard-fail across affected services.\n🔗 RAC Link: https://lnkd.in/gpqkhJzC\n\n- November 18, 2025 Outage: A bug in the Bot Management feature file generation created an excessively large configuration file. This oversized file led to repeated crashes in the software module responsible for traffic processing, causing an extended multi-hour outage.\n🔗 RAC Link: https://lnkd.in/gj4XDaZA\n\n[Key Takeaway]\nThe resilience provided by robust CDN/WAF setups kept some of our customers unimpacted. This focus on protection aligns with the HK Critical Infrastructure Bill, a topic Master Concept details in our comprehensive e-book: https://lnkd.in/gzp59V2w\n\nGot questions? Inquire us via here: https://lnkd.in/gvKvAt7T \nand we are here to help!\n\n\nhashtag\n#Cloudflare \nhashtag\n#SRE \nhashtag\n#Infrastructure \nhashtag\n#DevOps \nhashtag\n#RootCauseAnalysis \nhashtag\n#MasterConcept \nhashtag\n#HKCriticalInfrastructure",
+      "published": "2025-12-10T09:40:23.821000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQH4Q3ZSFpiGLQ/feedshare-shrink_800/B56ZsCqfokLMAg-/0/1765276252890?e=1767225600&v=beta&t=Sh9j_IAR4QFmYQiavdPlvIpxHB4J0uToRUeyvQ1O_fM",
+        "https://media.licdn.com/dms/image/v2/D5622AQHu1b6BIPq1rA/feedshare-shrink_800/B56ZsCqfo9I4Ag-/0/1765276252936?e=1767225600&v=beta&t=bK4e90YtUv0IZjlyOUqrMcZYqHVwpbXPAuSfA0bS72M"
+      ],
+      "scraped_at": "2025-12-11T04:11:36.461149"
+    },
     {
       "title": "⚡思想科技 Master Concept 很榮幸受邀出席 AppWorks Accelerator #31、Wistron Accelerator #9 與 Tinc 聯合 Demo Day！\n\n本次...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7403680643819511808",
