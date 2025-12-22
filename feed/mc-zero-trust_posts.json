@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2025-12-10T07:01:54.898185",
+  "updated_at": "2025-12-22T07:03:48.074957",
   "posts": [
+    {
+      "title": "Recently Fortinet presented they detected the maximum number malicious activities in Indonesia. We w...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7408752157119778816",
+      "description": "Recently Fortinet presented they detected the maximum number malicious activities in Indonesia. We would like to understand the reasons behind this trend and the potential opportunities. Therefore, we asked Fortinet and several Taiwan cybersecurity service vendors, CHT Security 中華資安國際, eCloudvalley Digital Technology, EPN.Cloud, Master Concept Group, uniXecure to get answers. Let’s take a look of their analysis and strategies.\n \n \nhttps://lnkd.in/gTpKv3PF",
+      "published": "2025-12-22T06:16:02.216000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/sync/v2/D5627AQGhSsFKCIBpYQ/articleshare-shrink_480/B56Zs8yJTnHIAo-/0/1766251337946?e=1766995200&v=beta&t=Wlo9CuTpeRlsNtUQSpkQTqS6fatGi6Fho37QP9QYq7o"
+      ],
+      "scraped_at": "2025-12-22T07:03:47.836951"
+    },
     {
       "title": "🛠️ Cloudflare Outage Review: Quick Lessons in Infrastructure Resilience\n\nAs a Tier 1 (T1) partner wi...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7404399506575896577",
