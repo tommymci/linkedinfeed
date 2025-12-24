@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2025-12-22T07:03:48.074957",
+  "updated_at": "2025-12-24T04:15:14.605608",
   "posts": [
+    {
+      "title": "How AI Supports Cloud Security Operations — A Hands-on Cloud Security Workshop\n\nAs AI accelerates bo...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7409169959119040513",
+      "description": "How AI Supports Cloud Security Operations — A Hands-on Cloud Security Workshop\n\nAs AI accelerates both attacks and defenses, cloud security operations are becoming faster, more complex — and more dependent on good decisions.\n\nIn this hands-on workshop, we’ll explore how AI actually supports cloud security operations in practice, using \nhashtag\n#GoogleCloudSecurity and AI tools like \nhashtag\n#Gemini as examples. Rather than focusing on features, this session walks through how AI can help security teams:\n- Access and analyze threat intelligence and security signals\n- Support investigation and reasoning in security operations\n- Turn insights into practical next steps\n- Improve speed and clarity — without removing human judgment\n\nThis is a guided, hands-on walkthrough of how AI fits into real-world cloud security workflows, and where humans remain firmly in control.\n\n🧑‍💻 Hands-on | Cloud Security Operations | AI-assisted decision-making\n💻 Participants need to bring their laptops and follow along.\n📍 Master Concept Hong Kong Solution Day | AI & U \n🕒 2026.01.08 (Thu.)\n👉 Full Agenda and Register here: https://lnkd.in/gaPGzpir\n\n\nhashtag\n#CloudSecurity\n\nhashtag\n#Cybersecurity\n\nhashtag\n#SecOps\n\nhashtag\n#AI\n\nhashtag\n#GoogleCloud\n\nhashtag\n#HandsOnWorkshop",
+      "published": "2025-12-23T09:56:13.975000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQFvQqpq1nqiMA/feedshare-shrink_800/B56ZtKoewxJYAg-/0/1766483688118?e=1768435200&v=beta&t=Na1wEsGDhzxiBxEPT64hiMxDLkQHgAXF-IQzxICLttI"
+      ],
+      "scraped_at": "2025-12-24T04:15:14.397323"
+    },
     {
       "title": "Recently Fortinet presented they detected the maximum number malicious activities in Indonesia. We w...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7408752157119778816",
