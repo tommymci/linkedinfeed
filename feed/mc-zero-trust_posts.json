@@ -1,8 +1,20 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-01-29T04:03:27.496939",
+  "updated_at": "2026-01-31T04:00:05.807642",
   "posts": [
+    {
+      "title": "🎉 We’re thrilled to highlight our collaboration with \nhashtag\n#Saviynt and \nhashtag\n#JUCC, where we ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7421431721717350401",
+      "description": "🎉 We’re thrilled to highlight our collaboration with \nhashtag\n#Saviynt and \nhashtag\n#JUCC, where we joined forces to provide universities with critical insights into modern identity security 🔐. At Master Concept, we are committed to supporting higher education institutions on their journey to modernize and strengthen their security systems.\n\n🎤 Our Head of Public Sector, Johnathan Ip, and Cybersecurity Consultant, Kitty Kwok, shared deep insights on implementing Identity and Access Management (IAM) with complete lifecycle management. A key takeaway was how our IAM expertise—particularly with \nhashtag\n#Okta—seamlessly integrates with advanced Identity Governance and Administration (IGA) solutions like Saviynt. This powerful combination is essential for managing today’s complex hybrid environments 🌐.\n\n🤝 Together, we’re paving the way for universities to enhance their security posture and adapt confidently to the evolving digital landscape. A big thank you to everyone who participated and contributed to this meaningful discussion!\n\n\nhashtag\n#Cybersecurity \nhashtag\n#IAM \nhashtag\n#IGA",
+      "published": "2026-01-26T06:00:05.991000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQE9-sK7o2AhKg/feedshare-shrink_800/B56ZvoqgNDGYAg-/0/1769135017090?e=1771459200&v=beta&t=Icn9EDeXZkYbA7MGg0k2eKbjRm1kA33sMag4IZ12Wxo",
+        "https://media.licdn.com/dms/image/v2/D5622AQFprQMjK_2QIA/feedshare-shrink_800/B56Zvoqgw6KcAk-/0/1769135021186?e=1771459200&v=beta&t=VorwYNz6s9fsQeslGXnY9RHm3nrWsdQWMTW8G1953VQ",
+        "https://media.licdn.com/dms/image/v2/D5622AQEQCSe6UPsPZQ/feedshare-shrink_800/B56Zvoqgu9JEAg-/0/1769135021054?e=1771459200&v=beta&t=S8lFXqE7f6NcYNrIdoVStvX3PuDM8OjmayBviXG_IO4"
+      ],
+      "scraped_at": "2026-01-31T04:00:05.611454"
+    },
     {
       "title": "🛑 Most IT teams don’t struggle because they lack security tools.\n\nThey struggle because alerts keep ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7422174272242098176",
@@ -12,18 +24,6 @@
         "https://media.licdn.com/dms/image/v2/D5612AQHvmedQmCogZw/article-cover_image-shrink_423_752/B56Zv9P4otIsAU-/0/1769480359758?e=1771459200&v=beta&t=qwXKc19BIt8KibnQWPN2vWCmqe7VAqOL6WR5Wy3IFyU"
       ],
       "scraped_at": "2026-01-29T04:03:27.301844"
-    },
-    {
-      "title": "🎉 We’re thrilled to highlight our collaboration with \nhashtag\n#Saviynt and \nhashtag\n#JUCC, where we ...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7421431721717350401",
-      "description": "🎉 We’re thrilled to highlight our collaboration with \nhashtag\n#Saviynt and \nhashtag\n#JUCC, where we joined forces to provide universities with critical insights into modern identity security 🔐. At Master Concept, we are committed to supporting higher education institutions on their journey to modernize and strengthen their security systems.\n\n🎤 Our Head of Public Sector, Johnathan Ip, and Cybersecurity Consultant, Kitty Kwok, shared deep insights on implementing Identity and Access Management (IAM) with complete lifecycle management. A key takeaway was how our IAM expertise—particularly with \nhashtag\n#Okta—seamlessly integrates with advanced Identity Governance and Administration (IGA) solutions like Saviynt. This powerful combination is essential for managing today’s complex hybrid environments 🌐.\n\n🤝 Together, we’re paving the way for universities to enhance their security posture and adapt confidently to the evolving digital landscape. A big thank you to everyone who participated and contributed to this meaningful discussion!\n\n\nhashtag\n#Cybersecurity \nhashtag\n#IAM \nhashtag\n#IGA",
-      "published": "2026-01-26T06:00:05.991000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5622AQE9-sK7o2AhKg/feedshare-shrink_800/B56ZvoqgNDGYAg-/0/1769135017090?e=1770854400&v=beta&t=lJALil68zYuFAEv2M2wyTV7Dgj6JQixTqMkgQbYay30",
-        "https://media.licdn.com/dms/image/v2/D5622AQFprQMjK_2QIA/feedshare-shrink_800/B56Zvoqgw6KcAk-/0/1769135021186?e=1770854400&v=beta&t=shXugPKsS75mbuHhCLNe5GaMSFiDUquhLTMhuurQNb8",
-        "https://media.licdn.com/dms/image/v2/D5622AQEQCSe6UPsPZQ/feedshare-shrink_800/B56Zvoqgu9JEAg-/0/1769135021054?e=1770854400&v=beta&t=9Lv2cB7jEo5hy9jb8yjFgqN7F0v5NFCFMINESnvdoEw"
-      ],
-      "scraped_at": "2026-01-26T06:26:36.096979"
     },
     {
       "title": "Wrapping Up! AI & U: Defining the Future of Work 🚀\n\nBody: What an incredible turnout at the Master C...",
