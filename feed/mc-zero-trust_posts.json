@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-03-11T06:41:36.808863",
+  "updated_at": "2026-03-19T04:15:14.859537",
   "posts": [
+    {
+      "title": "Do you know what employees are sharing with ChatGPT or other AI tools? 🤔\n\nAcross many organizations,...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439936896543354880",
+      "description": "Do you know what employees are sharing with ChatGPT or other AI tools? 🤔\n\nAcross many organizations, generative AI tools are already part of everyday work. Employees use them to summarize documents, generate code, draft content, and accelerate research. The challenge is no longer whether AI should be used. \n\nThe real question is how enterprises can enable AI safely without slowing down productivity.\n\nMany companies initially respond by blocking ChatGPT or other AI tools. But this often creates a new problem called shadow AI, where employees switch to personal devices or unmanaged accounts. The result is even less visibility and higher risk. \n\nA more sustainable approach is to start AI governance at the browser layer.\n\nBecause most generative AI tools are accessed through the browser, it becomes one of the most practical control points for balancing security, visibility, and user experience. With the right governance model, organizations can monitor AI usage, prevent sensitive data exposure, and apply context-aware policies without disrupting how people work.\n\nIn our latest article, we explore how enterprises can manage ChatGPT and generative AI risks through browser-based governance and why this approach is becoming an important part of modern enterprise security strategies.\n\nIf you are currently evaluating how to enable AI safely inside your organization, this might be a useful starting point. \n\nRead the full article 👉 https://lnkd.in/gU7hS8vx\n\nhashtag\n#AIGovernance \nhashtag\n#GenerativeAI \nhashtag\n#CyberSecurity \nhashtag\n#BrowserSecurity\n\nhashtag\n#ChromeEnterprisePremium \nhashtag\n#MasterConcept",
+      "published": "2026-03-18T07:33:03.479000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQHEZ89BXQyFaw/article-cover_image-shrink_423_752/B56ZzGR8ObJQAc-/0/1772853151313?e=1775692800&v=beta&t=U1-7he7XqnJimER_xJoDbnnfdZmKyQ1DXEUQ3u-b9I4"
+      ],
+      "scraped_at": "2026-03-19T04:15:14.645386"
+    },
     {
       "title": "🔍 When audit asks for screen watermarks across systems, where do you start?\n\nMany IT and security te...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7437375395026411520",
