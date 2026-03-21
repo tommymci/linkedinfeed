@@ -4,11 +4,116 @@
   <channel>
     <title>Master Concept Group</title>
     <link>https://www.linkedin.com/company/master-concept/</link>
-    <description><![CDATA[Posts: 67 | Last Update: 2026-03-20 02:41 PM HKT]]></description>
+    <description><![CDATA[Posts: 68 | Last Update: 2026-03-21 11:56 AM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Mar 2026 14:41:33 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 11:56:10 +0800</lastBuildDate>
+    <item>
+      <title>你是否正考慮引入 OpenClaw，卻因安全性疑慮而卻步？🤔
+面對強大的 AI Agent 代理，許多企業與開發者最擔心的莫過於：系統權限失控、敏感資料外洩，或是不慎改動核心伺服器檔案。
+❌ 真正的技...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7440696793144897536</link>
+      <description><![CDATA[你是否正考慮引入 OpenClaw，卻因安全性疑慮而卻步？🤔
+面對強大的 AI Agent 代理，許多企業與開發者最擔心的莫過於：系統權限失控、敏感資料外洩，或是不慎改動核心伺服器檔案。
+❌ 真正的技術突破，不在於「用不用 AI」，而在於能否「安全地駕馭它」。 
+⚖️ 掌握安全部署框架，才能讓 OpenClaw 成為提升效率的利器，而非系統風險的來源。
+
+🛠️ 全新工作坊：「馴服龍蝦：OpenClaw 安全部署實戰指南」
+🗓 課程時間：
+3月23日、3月25日 — 🔴 【已額滿】
+🟢 【最後名額】 2026年3月27日（五）/ 4月1日（三）
+時間： 下午 2:30 – 5:30 🕒
+📍 地點： 觀塘偉業街 183 號 2 樓 The Whitney
+💰 費用：HKD $480/位 (原價 $1,680) 💥
+🎯 如果你面臨以下挑戰，本課程為你而設：
+安全性顧慮 🛡️：對 OpenClaw 安全性存疑，遲遲未能正式投入生產環境。
+風險管理 📉：曾嘗試執行，但缺乏清晰的 Risk Management 風險管理架構。
+權限邊界 🔑：看到自動化潛力，卻不知如何設定有效的權限控管。
+📚 課程核心內容：
+1️⃣ Sandbox 沙盒技術 🧪：建立隔離環境，確保 AI Agent 在受控範圍內運作，物理隔離核心檔案。
+2️⃣ Least Privilege 權限控制 🔐：實踐「最小權限原則」，精準授權，杜絕越權操作。
+3️⃣ Data Privacy 數據隱私 📁：學習安全處理私密資料的流程，防止敏感資訊外流。
+4️⃣ 真實場景示範 💻：以檔案自動整理等實際 Case，示範如何零風險完成任務。
+🎁 所有參加者將獲分配一個 預先配置好的 OpenClaw Sandbox 實例。學員可即開即用，專注於策略學習，無需為繁複的環境設定煩惱。🚀
+✨ 名額有限 —— 掌握 AI Agent 的專業部署規範，讓工具真正為你所用。
+📩 立即報名：mcai.dev/openclaw-training
+Cloudflare Authorized Delivery Partner & Google Authorized Training Partner
+
+hashtag
+#AI 
+hashtag
+#OpenClaw 
+hashtag
+#Gemini 
+hashtag
+#ChatGPT 
+hashtag
+#Claude 
+hashtag
+#AI安全 
+hashtag
+#人工智能 
+hashtag
+#自動化 
+hashtag
+#生產力提升 
+hashtag
+#在職培訓 
+hashtag
+#思想科技<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQHxuxUhe_6XUw/feedshare-shrink_800/B56Z0KqThBJsAc-/0/1774000355919?e=1775692800&v=beta&t=jLQbZ6NoipRgYc6bgfjH9oUMvjHaLTcGgzqECjs0mRg" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[你是否正考慮引入 OpenClaw，卻因安全性疑慮而卻步？🤔
+面對強大的 AI Agent 代理，許多企業與開發者最擔心的莫過於：系統權限失控、敏感資料外洩，或是不慎改動核心伺服器檔案。
+❌ 真正的技術突破，不在於「用不用 AI」，而在於能否「安全地駕馭它」。 
+⚖️ 掌握安全部署框架，才能讓 OpenClaw 成為提升效率的利器，而非系統風險的來源。
+
+🛠️ 全新工作坊：「馴服龍蝦：OpenClaw 安全部署實戰指南」
+🗓 課程時間：
+3月23日、3月25日 — 🔴 【已額滿】
+🟢 【最後名額】 2026年3月27日（五）/ 4月1日（三）
+時間： 下午 2:30 – 5:30 🕒
+📍 地點： 觀塘偉業街 183 號 2 樓 The Whitney
+💰 費用：HKD $480/位 (原價 $1,680) 💥
+🎯 如果你面臨以下挑戰，本課程為你而設：
+安全性顧慮 🛡️：對 OpenClaw 安全性存疑，遲遲未能正式投入生產環境。
+風險管理 📉：曾嘗試執行，但缺乏清晰的 Risk Management 風險管理架構。
+權限邊界 🔑：看到自動化潛力，卻不知如何設定有效的權限控管。
+📚 課程核心內容：
+1️⃣ Sandbox 沙盒技術 🧪：建立隔離環境，確保 AI Agent 在受控範圍內運作，物理隔離核心檔案。
+2️⃣ Least Privilege 權限控制 🔐：實踐「最小權限原則」，精準授權，杜絕越權操作。
+3️⃣ Data Privacy 數據隱私 📁：學習安全處理私密資料的流程，防止敏感資訊外流。
+4️⃣ 真實場景示範 💻：以檔案自動整理等實際 Case，示範如何零風險完成任務。
+🎁 所有參加者將獲分配一個 預先配置好的 OpenClaw Sandbox 實例。學員可即開即用，專注於策略學習，無需為繁複的環境設定煩惱。🚀
+✨ 名額有限 —— 掌握 AI Agent 的專業部署規範，讓工具真正為你所用。
+📩 立即報名：mcai.dev/openclaw-training
+Cloudflare Authorized Delivery Partner & Google Authorized Training Partner
+
+hashtag
+#AI 
+hashtag
+#OpenClaw 
+hashtag
+#Gemini 
+hashtag
+#ChatGPT 
+hashtag
+#Claude 
+hashtag
+#AI安全 
+hashtag
+#人工智能 
+hashtag
+#自動化 
+hashtag
+#生產力提升 
+hashtag
+#在職培訓 
+hashtag
+#思想科技<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQHxuxUhe_6XUw/feedshare-shrink_800/B56Z0KqThBJsAc-/0/1774000355919?e=1775692800&v=beta&t=jLQbZ6NoipRgYc6bgfjH9oUMvjHaLTcGgzqECjs0mRg" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7440696793144897536</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5622AQHxuxUhe_6XUw/feedshare-shrink_800/B56Z0KqThBJsAc-/0/1774000355919?e=1775692800&amp;v=beta&amp;t=jLQbZ6NoipRgYc6bgfjH9oUMvjHaLTcGgzqECjs0mRg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 17:52:36 +0800</pubDate>
+    </item>
     <item>
       <title>⚙️ 數位管理終極進化：打造「全自動運轉」的工作系統
 

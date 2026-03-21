@@ -1,8 +1,18 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-03-19T06:45:47.937287",
+  "updated_at": "2026-03-21T03:56:09.925622",
   "posts": [
+    {
+      "title": "你是否正考慮引入 OpenClaw，卻因安全性疑慮而卻步？🤔\n面對強大的 AI Agent 代理，許多企業與開發者最擔心的莫過於：系統權限失控、敏感資料外洩，或是不慎改動核心伺服器檔案。\n❌ 真正的技...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7440696793144897536",
+      "description": "你是否正考慮引入 OpenClaw，卻因安全性疑慮而卻步？🤔\n面對強大的 AI Agent 代理，許多企業與開發者最擔心的莫過於：系統權限失控、敏感資料外洩，或是不慎改動核心伺服器檔案。\n❌ 真正的技術突破，不在於「用不用 AI」，而在於能否「安全地駕馭它」。 \n⚖️ 掌握安全部署框架，才能讓 OpenClaw 成為提升效率的利器，而非系統風險的來源。\n\n🛠️ 全新工作坊：「馴服龍蝦：OpenClaw 安全部署實戰指南」\n🗓 課程時間：\n3月23日、3月25日 — 🔴 【已額滿】\n🟢 【最後名額】 2026年3月27日（五）/ 4月1日（三）\n時間： 下午 2:30 – 5:30 🕒\n📍 地點： 觀塘偉業街 183 號 2 樓 The Whitney\n💰 費用：HKD $480/位 (原價 $1,680) 💥\n🎯 如果你面臨以下挑戰，本課程為你而設：\n安全性顧慮 🛡️：對 OpenClaw 安全性存疑，遲遲未能正式投入生產環境。\n風險管理 📉：曾嘗試執行，但缺乏清晰的 Risk Management 風險管理架構。\n權限邊界 🔑：看到自動化潛力，卻不知如何設定有效的權限控管。\n📚 課程核心內容：\n1️⃣ Sandbox 沙盒技術 🧪：建立隔離環境，確保 AI Agent 在受控範圍內運作，物理隔離核心檔案。\n2️⃣ Least Privilege 權限控制 🔐：實踐「最小權限原則」，精準授權，杜絕越權操作。\n3️⃣ Data Privacy 數據隱私 📁：學習安全處理私密資料的流程，防止敏感資訊外流。\n4️⃣ 真實場景示範 💻：以檔案自動整理等實際 Case，示範如何零風險完成任務。\n🎁 所有參加者將獲分配一個 預先配置好的 OpenClaw Sandbox 實例。學員可即開即用，專注於策略學習，無需為繁複的環境設定煩惱。🚀\n✨ 名額有限 —— 掌握 AI Agent 的專業部署規範，讓工具真正為你所用。\n📩 立即報名：mcai.dev/openclaw-training\nCloudflare Authorized Delivery Partner & Google Authorized Training Partner\n\nhashtag\n#AI \nhashtag\n#OpenClaw \nhashtag\n#Gemini \nhashtag\n#ChatGPT \nhashtag\n#Claude \nhashtag\n#AI安全 \nhashtag\n#人工智能 \nhashtag\n#自動化 \nhashtag\n#生產力提升 \nhashtag\n#在職培訓 \nhashtag\n#思想科技",
+      "published": "2026-03-20T09:52:36.947000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQHxuxUhe_6XUw/feedshare-shrink_800/B56Z0KqThBJsAc-/0/1774000355919?e=1775692800&v=beta&t=jLQbZ6NoipRgYc6bgfjH9oUMvjHaLTcGgzqECjs0mRg"
+      ],
+      "scraped_at": "2026-03-21T03:56:09.739708"
+    },
     {
       "title": "⚙️ 數位管理終極進化：打造「全自動運轉」的工作系統\n\n這是 Asana 系列教學的完結篇。我們不只要把事情做完，更要讓系統「自動」把事情做好。在 2026 年，優秀的管理者不再手動分派任務，而是建立...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7440275906402869248",
