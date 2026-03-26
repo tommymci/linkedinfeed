@@ -1,8 +1,18 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-03-25T04:10:14.268715",
+  "updated_at": "2026-03-26T04:25:08.940600",
   "posts": [
+    {
+      "title": "Many companies rely on Jira for engineering execution. But what happens when marketing, operations a...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7442737087050653696",
+      "description": "Many companies rely on Jira for engineering execution. But what happens when marketing, operations and leadership teams also need visibility into the same projects? 👀\n\nFor many growing teams in Singapore and across Asia, the challenge is not replacing Jira. The challenge is connecting engineering workflows with cross functional collaboration.\n\nThat is where Asana and Jira integration becomes powerful.\n\nWhen designed properly, teams can sync Jira issues with Asana tasks, align product launches with engineering timelines, and give leadership clear project visibility without forcing everyone into the same tool.\n\nWe recently published a practical guide covering:\n✨ How Asana and Jira integration works\n✨ What can be synchronized between the two systems\n✨ Step by step setup for task syncing\n✨ Real collaboration use cases for growing teams\n\nIf your organization is using Jira but struggling with cross team project visibility, this guide may be helpful.\n\n📖 Read the full guide here: https://hubs.la/Q045XLVc0\n\n\nhashtag\n#ProjectManagement \nhashtag\n#Asana \nhashtag\n#Jira \nhashtag\n#ProductManagement\n\nhashtag\n#WorkManagement \nhashtag\n#MasterConcept",
+      "published": "2026-03-26T01:00:00.921000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5610AQHtbaPlMuaDKA/image-shrink_160/B56Z0np8h_KsAU-/0/1774486801395?e=1775106000&v=beta&t=isbwchNNElpvC9JErkn4gBhkTxEoW2Mxik5uyAZiGfo"
+      ],
+      "scraped_at": "2026-03-26T04:25:08.758635"
+    },
     {
       "title": "What if the real problem with security awareness training isn’t your employees, but the training mod...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7442374713798160385",
