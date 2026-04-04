@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-03-19T04:15:14.859537",
+  "updated_at": "2026-04-04T04:10:03.229627",
   "posts": [
+    {
+      "title": "What if the real problem with security awareness training isn’t your employees, but the training mod...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7445744938367066112",
+      "description": "What if the real problem with security awareness training isn’t your employees, but the training model itself? 🔐\n\nMost companies run phishing simulations, online courses, and annual assessments. Everything looks good on paper. Yet employees still click malicious links and social engineering attacks keep succeeding.\n\nAs attackers increasingly use AI to generate convincing phishing emails, traditional training simply cannot keep up.\n\nIn our latest article, we explore how AI agents are changing security training by making it adaptive, personalized, and continuous. Instead of static programs, organizations can move toward a more strategic approach: Human Risk Management.\n\nThink of it as having a 24/7 security coach for every employee. 🤖\nRead the full article 👉 https://lnkd.in/gv-RW-bU\n\n\nhashtag\n#CyberSecurity \nhashtag\n#SecurityAwareness \nhashtag\n#HumanRiskManagement \nhashtag\n#MasterConcept",
+      "published": "2026-04-03T08:12:08.558000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQHD7JY1M1k47Q/article-cover_image-shrink_423_752/B56ZzGWHTyIYAU-/0/1772854216423?e=1776902400&v=beta&t=IQOCs_K79hKiS4gLXvjP2S2VxJzA4_x5t_o77xWokyw"
+      ],
+      "scraped_at": "2026-04-04T04:10:02.998408"
+    },
     {
       "title": "Do you know what employees are sharing with ChatGPT or other AI tools? 🤔\n\nAcross many organizations,...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439936896543354880",
