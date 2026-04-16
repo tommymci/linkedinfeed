@@ -1,8 +1,18 @@
 {
-  "page_name": "Digital Action Lab (DAL)",
+  "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-02-18T04:11:41.953226",
+  "updated_at": "2026-04-16T04:45:06.915674",
   "posts": [
+    {
+      "title": "351,000 GitHub stars.\n3.2 million monthly active users.\nMore popular than React ever was.\nThen HKCER...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7450379239641743360",
+      "description": "351,000 GitHub stars.\n3.2 million monthly active users.\nMore popular than React ever was.\nThen HKCERT issued a security advisory.\n\nOpenClaw（龍蝦）is the fastest-growing open-source AI agent in history. It can read your email, browse the web, control your files, and message your customers on WhatsApp — all autonomously.\n\nBut Palo Alto Networks flagged what they called a \"lethal trifecta\": access to private data, exposure to untrusted content, and the ability to take external actions with persistent memory.\n\nFor Hong Kong enterprises handling customer data across regulated industries — this isn't a toy.\n\nWe broke down what OpenClaw actually does, the 9 CVEs discovered so far, and what enterprises should consider before deploying any AI agent.\n\nFull breakdown 👇\nhttps://hubs.la/Q04cgHb30\n\nhashtag\n#OpenClaw \nhashtag\n#AIAgents \nhashtag\n#HongKong \nhashtag\n#EnterpriseAI \nhashtag\n#CustomerIntelligence",
+      "published": "2026-04-16T03:07:12.083000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5610AQHkdr55NWSDWg/image-shrink_800/B56Z2UQbChIUAg-/0/1776308826622?e=1776920400&v=beta&t=pWJHD85vyWsYfETn0duF9gTgCGYpQ9ApwyGh31HTMXk"
+      ],
+      "scraped_at": "2026-04-16T04:45:06.794780"
+    },
     {
       "title": "接財納福 · 智繪增長\nDAL 以 AI 驅動的自動化行銷與精準轉化方案，助您精準捕獲商機，實現業績翻倍成長。",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7429423108736053248",

@@ -2,13 +2,75 @@
 <?xml-stylesheet type="text/xsl" href="rss-style.xsl"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Digital Action Lab (DAL)</title>
+    <title>Data &amp; AI Lab | DAL</title>
     <link>https://www.linkedin.com/company/digital-action-lab/</link>
-    <description><![CDATA[Posts: 15 | Last Update: 2026-04-15 03:18 PM HKT]]></description>
+    <description><![CDATA[Posts: 16 | Last Update: 2026-04-16 12:45 PM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 15:18:23 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 12:45:06 +0800</lastBuildDate>
+    <item>
+      <title>351,000 GitHub stars.
+3.2 million monthly active users.
+More popular than React ever was.
+Then HKCER...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7450379239641743360</link>
+      <description><![CDATA[351,000 GitHub stars.
+3.2 million monthly active users.
+More popular than React ever was.
+Then HKCERT issued a security advisory.
+
+OpenClaw（龍蝦）is the fastest-growing open-source AI agent in history. It can read your email, browse the web, control your files, and message your customers on WhatsApp — all autonomously.
+
+But Palo Alto Networks flagged what they called a "lethal trifecta": access to private data, exposure to untrusted content, and the ability to take external actions with persistent memory.
+
+For Hong Kong enterprises handling customer data across regulated industries — this isn't a toy.
+
+We broke down what OpenClaw actually does, the 9 CVEs discovered so far, and what enterprises should consider before deploying any AI agent.
+
+Full breakdown 👇
+https://hubs.la/Q04cgHb30
+
+hashtag
+#OpenClaw 
+hashtag
+#AIAgents 
+hashtag
+#HongKong 
+hashtag
+#EnterpriseAI 
+hashtag
+#CustomerIntelligence<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5610AQHkdr55NWSDWg/image-shrink_800/B56Z2UQbChIUAg-/0/1776308826622?e=1776920400&v=beta&t=pWJHD85vyWsYfETn0duF9gTgCGYpQ9ApwyGh31HTMXk" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[351,000 GitHub stars.
+3.2 million monthly active users.
+More popular than React ever was.
+Then HKCERT issued a security advisory.
+
+OpenClaw（龍蝦）is the fastest-growing open-source AI agent in history. It can read your email, browse the web, control your files, and message your customers on WhatsApp — all autonomously.
+
+But Palo Alto Networks flagged what they called a "lethal trifecta": access to private data, exposure to untrusted content, and the ability to take external actions with persistent memory.
+
+For Hong Kong enterprises handling customer data across regulated industries — this isn't a toy.
+
+We broke down what OpenClaw actually does, the 9 CVEs discovered so far, and what enterprises should consider before deploying any AI agent.
+
+Full breakdown 👇
+https://hubs.la/Q04cgHb30
+
+hashtag
+#OpenClaw 
+hashtag
+#AIAgents 
+hashtag
+#HongKong 
+hashtag
+#EnterpriseAI 
+hashtag
+#CustomerIntelligence<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5610AQHkdr55NWSDWg/image-shrink_800/B56Z2UQbChIUAg-/0/1776308826622?e=1776920400&v=beta&t=pWJHD85vyWsYfETn0duF9gTgCGYpQ9ApwyGh31HTMXk" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7450379239641743360</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5610AQHkdr55NWSDWg/image-shrink_800/B56Z2UQbChIUAg-/0/1776308826622?e=1776920400&amp;v=beta&amp;t=pWJHD85vyWsYfETn0duF9gTgCGYpQ9ApwyGh31HTMXk" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 16 Apr 2026 11:07:12 +0800</pubDate>
+    </item>
     <item>
       <title>接財納福 · 智繪增長
 DAL 以 AI 驅動的自動化行銷與精準轉化方案，助您精準捕獲商機，實現業績翻倍成長。</title>
