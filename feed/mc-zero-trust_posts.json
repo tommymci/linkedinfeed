@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-04-16T07:21:40.196060",
+  "updated_at": "2026-04-17T04:44:11.567389",
   "posts": [
+    {
+      "title": "Your VPN Might Be the Weakest Link in Your Security Strategy 🔐\n\nMost companies still treat VPN as th...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7450516311819935744",
+      "description": "Your VPN Might Be the Weakest Link in Your Security Strategy 🔐\n\nMost companies still treat VPN as the default for remote access.\n\nBut today’s work environment no longer fits that model. Employees move across SaaS platforms, cloud systems, and AI tools throughout the day, often from unmanaged devices and different locations.\nIn this context, simply connecting to the network does not mean access should be trusted.\n\nThe challenge has shifted from enabling access to controlling it with precision, based on identity, device posture, and real-time context. This is where approaches like Zero Trust and browser-level security are gaining attention.\n\nIt is not about removing VPN entirely, but about rethinking where and how access control should happen. \n\nIf your organization is navigating remote work and AI driven workflows, this is a conversation worth having. 🚀\n\nRead the full article to explore what modern access security looks like 👇.",
+      "published": "2026-04-16T12:11:52.637000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQG6rMiGd6DFPQ/article-cover_image-shrink_423_752/B56Z1YxsJFHcAU-/0/1775310917157?e=1778112000&v=beta&t=DxJ4-mGj8zzVtUeAol1yMdfN7XfBVRpXK3DwDfUMum8"
+      ],
+      "scraped_at": "2026-04-17T04:44:11.371382"
+    },
     {
       "title": "Do you know what employees are sharing with ChatGPT or other AI tools? 🤔\n\nAcross many organizations,...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439936896543354880",
