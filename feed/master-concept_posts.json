@@ -1,8 +1,18 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-04-25T04:28:19.201682",
+  "updated_at": "2026-04-28T05:22:57.278304",
   "posts": [
+    {
+      "title": "AI is growing fast but can your organization still see it 👀\n\nMost enterprises did not plan for multi...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7454703461348208640",
+      "description": "AI is growing fast but can your organization still see it 👀\n\nMost enterprises did not plan for multi model AI environments. It often starts with one use case, then expands across teams using OpenAI, Claude, Gemini, and embedded AI tools.\n\nSuddenly, AI usage becomes fragmented, costs become unpredictable, and visibility disappears. This is where many organizations realize AI has turned into a black box.\n\nLeading enterprises are not slowing down adoption. They are introducing control through monitoring, governance, and AI gateway architectures. The goal is not to restrict innovation, but to enable it with clarity and accountability 🚀\n\nIf AI is already spreading across teams, now is the time to ask how it is being monitored and controlled. \n\nRead the full article and explore how enterprises are approaching AI governance today.",
+      "published": "2026-04-28T01:30:06.878000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQFpLTmEt-nLyg/article-cover_image-shrink_423_752/B56Z1YzForIMAU-/0/1775311283844?e=1778716800&v=beta&t=l39ladKsnfStegggwcnhgZoEeU3iqTyOxuaQ1kROzCo"
+      ],
+      "scraped_at": "2026-04-28T05:22:57.089684"
+    },
     {
       "title": "Google just shook the tech world at Cloud Next '26 with the debut of the \"5-Layer Agentic Ecosystem....",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453365856144793600",
