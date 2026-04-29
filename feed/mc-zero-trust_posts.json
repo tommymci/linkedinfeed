@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-04-17T04:44:11.567389",
+  "updated_at": "2026-04-29T05:21:50.612437",
   "posts": [
+    {
+      "title": "AI is growing fast but can your organization still see it 👀\n\nMost enterprises did not plan for multi...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7455106404757020673",
+      "description": "AI is growing fast but can your organization still see it 👀\n\nMost enterprises did not plan for multi model AI environments. It often starts with one use case, then expands across teams using OpenAI, Claude, Gemini, and embedded AI tools.\n\nSuddenly, AI usage becomes fragmented, costs become unpredictable, and visibility disappears. This is where many organizations realize AI has turned into a black box.\n\nLeading enterprises are not slowing down adoption. They are introducing control through monitoring, governance, and AI gateway architectures. The goal is not to restrict innovation, but to enable it with clarity and accountability 🚀\n\nIf AI is already spreading across teams, now is the time to ask how it is being monitored and controlled. \n\nRead the full article and explore how enterprises are approaching AI governance today.",
+      "published": "2026-04-29T04:11:16.073000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQFpLTmEt-nLyg/article-cover_image-shrink_423_752/B56Z1YzForIMAU-/0/1775311283844?e=1779321600&v=beta&t=Ioo7Vt8LyF04-EM7tUWAyKcesNqCFQAgZQhTn_kMGys"
+      ],
+      "scraped_at": "2026-04-29T05:21:50.460525"
+    },
     {
       "title": "Your VPN Might Be the Weakest Link in Your Security Strategy 🔐\n\nMost companies still treat VPN as th...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7450516311819935744",
