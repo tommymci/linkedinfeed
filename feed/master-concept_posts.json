@@ -1,8 +1,28 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-05-15T05:46:53.795626",
+  "updated_at": "2026-05-21T06:01:37.985912",
   "posts": [
+    {
+      "title": "🔐 Your biggest data risk might already be inside your browser\n\nMost data leakage today does not come...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7463038365534281728",
+      "description": "🔐 Your biggest data risk might already be inside your browser\n\nMost data leakage today does not come from cyberattacks. It happens during everyday actions like downloading files, uploading to SaaS tools, or pasting content into AI platforms.\n\nAs hybrid work and generative AI adoption grow, the browser has quietly become the main channel for data exfiltration.\n\nThis raises real questions for enterprise teams:\n- How do you prevent file downloads without disrupting work?\n- Is uploading company data to AI tools a compliance risk?\n\nThe answer is not to block everything, but to gain visibility and control where work actually happens. We break down 5 modern data leakage risks and what organisations can do about them in the AI era 🚀\n\nRead more and rethink your security strategy 👇",
+      "published": "2026-05-21T01:30:02.891000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQG7hjD80V-mIw/article-cover_image-shrink_423_752/B56Z1Y022KJYAU-/0/1775311748117?e=1781136000&v=beta&t=hz6VNJJlnqDwzYYUSqsXMhY5BucAxr8BIgMla3VWJT0"
+      ],
+      "scraped_at": "2026-05-21T06:01:37.609206"
+    },
+    {
+      "title": "Netflix 80% 的觀看內容來自個人化推薦。\nStarbucks 用數據讓顧客留存率提升 20%。\nDisney 用即時數據為每位遊客規劃專屬行程。\n\n這三家企業有什麼共同點 ?\n答案不是「預算...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7462807247979433984",
+      "description": "Netflix 80% 的觀看內容來自個人化推薦。\nStarbucks 用數據讓顧客留存率提升 20%。\nDisney 用即時數據為每位遊客規劃專屬行程。\n\n這三家企業有什麼共同點 ?\n答案不是「預算多」，而是——它們都是數據驅動型企業。\n\n數據驅動（Data-Driven）不是一句流行語。它是從「我覺得顧客想要什麼」轉變為「數據告訴我們顧客正在做什麼」的根本性變革。\n\n但問題是：大多數企業的數據分散在 CRM、POS、網站、客服平台等不同系統裡，形成一座座「數據孤島」。沒有統一的數據基礎，就不可能實現真正的數據驅動。\n\n我們寫了一篇完整指南，拆解：\n\n✅ 數據驅動是什麼？跟「數據輔助」有什麼不同\n✅ 數據驅動行銷的三大商業優勢\n✅ Netflix / Starbucks / Disney 的實戰案例\n✅ 為什麼 CDP（顧客數據平台）是第一步\n\n👉 閱讀全文：https://hubs.la/Q04hgjLs0\n\n如果你的企業正在思考如何從「憑感覺做決策」轉型為「用數據說話」，這篇值得收藏。\n\n---\n\nhashtag\n#數據驅動 \nhashtag\n#DataDriven \nhashtag\n#CustomerIntelligence \nhashtag\n#MarTech \nhashtag\n#數位轉型 \nhashtag\n#香港企業 \nhashtag\n#行銷科技 \nhashtag\n#CDP \nhashtag\n#DAL",
+      "published": "2026-05-20T10:11:40.172000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQHONNEb_0Rs-w/image-shrink_800/B4EZ5E3oVCG8Ag-/0/1779271894895?e=1779951600&v=beta&t=hY7owLW44BeOQifMZPi5p_7RjCCJvROtrlSCkuQ__dg"
+      ],
+      "scraped_at": "2026-05-21T06:01:37.764454"
+    },
     {
       "title": "🥳 首場新創 Google Cloud Onboarding 圓滿落幕！\n\n從 0 到 1 的創業路上，技術架構的穩健是成功的關鍵。看到現場新創夥伴們對自家產品充滿熱情的眼神，讓我們更堅信支持新創社群...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460856774439473154",
