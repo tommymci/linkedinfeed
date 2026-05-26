@@ -1,8 +1,18 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-05-22T08:50:12.801433",
+  "updated_at": "2026-05-26T05:58:30.600802",
   "posts": [
+    {
+      "title": "When WAF Migration Becomes a Risk Management Decision 🔐\n\nFor many enterprises, moving from on premis...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7464910800227500032",
+      "description": "When WAF Migration Becomes a Risk Management Decision 🔐\n\nFor many enterprises, moving from on premises WAF to cloud is no longer just a technical upgrade. It is a question of how to improve security without introducing new risk.\n\nThe biggest concern is not the migration itself.\n\nIt is how to ensure zero downtime while handling sensitive data and high traffic.\n\nA structured approach such as coexistence mode allows teams to validate performance, tune policies, and reduce false positives before full cutover. This shifts WAF migration from a high risk project into a controlled and measurable process ⚙️\n\n\nExplore how this approach works and what it means for real-world deployments 👇",
+      "published": "2026-05-26T05:30:26.110000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQE7_HPrfymhZw/article-cover_image-shrink_423_752/B56Z1Y2DEGKsAU-/0/1775312059297?e=1781136000&v=beta&t=ajRKd7kuluW-DNio1Coy0GHGc_yUvSt2J2TzawBxt3U"
+      ],
+      "scraped_at": "2026-05-26T05:58:30.427899"
+    },
     {
       "title": "🚀 直擊 Google「Agentic Work」現場\n\n未來的工作模式，正在被重新定義！思想科技 Master Concept 團隊於本周參與了 Agentic Work 盛會，見證 Google ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7463501486660960256",

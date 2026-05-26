@@ -4,11 +4,44 @@
   <channel>
     <title>Master Concept Group</title>
     <link>https://www.linkedin.com/company/master-concept/</link>
-    <description><![CDATA[Posts: 109 | Last Update: 2026-05-25 02:17 PM HKT]]></description>
+    <description><![CDATA[Posts: 110 | Last Update: 2026-05-26 01:58 PM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2026 14:17:07 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 13:58:30 +0800</lastBuildDate>
+    <item>
+      <title>When WAF Migration Becomes a Risk Management Decision 🔐
+
+For many enterprises, moving from on premis...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7464910800227500032</link>
+      <description><![CDATA[When WAF Migration Becomes a Risk Management Decision 🔐
+
+For many enterprises, moving from on premises WAF to cloud is no longer just a technical upgrade. It is a question of how to improve security without introducing new risk.
+
+The biggest concern is not the migration itself.
+
+It is how to ensure zero downtime while handling sensitive data and high traffic.
+
+A structured approach such as coexistence mode allows teams to validate performance, tune policies, and reduce false positives before full cutover. This shifts WAF migration from a high risk project into a controlled and measurable process ⚙️
+
+
+Explore how this approach works and what it means for real-world deployments 👇<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5612AQE7_HPrfymhZw/article-cover_image-shrink_423_752/B56Z1Y2DEGKsAU-/0/1775312059297?e=1781136000&v=beta&t=ajRKd7kuluW-DNio1Coy0GHGc_yUvSt2J2TzawBxt3U" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[When WAF Migration Becomes a Risk Management Decision 🔐
+
+For many enterprises, moving from on premises WAF to cloud is no longer just a technical upgrade. It is a question of how to improve security without introducing new risk.
+
+The biggest concern is not the migration itself.
+
+It is how to ensure zero downtime while handling sensitive data and high traffic.
+
+A structured approach such as coexistence mode allows teams to validate performance, tune policies, and reduce false positives before full cutover. This shifts WAF migration from a high risk project into a controlled and measurable process ⚙️
+
+
+Explore how this approach works and what it means for real-world deployments 👇<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5612AQE7_HPrfymhZw/article-cover_image-shrink_423_752/B56Z1Y2DEGKsAU-/0/1775312059297?e=1781136000&v=beta&t=ajRKd7kuluW-DNio1Coy0GHGc_yUvSt2J2TzawBxt3U" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7464910800227500032</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5612AQE7_HPrfymhZw/article-cover_image-shrink_423_752/B56Z1Y2DEGKsAU-/0/1775312059297?e=1781136000&amp;v=beta&amp;t=ajRKd7kuluW-DNio1Coy0GHGc_yUvSt2J2TzawBxt3U" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 26 May 2026 13:30:26 +0800</pubDate>
+    </item>
     <item>
       <title>🚀 直擊 Google「Agentic Work」現場
 
