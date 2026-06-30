@@ -4,11 +4,126 @@
   <channel>
     <title>Data &amp; AI Lab | DAL</title>
     <link>https://www.linkedin.com/company/digital-action-lab/</link>
-    <description><![CDATA[Posts: 34 | Last Update: 2026-06-29 02:28 PM HKT]]></description>
+    <description><![CDATA[Posts: 36 | Last Update: 2026-06-30 02:02 PM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 14:28:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 14:02:39 +0800</lastBuildDate>
+    <item>
+      <title>A Japanese visitor asked a question.
+Your staff paused, turned to a colleague.
+The visitor saw it. S...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7477556534311399425</link>
+      <description><![CDATA[A Japanese visitor asked a question.
+Your staff paused, turned to a colleague.
+The visitor saw it. Said thank you. Walked out.
+
+That wasn't a service failure. It was a language gap.
+
+Hong Kong and APAC companies receive hundreds of thousands of Japanese and Korean visitors every year. 
+
+High-spending, high-intent customers. When they speak, most front-line staff reach for a phone translation app — and customers notice the difference between that and being understood.
+
+At DAL, we have a real-time, two-way voice translation system built on AWS.
+Two people on a call. Each speaks their own language. 
+Each hears a translation in one to two seconds. 
+No software to install, no new hardware, no changes to your existing phone system.
+
+Three things that make it actually usable in a business context: 
+→ Barge-in handling: you start speaking, the translation stops, the conversation stays clean 
+→ Custom glossary injection: your brand names, product codes, and service terms translate correctly 
+→ Zero infrastructure change: connects to your existing phone number, WhatsApp, or PBX
+
+The bigger opportunity is in the data. Every call connected to HubSpot and Amplitude becomes a structured signal. 
+
+Your customers will not wait while you find a bilingual colleague. The language gap is removable.
+
+📎 Full technical breakdown and industry applications in the comments.
+
+P.S. If your front-line team handles cross-language customer interactions every week, send me a message. Happy to share what we found.<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5612AQGg9gP7ot8byA/article-cover_image-shrink_423_752/B56Z8Smds_JoAg-/0/1782723507289?e=1784160000&v=beta&t=vN9901b-ex_8m5gnl6pHc4Wu8L9Tl9sq1GARXknkQXQ" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[A Japanese visitor asked a question.
+Your staff paused, turned to a colleague.
+The visitor saw it. Said thank you. Walked out.
+
+That wasn't a service failure. It was a language gap.
+
+Hong Kong and APAC companies receive hundreds of thousands of Japanese and Korean visitors every year. 
+
+High-spending, high-intent customers. When they speak, most front-line staff reach for a phone translation app — and customers notice the difference between that and being understood.
+
+At DAL, we have a real-time, two-way voice translation system built on AWS.
+Two people on a call. Each speaks their own language. 
+Each hears a translation in one to two seconds. 
+No software to install, no new hardware, no changes to your existing phone system.
+
+Three things that make it actually usable in a business context: 
+→ Barge-in handling: you start speaking, the translation stops, the conversation stays clean 
+→ Custom glossary injection: your brand names, product codes, and service terms translate correctly 
+→ Zero infrastructure change: connects to your existing phone number, WhatsApp, or PBX
+
+The bigger opportunity is in the data. Every call connected to HubSpot and Amplitude becomes a structured signal. 
+
+Your customers will not wait while you find a bilingual colleague. The language gap is removable.
+
+📎 Full technical breakdown and industry applications in the comments.
+
+P.S. If your front-line team handles cross-language customer interactions every week, send me a message. Happy to share what we found.<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5612AQGg9gP7ot8byA/article-cover_image-shrink_423_752/B56Z8Smds_JoAg-/0/1782723507289?e=1784160000&v=beta&t=vN9901b-ex_8m5gnl6pHc4Wu8L9Tl9sq1GARXknkQXQ" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7477556534311399425</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5612AQGg9gP7ot8byA/article-cover_image-shrink_423_752/B56Z8Smds_JoAg-/0/1782723507289?e=1784160000&amp;v=beta&amp;t=vN9901b-ex_8m5gnl6pHc4Wu8L9Tl9sq1GARXknkQXQ" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 30 Jun 2026 11:00:04 +0800</pubDate>
+    </item>
+    <item>
+      <title>你的日文客戶剛掛電話了。
+
+不是因為你的服務差。 是因為他說日文，你的客服說中文。
+台灣和亞太區每間做跨境生意的公司都在面對這個問題——對日本、韓國、東南亞的客戶和供應商，語言摩擦每天都在發生，每天都...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7477279897338413056</link>
+      <description><![CDATA[你的日文客戶剛掛電話了。
+
+不是因為你的服務差。 是因為他說日文，你的客服說中文。
+台灣和亞太區每間做跨境生意的公司都在面對這個問題——對日本、韓國、東南亞的客戶和供應商，語言摩擦每天都在發生，每天都在造成損失。
+
+DAL 建立了一套在 AWS 上的即時雙向語音翻譯系統。
+電話接起來，雙方各說各的語言，一到兩秒後對方聽到翻譯。不需要換電話系統，不需要安裝軟體，客戶那端什麼都不用做。
+
+三個讓它在商業電話真正可用的設計：
+→ 打斷偵測：你開口，翻譯停，對話不亂 
+→ 術語字典：你的料號、規格、產業詞彙，翻得出來 
+→ 零基礎設施改動：現有號碼、WhatsApp、PBX 直接接入
+支援語言對：中日、中韓、中英、中泰、中越。
+
+而且每通電話的資料都可以接進 CRM 和分析平台。
+
+語言，不應該是生意的牆。
+
+📎 完整技術架構和台灣行業應用場景，點擊下圖閱讀全文。
+
+P.S. 你的團隊每週都在處理跨語言的電話嗎？留言或私訊，我們可以聊聊這套架構怎麼適配你的場景。<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5612AQHAutUQWjQNFw/article-cover_image-shrink_423_752/B56Z8SaKBrHIAY-/0/1782720280511?e=1784160000&v=beta&t=1YGu4EBdeiwXyM69bDeQkm-n-9c5Gt-NtX5yT-C2tk0" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[你的日文客戶剛掛電話了。
+
+不是因為你的服務差。 是因為他說日文，你的客服說中文。
+台灣和亞太區每間做跨境生意的公司都在面對這個問題——對日本、韓國、東南亞的客戶和供應商，語言摩擦每天都在發生，每天都在造成損失。
+
+DAL 建立了一套在 AWS 上的即時雙向語音翻譯系統。
+電話接起來，雙方各說各的語言，一到兩秒後對方聽到翻譯。不需要換電話系統，不需要安裝軟體，客戶那端什麼都不用做。
+
+三個讓它在商業電話真正可用的設計：
+→ 打斷偵測：你開口，翻譯停，對話不亂 
+→ 術語字典：你的料號、規格、產業詞彙，翻得出來 
+→ 零基礎設施改動：現有號碼、WhatsApp、PBX 直接接入
+支援語言對：中日、中韓、中英、中泰、中越。
+
+而且每通電話的資料都可以接進 CRM 和分析平台。
+
+語言，不應該是生意的牆。
+
+📎 完整技術架構和台灣行業應用場景，點擊下圖閱讀全文。
+
+P.S. 你的團隊每週都在處理跨語言的電話嗎？留言或私訊，我們可以聊聊這套架構怎麼適配你的場景。<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5612AQHAutUQWjQNFw/article-cover_image-shrink_423_752/B56Z8SaKBrHIAY-/0/1782720280511?e=1784160000&v=beta&t=1YGu4EBdeiwXyM69bDeQkm-n-9c5Gt-NtX5yT-C2tk0" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7477279897338413056</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5612AQHAutUQWjQNFw/article-cover_image-shrink_423_752/B56Z8SaKBrHIAY-/0/1782720280511?e=1784160000&amp;v=beta&amp;t=1YGu4EBdeiwXyM69bDeQkm-n-9c5Gt-NtX5yT-C2tk0" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 29 Jun 2026 16:40:48 +0800</pubDate>
+    </item>
     <item>
       <title>130+ conversations. Zero quiet moments.
 
