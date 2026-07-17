@@ -1,8 +1,21 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-07-17T04:53:47.924660",
+  "updated_at": "2026-07-17T07:52:36.626042",
   "posts": [
+    {
+      "title": "From the risk of sensitive data leakage to the blurred lines between personal devices and enterprise...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7483788741334044672",
+      "description": "From the risk of sensitive data leakage to the blurred lines between personal devices and enterprise data, it is now more important than ever for organizations to embrace AI productivity while actively strengthening enterprise security and compliance.\n\nAt the Google Cloud Security Forum, Master Concept Group joined forces with Google Cloud to showcase our comprehensive AI Usage Management Framework. To help enterprises implement AI safely, our solution focuses on three key dimensions:\n\n🔒 Browser Control: Governing \"what is happening\" during use to prevent sensitive enterprise data from being pasted into unauthorized AI tools.\n\n👤 Identity and Access Management (IAM): Controlling \"who\" can use these tools to ensure the right people access the right data across complex workflows.\n\n💻 Endpoint Device Management (EDM): Managing \"where\" AI is being used, allowing organizations to balance hybrid work flexibility with robust enterprise security.\n\nWe loved connecting with so many forward-thinking IT and security leaders at the event! Thank you for the incredible conversations about building a secure, AI-ready future.\n\nThe future of work isn't just about moving faster—it's about moving safer. Let’s build a resilient, AI-driven workspace together.\n\n\nhashtag\n#GoogleAI \nhashtag\n#GoogleCloud \nhashtag\n#AI \nhashtag\n#HongKongEvent \nhashtag\n#MasterConcept \nhashtag\n#TechTrends \nhashtag\n#GoogleCloudPartner \nhashtag\n#TechEvent \nhashtag\n#AiAgent \nhashtag\n#AIGovernance \nhashtag\n#CloudSecurity \nhashtag\n#DataProtection",
+      "published": "2026-07-17T07:44:38.005000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQEf7LFO67P2bA/image-shrink_800/B4EZ9vCKvZJMAg-/0/1784274267967?e=1784880000&v=beta&t=DachxrINoJZ9ksV33rVsreuYTQSkQtlfv6L4SGM8LzY",
+        "https://media.licdn.com/dms/image/v2/D4E10AQE8jDeUJz5yGA/image-shrink_800/B4EZ9vCK4bIkAg-/0/1784274267976?e=1784880000&v=beta&t=Cg57_rvwJsPDknBBl9b3U0UlaGoykAf5lsCcEjkwse4",
+        "https://media.licdn.com/dms/image/v2/D4E10AQGlPYQh_2Jt6Q/image-shrink_800/B4EZ9vCLElIkAg-/0/1784274269091?e=1784880000&v=beta&t=pJLu_dS7ciaWxv7CbmjuYohOYl06SZlNVKNIe_lxWDE",
+        "https://media.licdn.com/dms/image/v2/D4E10AQEDhhssjggUmg/image-shrink_800/B4EZ9vCLUhIkAg-/0/1784274269784?e=1784880000&v=beta&t=zXkdOMfKgYW4zJAXg4K69SEVweQSy9QUtwHDE6-XZhs"
+      ],
+      "scraped_at": "2026-07-17T07:52:36.403825"
+    },
     {
       "title": "SEA Partner Day 2026 is a wrap, and the energy says it all. 🚀\n\nWe brought partners from across South...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7483516186740031490",
