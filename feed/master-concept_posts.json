@@ -1,8 +1,21 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-07-23T08:10:07.666866",
+  "updated_at": "2026-07-27T05:40:07.111827",
   "posts": [
+    {
+      "title": "還記得我們在雲端大會的那場分享嗎？👀\n\n這次「當 AI 成為工作日常」活動，不只分享完整的企業 AI 治理架構，更深入拆解不同情境下，可以搭配哪些產品與解決方案，內容相當扎實 💪\n從誰可以使用 AI、...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7487341165185441792",
+      "description": "還記得我們在雲端大會的那場分享嗎？👀\n\n這次「當 AI 成為工作日常」活動，不只分享完整的企業 AI 治理架構，更深入拆解不同情境下，可以搭配哪些產品與解決方案，內容相當扎實 💪\n從誰可以使用 AI、透過哪些裝置存取 AI，到如何在瀏覽器中安全地使用 AI，涵蓋身分驗證、端點管理、瀏覽器管理等關鍵環節\n不只是停留在架構概念，而是提供了一套企業能真正落地執行的 AI 治理實踐方式\n🙏 特別感謝三位重量級講者帶來的精彩分享 🙏\nSamuel Feng｜瀏覽器管理，打造安全且可控的 AI 使用環境\nCyrus Tang｜端點管理，建立 AI 使用的第一道防線\nDavid Hsiao｜身分與存取管理，確保只有對的人能存取 AI 資源\n \n也謝謝今天所有到場的朋友們！\n現場交流非常熱烈，也讓我們看到企業對 AI 治理、資料安全與導入策略都有高度關注 🎉\n如果你也正在規劃企業 AI 導入，或想更深入了解怎麼幫公司打造管理架構，歡迎隨時聯繫我們 📩",
+      "published": "2026-07-27T03:00:41.852000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQFzkx0H3GBxCg/feedshare-shrink_800/B56Z.hhGkfKQAc-/0/1785121238279?e=1786579200&v=beta&t=EgUsXLOYqr308d0e2AAP9N3F0dxxKG_gk3x3Le3JwCc",
+        "https://media.licdn.com/dms/image/v2/D5622AQEKdfHyrCgiMQ/feedshare-shrink_800/B56Z.hhGJLKoAc-/0/1785121236283?e=1786579200&v=beta&t=TFiLRkNidQzg_bc7mKe9G-J1MpOr40qL9MKQWtTo4QQ",
+        "https://media.licdn.com/dms/image/v2/D5622AQFTD9b2Qogqyw/feedshare-shrink_800/B56Z.hhFzNGoAg-/0/1785121234944?e=1786579200&v=beta&t=-6ejCWrWQnDHkwabsStVVvft3MbFl0LzoIoXaNGDMhQ",
+        "https://media.licdn.com/dms/image/v2/D5622AQHmeGi5Cs-NPg/feedshare-shrink_800/B56Z.hhF.DKIAc-/0/1785121235639?e=1786579200&v=beta&t=Iih9D8gQN0KSBe8yxH3T7LvSE2r1IwiFxzihk1QbrJ4"
+      ],
+      "scraped_at": "2026-07-27T05:40:06.738741"
+    },
     {
       "title": "A language barrier should not turn a solvable customer issue into a transfer, callback, or lost cust...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7485938754503819266",
