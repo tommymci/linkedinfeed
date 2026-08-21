@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-06-11T06:42:18.275111",
+  "updated_at": "2026-08-21T02:57:27.035712",
   "posts": [
+    {
+      "title": "Building a great AI feature isn't just about calling an API 😕\nEngineering teams still have to tackle...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7496385592319000576",
+      "description": "Building a great AI feature isn't just about calling an API 😕\nEngineering teams still have to tackle GPU scaling, runtime compatibility, and build toolchains. \n\nThe recent integration of Replicate and VoidZero (acquired by Cloudflare) into Cloudflare's platform addresses both sides of this equation, standardizing model containers with Cog while lowering application build friction.\nThis combination could potentially offer developers a much smoother path from local code to global performance. ✨🛣️\n\nCurious about how these developer workflows connect behind the scenes?\n🔗 Click below to read the full article 🔗\nhttps://hubs.la/Q04tPvpc0 \n\n\n\nhashtag\n#MasterConcept \nhashtag\n#CyberSecurity \nhashtag\n#Cloudflare \nhashtag\n#EdgeInference \nhashtag\n#DevOps \nhashtag\n#GenerativeAI \nhashtag\n#Replicate \nhashtag\n#VoidZero",
+      "published": "2026-08-21T02:00:01.318000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQE9IJX0Xgn5hg/image-shrink_160/B4EaAiC.hzHYAU-/0/1787277601344?e=1787886000&v=beta&t=aJsBIla81tnTpinPIgMFrghulXM3N-3riXSimevMTbQ"
+      ],
+      "scraped_at": "2026-08-21T02:57:26.793368"
+    },
     {
       "title": "🚀 Master Concept shines at Cloudflare Immerse Hong Kong!\nWe are thrilled to be part of this incredib...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470396755248013313",

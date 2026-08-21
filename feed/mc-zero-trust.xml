@@ -4,11 +4,75 @@
   <channel>
     <title>CyberSecurity Insight Hub</title>
     <link>https://www.linkedin.com/company/mc-zero-trust/</link>
-    <description><![CDATA[Posts: 35 | Last Update: 2026-08-20 02:28 PM HKT]]></description>
+    <description><![CDATA[Posts: 36 | Last Update: 2026-08-21 10:57 AM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 14:28:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 10:57:27 +0800</lastBuildDate>
+    <item>
+      <title>Building a great AI feature isn't just about calling an API 😕
+Engineering teams still have to tackle...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7496385592319000576</link>
+      <description><![CDATA[Building a great AI feature isn't just about calling an API 😕
+Engineering teams still have to tackle GPU scaling, runtime compatibility, and build toolchains. 
+
+The recent integration of Replicate and VoidZero (acquired by Cloudflare) into Cloudflare's platform addresses both sides of this equation, standardizing model containers with Cog while lowering application build friction.
+This combination could potentially offer developers a much smoother path from local code to global performance. ✨🛣️
+
+Curious about how these developer workflows connect behind the scenes?
+🔗 Click below to read the full article 🔗
+https://hubs.la/Q04tPvpc0 
+
+
+
+hashtag
+#MasterConcept 
+hashtag
+#CyberSecurity 
+hashtag
+#Cloudflare 
+hashtag
+#EdgeInference 
+hashtag
+#DevOps 
+hashtag
+#GenerativeAI 
+hashtag
+#Replicate 
+hashtag
+#VoidZero<br/><br/><img src="https://media.licdn.com/dms/image/v2/D4E10AQE9IJX0Xgn5hg/image-shrink_160/B4EaAiC.hzHYAU-/0/1787277601344?e=1787886000&v=beta&t=aJsBIla81tnTpinPIgMFrghulXM3N-3riXSimevMTbQ" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[Building a great AI feature isn't just about calling an API 😕
+Engineering teams still have to tackle GPU scaling, runtime compatibility, and build toolchains. 
+
+The recent integration of Replicate and VoidZero (acquired by Cloudflare) into Cloudflare's platform addresses both sides of this equation, standardizing model containers with Cog while lowering application build friction.
+This combination could potentially offer developers a much smoother path from local code to global performance. ✨🛣️
+
+Curious about how these developer workflows connect behind the scenes?
+🔗 Click below to read the full article 🔗
+https://hubs.la/Q04tPvpc0 
+
+
+
+hashtag
+#MasterConcept 
+hashtag
+#CyberSecurity 
+hashtag
+#Cloudflare 
+hashtag
+#EdgeInference 
+hashtag
+#DevOps 
+hashtag
+#GenerativeAI 
+hashtag
+#Replicate 
+hashtag
+#VoidZero<br/><br/><img src="https://media.licdn.com/dms/image/v2/D4E10AQE9IJX0Xgn5hg/image-shrink_160/B4EaAiC.hzHYAU-/0/1787277601344?e=1787886000&v=beta&t=aJsBIla81tnTpinPIgMFrghulXM3N-3riXSimevMTbQ" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7496385592319000576</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D4E10AQE9IJX0Xgn5hg/image-shrink_160/B4EaAiC.hzHYAU-/0/1787277601344?e=1787886000&amp;v=beta&amp;t=aJsBIla81tnTpinPIgMFrghulXM3N-3riXSimevMTbQ" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 21 Aug 2026 10:00:01 +0800</pubDate>
+    </item>
     <item>
       <title>🚀 Master Concept shines at Cloudflare Immerse Hong Kong!
 We are thrilled to be part of this incredib...</title>
