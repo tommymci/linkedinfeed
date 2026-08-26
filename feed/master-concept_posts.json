@@ -1,8 +1,18 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-08-24T02:55:06.929496",
+  "updated_at": "2026-08-26T02:56:33.120312",
   "posts": [
+    {
+      "title": "🔑【AI 成本失控？別讓舊 API Key 默默吃掉您的 Gemini 預算！】\n\n在積極導入 Google Gemini 提升團隊效率或開發 AI 應用時，您是否發現雲端帳單出現了意料之外的支出？甚...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7497903176222699520",
+      "description": "🔑【AI 成本失控？別讓舊 API Key 默默吃掉您的 Gemini 預算！】\n\n在積極導入 Google Gemini 提升團隊效率或開發 AI 應用時，您是否發現雲端帳單出現了意料之外的支出？甚至是未被授權的流量調用？\n\n關鍵可能就藏在那些「被遺忘的舊 API Keys」中！\n\n許多企業在早期建立 API Key 時未設定嚴格權限，或是在專案結束後未妥善清理。這些未限制（Unrestricted）或殘留的舊 Key 一旦外洩，極易被有心人士利用，成為消耗 Gemini AI 預算與雲端資源的重大漏洞 💸\n\n如何有效控管 API 權限，避免預算被「偷吃」？\n⚠️ 潛在資安風險：舊 API Keys 如何威脅您的專案與預算\n🔍 清查與審核：快速盤點與清理無用、未受限 API Key 的步驟\n🛡️ 安全最佳實踐：如何透過權限限制（API Restrictions）與最佳架構保護雲端資源\n\n👉 定期盤點雲端專案 API Key，全面提升 Cloud & AI 資安防護：\nhttps://hubs.la/Q04v8Tvk0\n\n\nhashtag\n#MasterConcept \nhashtag\n#思想科技 \nhashtag\n#GoogleCloud \nhashtag\n#Gemini \nhashtag\n#GenerativeAI \nhashtag\n#APISecurity \nhashtag\n#CloudSecurity \nhashtag\n#FinOps \nhashtag\n#CostOptimization \nhashtag\n#ITSecurity",
+      "published": "2026-08-25T06:30:21.516000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQHKLpxVsc1DuQ/image-shrink_800/B4EaA3nMOAHQAg-/0/1787639415925?e=1788318000&v=beta&t=dLKfskF33_4cT6LtvOpCIGDKQQw5R8zg5a1OfwUmxHs"
+      ],
+      "scraped_at": "2026-08-26T02:56:32.860218"
+    },
     {
       "title": "【2026 台北國際物流展｜圓滿落幕】🚚\n為期四天的台北國際物流暨物聯網展正式劃下句點！\n\n這幾天思想科技 GET 團隊在現場收穫滿滿，非常感謝每一位蒞臨我們攤位的夥伴與客戶！不論是討論如何用 AI ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7497466619661586432",

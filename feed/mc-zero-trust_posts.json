@@ -1,8 +1,16 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-08-21T02:57:27.035712",
+  "updated_at": "2026-08-26T03:00:01.666307",
   "posts": [
+    {
+      "title": "Traditional VPNs leave internal systems exposed once compromised. It’s time for security to follow t...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7498197567604670464",
+      "description": "Traditional VPNs leave internal systems exposed once compromised. It’s time for security to follow the user, not the building.\n\n👉 Swipe through the slides to see how Zero Trust closes the gap.\n\n\nhashtag\n#Cybersecurity \nhashtag\n#ZeroTrust \nhashtag\n#CloudSecurity \nhashtag\n#MasterConcept",
+      "published": "2026-08-26T02:00:09.891000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-26T03:00:01.443905"
+    },
     {
       "title": "Building a great AI feature isn't just about calling an API 😕\nEngineering teams still have to tackle...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7496385592319000576",
