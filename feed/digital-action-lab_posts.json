@@ -1,8 +1,16 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-08-26T02:57:04.345745",
+  "updated_at": "2026-08-27T12:09:55.680986",
   "posts": [
+    {
+      "title": "A platform can still work and still hold the customer journey back. 😧 \n The fault often sits in the ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7498668758065033216",
+      "description": "A platform can still work and still hold the customer journey back. 😧 \n The fault often sits in the handoffs between systems. 🔎 \n\nCustomer profiles do not match. Teams depend on spreadsheets. Insights arrive after the moment to act has passed.\n\nThese symptoms can trigger an expensive platform review. Yet replacing a system without understanding the wider architecture may add migration risk, operational disruption and another disconnected tool.\n\nBefore committing budget and resources, enterprise teams should assess five areas:\n• Future business requirements\n • Data access across teams\n • Integration with the wider customer stack\n • Identity, consent and ownership controls\n • Commercial value compared with migration cost\n\nThe strongest architecture keeps the systems that still deliver, connects the missing layers and replaces only the components that limit speed, control or measurable growth.\n\nThe goal is a clearer path from customer signal to coordinated action, without rebuilding the entire stack by default.\n\nSwipe through the carousel to assess your current architecture.\n\n\nhashtag\n#CustomerData \nhashtag\n#EnterpriseArchitecture \nhashtag\n#MarTech \nhashtag\n#DigitalTransformation \nhashtag\n#HongKongBusiness",
+      "published": "2026-08-27T09:12:30.451000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-27T12:09:55.531833"
+    },
     {
       "title": "Churn rarely begins with a cancellation. 🕵️‍♂️\nIt begins with small signs that no single system can ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7497931880483229696",
