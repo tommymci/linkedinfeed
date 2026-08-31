@@ -1,8 +1,264 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-08-28T13:31:11.144926",
+  "updated_at": "2026-08-31T07:51:22.560420",
   "posts": [
+    {
+      "title": "Personalisation can be technically possible and still be the wrong decision.\nThe real question is no...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7500070721608478721",
+      "description": "Personalisation can be technically possible and still be the wrong decision.\nThe real question is not “Can we act?” — it is “Should we?”\n\nAs enterprises connect more customer data across CRM, analytics, service and marketing platforms, the number of possible actions increases.\n\nSo does the risk of getting those actions wrong.\n\nA recommendation may make sense based on behaviour but conflict with consent.\nA retention offer may be commercially logical but inappropriate for that customer.\nAn automated journey may be technically correct but have no clear owner when something goes wrong.\n\nThat is why customer intelligence needs governance built into the decision process — not added after activation.\n\nBefore an action reaches a customer, teams should be able to answer four questions:\n\nPermission: Are we authorised to use the data this way?\nEligibility: Is this action appropriate for this customer and context?\nOwnership: Who is accountable for the decision and its exceptions?\nMeasurement: How will we know whether the action created the intended outcome?\n\nThe objective is not to slow personalisation down.\n\nIt is to make faster customer decisions more controlled, consistent and accountable as they scale.\n\nCustomer intelligence works best when every signal moves through a clear path:\n\nSignal → governed decision → coordinated action → measurable learning.\n\nHow clearly are these decision rights defined in your organisation?\n\n\nhashtag\n#DataGovernance \nhashtag\n#Personalisation \nhashtag\n#CustomerIntelligence \nhashtag\n#CustomerData \nhashtag\n#Privacy",
+      "published": "2026-08-31T06:03:24.607000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQELnkSol48MVw/image-shrink_800/B4EaBWaj4sH4Ag-/0/1788156198859?e=1788768000&v=beta&t=D5apuNyAERKrmu0AfRdp4UkPxyy0hSbRhATIhwiAVFA"
+      ],
+      "scraped_at": "2026-08-31T07:51:19.854987"
+    },
+    {
+      "title": "A platform can still work and still hold the customer journey back. 😧 \n The fault often sits in the ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7498668758065033216",
+      "description": "A platform can still work and still hold the customer journey back. 😧 \n The fault often sits in the handoffs between systems. 🔎 \n\nCustomer profiles do not match. Teams depend on spreadsheets. Insights arrive after the moment to act has passed.\n\nThese symptoms can trigger an expensive platform review. Yet replacing a system without understanding the wider architecture may add migration risk, operational disruption and another disconnected tool.\n\nBefore committing budget and resources, enterprise teams should assess five areas:\n• Future business requirements\n • Data access across teams\n • Integration with the wider customer stack\n • Identity, consent and ownership controls\n • Commercial value compared with migration cost\n\nThe strongest architecture keeps the systems that still deliver, connects the missing layers and replaces only the components that limit speed, control or measurable growth.\n\nThe goal is a clearer path from customer signal to coordinated action, without rebuilding the entire stack by default.\n\nSwipe through the carousel to assess your current architecture.\n\n\nhashtag\n#CustomerData \nhashtag\n#EnterpriseArchitecture \nhashtag\n#MarTech \nhashtag\n#DigitalTransformation \nhashtag\n#HongKongBusiness",
+      "published": "2026-08-27T09:12:30.451000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-31T07:51:19.963788"
+    },
+    {
+      "title": "Churn rarely begins with a cancellation. 🕵️‍♂️\nIt begins with small signs that no single system can ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7497931880483229696",
+      "description": "Churn rarely begins with a cancellation. 🕵️‍♂️\nIt begins with small signs that no single system can see clearly. 🔍\n\nA second support request.\nA return to the help centre.\nAn unfinished service journey.\nA gradual decline in product usage.\n\nViewed separately, each event may look routine.\n\nViewed together, they can reveal a customer relationship under pressure.\n\nThe opportunity is not simply to collect more service data. It is to connect behavioural, operational and commercial signals early enough for the business to respond.\n\nThat means giving service, product, data and retention teams a shared view of:\n- What is happening\n- How serious the friction is\n- Which customer needs attention\n- What intervention is appropriate\n- Whether the experience improves afterwards\n\nWhen those teams work from the same signals, customer service becomes more than a support function. It becomes an early-warning system for retention.\n\nWhich CX metric gives your organisation the earliest warning: repeat contact, resolution time, customer effort or usage decline? Comment below.\n\n\nhashtag\n#CustomerExperience \nhashtag\n#CustomerRetention \nhashtag\n#CustomerIntelligence \nhashtag\n#ServiceDesign",
+      "published": "2026-08-25T08:24:25.145000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQFtEEi4tlXvPQ/image-shrink_800/B4EaA4BTD4GwAg-/0/1787646259769?e=1788768000&v=beta&t=hbLkfo0-7equYhJsk20_JlHEWWwaLoclBpjKe6Uaxx4"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.061172"
+    },
+    {
+      "title": "Most customer-intelligence problems are not data-collection problems.\nThey are signal-to-action prob...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7496139905522380800",
+      "description": "Most customer-intelligence problems are not data-collection problems.\nThey are signal-to-action problems.\n\nYour organisation may already have:\nA CRM.\nProduct analytics.\nMarketing automation.\nCustomer-service data.\nAn experimentation platform.\n\nYet it may still struggle to answer:\nWhich customers are showing intent right now?\nWhich customers are at risk?\nWhat should happen next?\nWhich team or channel should act?\nDid that action create a measurable result?\n\nWe created the Customer Intelligence Maturity Scorecard to help enterprise teams identify where that operating loop is breaking.\n\nIt assesses four capabilities:\nSignal.\nDecision.\nAction.\nLearning.\n\nThe scorecard takes approximately 10 minutes and identifies which capability deserves attention first.\nGet the scorecard and find your most important Signal-to-Action gap.\n\nSee the scorecard link in the first comment\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataMaturity \nhashtag\n#CustomerExperience \nhashtag\n#EnterpriseMarketing",
+      "published": "2026-08-20T09:43:45.021000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQHnZquVeNdXVg/image-shrink_800/B4EaAejgW3H8Ag-/0/1787219019570?e=1788768000&v=beta&t=3KBPKEvtBj0hJ_ry1mpsprGkR4HLEa8gZIlRdu8biWE"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.147030"
+    },
+    {
+      "title": "A customer visits the same product page three times, checks delivery, then opens your app.\nHow quick...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7495672181243318272",
+      "description": "A customer visits the same product page three times, checks delivery, then opens your app.\nHow quickly can your business turn that intent into a useful response?\n\nMost organisations can record each event.\n\nThe gap appears when those signals sit across separate platforms, reach different teams and lose value before anyone acts.\n\nA practical customer-intelligence workflow connects the full journey:\n\n1. Capture the signals 🔍\nTrack repeated product views, delivery checks and mobile-app activity.\n\n2. Recognise the customer 🕵️‍♂️\nConnect web and app behaviour to a trusted customer or audience profile.\n\n3. Identify the intent 💁\nRecognise the pattern as a high-intent moment, not a collection of unrelated events.\n\n4. Make the decision 🎯\nChoose the next action based on customer value, consent and journey stage.\n\n5. Activate the response ▶️\nReach the customer through the channel that fits the moment.\n\n6. Measure the outcome 📊\nCheck whether the action improved conversion or added noise to the journey.\n\nThe business advantage comes from reducing the time between customer intent and a relevant response.\n\nThat is how DAL approaches Customer Intelligence: connect signals to actions, then measure the outcome through the Signal → Decide → Act → Learn loop.\n\nShare your biggest challenge when designing your workflow when handling customer data. 👇\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#CustomerJourney \nhashtag\n#Personalisation \nhashtag\n#CustomerData \nhashtag\n#GrowthMarketing \nhashtag\n#MarketingAutomation \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness",
+      "published": "2026-08-19T02:45:10.863000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQGjdRfuFXZs_Q/image-shrink_800/B4EaAX6HIyK0Ag-/0/1787107505325?e=1788768000&v=beta&t=DXLoxLtHFwy-InWcH9y1tcHV7tHvgAtztWqHHi0pi04"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.267224"
+    },
+    {
+      "title": "你的品牌有網站、App、門市和 WhatsApp，顧客轉換渠道時卻要重新說明需求。\n每一次重新開始，都會消耗顧客信任，也令企業重複浪費行銷預算。\n\nOmni Channel（全渠道）要求所有接觸點共享...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7493617429022162944",
+      "description": "你的品牌有網站、App、門市和 WhatsApp，顧客轉換渠道時卻要重新說明需求。\n每一次重新開始，都會消耗顧客信任，也令企業重複浪費行銷預算。\n\nOmni Channel（全渠道）要求所有接觸點共享顧客身分、互動紀錄和即時狀態。\n\n企業需要一個共用的顧客數據基礎。\nCDP 可整合網站、App、POS、CRM、會員及客服數據，建立統一客戶視圖，讓各渠道根據同一份顧客背景作出行動。\n\n你可從新文章了解：\n• Omni Channel 與 Multichannel 的核心差異\n• CDP 如何辨識跨渠道的同一位顧客\n• 香港企業可從哪一條顧客旅程開始\n• 實踐全渠道行銷的四步策略藍圖\n\n如果你的企業已經擁有多個渠道，但顧客旅程仍然斷裂，這篇指南會幫你找出下一步。\n\n完整文章連結放在第一則留言。\n\n\nhashtag\n#Omnichannel \nhashtag\n#CDP \nhashtag\n#CustomerExperience \nhashtag\n#CustomerIntelligence",
+      "published": "2026-08-13T10:40:19.758000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQH2C5UIFdE-cQ/image-shrink_800/B4EZ_6tU9LHsAg-/0/1786617614498?e=1788768000&v=beta&t=s1Dgyhj3OwhoVWs-SwjlnVoMYnpVq1Z__IqDMI0ueBA"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.358304"
+    },
+    {
+      "title": "Customer data has no value until it changes a decision.\nCustomer intelligence turns scattered signal...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7493227555341164545",
+      "description": "Customer data has no value until it changes a decision.\nCustomer intelligence turns scattered signals into coordinated action.\n\nMany organisations can collect behaviour, transactions and conversations.\n\nFar fewer can connect those signals to the next best decision, activate the right response and learn from the outcome.\n\nThat is the role of the DAL operating loop:\n\nSIGNAL\nCapture behaviour, transactions, conversations and context.\n\nDECIDE\nDetermine what the signal means and which response matters.\n\nACT\nReach the customer, or improve the experience, through the right channel.\n\nLEARN\nMeasure the outcome and improve the next decision.\n\nSignal → Decide → Act → Learn\n\nEach stage depends on the next.\n\nSignals without decisions become dashboards.\nDecisions without action become presentations.\nActions without learning become repeated guesses.\n\nA working customer intelligence system shortens the distance between customer behaviour and a useful business response.\n\nWhich stage is currently the hardest for your organisation? Comment below.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataAnalytics \nhashtag\n#MarketingAutomation \nhashtag\n#DigitalTransformation \nhashtag\n#DataStrategy \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness",
+      "published": "2026-08-12T08:51:06.629000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQHLFQH8f7899w/image-shrink_800/B4EZ_1KvPxK4Ag-/0/1786524661234?e=1788768000&v=beta&t=A0iH7PA901NDx0jqBOTG1jHSgabxQdG6-D978oF3xkM"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.463970"
+    },
+    {
+      "title": "One customer. Four systems. Four different versions.\nWhy do your systems see four customers when you...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7490965670638161920",
+      "description": "One customer. Four systems. Four different versions.\nWhy do your systems see four customers when your buyer is only one?\n\nA business can invest in CRM, analytics, automation and customer service platforms, yet still struggle to act on customer behaviour.\n\nThe warning signs usually appear across teams.\nIf you ignore these signs, you will miss out the revenue already exist. \n\nTeams lose time reconciling data. Customers receive disconnected experiences. Decisions arrive too late to influence the outcome.\n\nA working Customer Intelligence System connects the full operating loop:\nSignal → Decide → Act → Learn\n\nDAL helps enterprises connect fragmented customer signals to coordinated action, so teams can personalise at scale and measure the business impact. This reflects DAL’s positioning as Asia’s Customer Intelligence Partner and its focus on precise, evidence-based growth decisions.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataStrategy \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness \nhashtag\n#CustomerData \nhashtag\n#MarketingAnalytics \nhashtag\n#MarTech \nhashtag\n#DigitalTransformation",
+      "published": "2026-08-06T03:03:11.292000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-31T07:51:20.587015"
+    },
+    {
+      "title": "Your customer experiences one company.\nWhy do your systems see four?\n\nBut inside that company:\nThe C...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7488513927702667268",
+      "description": "Your customer experiences one company.\nWhy do your systems see four?\n\nBut inside that company:\nThe CRM knows who they are.\nProduct analytics knows what they did.\nCustomer service knows why they complained.\nMarketing automation knows which message they received.\n\nAnd each team is working from a different version of the customer.\nThat gap creates more than untidy data.\n\nIt creates delayed decisions, irrelevant messages, broken handoffs and missed revenue.\n\nCustomer intelligence closes the loop:\nSignal → Decide → Act → Learn.\nNot another dashboard.\n\nA system that helps teams recognise what is happening, decide what matters and take coordinated action.\n\nWhich handoff breaks most often in your organisation?\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataStrategy \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness",
+      "published": "2026-07-30T08:40:50.225000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4D10AQEz9LTaTBoTUw/image-shrink_800/B4DZ.yLt_RH0Ak-/0/1785400844744?e=1788768000&v=beta&t=KSY24AgeZ0vTtLCTobcHBgB7qPPxEMYooaWxsqVQ2Sg"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.684481"
+    },
+    {
+      "title": "Most AI chatbots in HK were useless before 2023. Here's what actually changed — RAG, multilingual su...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470744064267587584",
+      "description": "Most AI chatbots in HK were useless before 2023. Here's what actually changed — RAG, multilingual support, WhatsApp integration — and why it matters for your business now.",
+      "published": "2026-06-11T07:49:44.634000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQGQUKdQgkDdRQ/article-cover_image-shrink_423_752/B56Z61AcrRJQAY-/0/1781153262193?e=1789603200&v=beta&t=JEs1MQDrvcR_AFMmclOO2xxoHWuZQ3nq61Bk6eU3l1A"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.761396"
+    },
+    {
+      "title": "🚀 We'll be at AWS Summit Hong Kong next week — will you?\n\n📅 June 17, 2026\n📍 HKCEC, Wan Chai\n\nCome fi...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470687979229986816",
+      "description": "🚀 We'll be at AWS Summit Hong Kong next week — will you?\n\n📅 June 17, 2026\n📍 HKCEC, Wan Chai\n\nCome find us at our booth — we're teaming up with Asana to show you what happens when AI-powered work management meets enterprise cloud infrastructure.\n\nThink: AI agents that actually understand your workflows, pull data from every tool your team uses, and execute — not just chat.\n\nWhether you're running ops, leading growth, or figuring out how AI fits into your stack — this is the conversation you don't want to miss.\n\n🎁 Swing by our booth for a live demo + a little something we've prepared for visitors 👀\n\nDrop a 🙋 in the comments if you'll be there — let's connect!\n\n\nhashtag\n#AWSSummit \nhashtag\n#AWSSummitHK \nhashtag\n#Asana \nhashtag\n#AI \nhashtag\n#EnterpriseAI \nhashtag\n#WorkManagement \nhashtag\n#HongKong \nhashtag\n#CloudComputing \nhashtag\n#DigitalTransformation",
+      "published": "2026-06-11T04:06:52.919000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQH43jSt2nkvoA/image-shrink_800/B4EZ603HTsJMAo-/0/1781150807698?e=1788768000&v=beta&t=RU0-3lhHh5IwqGtEXqWyFpuiHFqVjKYfkM1y1OnkYek"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.885705"
+    },
+    {
+      "title": "一個識得用廣東話對答，唔會突然轉國語台嘅 AI Customer Service Agent - Fin AI ✨\n\nWe spoke Cantonese to Fin AI customer ser...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7467511895630094338",
+      "description": "一個識得用廣東話對答，唔會突然轉國語台嘅 AI Customer Service Agent - Fin AI ✨\n\nWe spoke Cantonese to Fin AI customer service agent. It understood every word.\n\nThat was the moment the room filled with surprise. 😍\n\nMost of the AI solution we've tested stumbles on Cantonese. It's always been the excuse: \"We support Chinese\" — meaning Mandarin, meaning not how your HK customers actually speak or type.\n\nIntercom's Fin handled it. Even for half-English half-Chinese — the way every HK person actually messages. Fin kept up without missing a beat.\n\n45 languages. Native, not translated. Same agent, same context, same conversation. 👍\n\nFin is powered by the same AI that Anthropic (the company behind Claude) chose for their own customer support. \n\nIf you've been told \"AI doesn't work for Cantonese\" — that's no longer true. Happy to show you what we showed the room. \n\nDM me or book 30 minutes: https://hubs.la/Q04jJkrj0\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#AICustomerService \nhashtag\n#Intercom \nhashtag\n#HongKong \nhashtag\n#Cantonese",
+      "published": "2026-06-02T09:46:15.580000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQGMJK-EaJ5-cg/image-shrink_800/B4EZ6HudpSGUAk-/0/1780393565340?e=1788768000&v=beta&t=3WpQ16KU_iow6U_phgJX-lkREj7EwIcBuQkgvlcIiGg",
+        "https://media.licdn.com/dms/image/v2/D4E10AQEGiniAMb1cTg/image-shrink_800/B4EZ6Hud9gGQAk-/0/1780393566694?e=1788768000&v=beta&t=C-oldhEmO91nTZ5x1vihzQcEIpzfuDYkYA_88pnLcNE",
+        "https://media.licdn.com/dms/image/v2/D4E10AQFeiFTn5b5b9A/image-shrink_800/B4EZ6HueJAIIAg-/0/1780393567238?e=1788768000&v=beta&t=9SFhDmiLobCEWK4Y12_B6Jy7GoWtVdHFWQwbdAwYqJc",
+        "https://media.licdn.com/dms/image/v2/D4E10AQH-eiwbJBkEOA/image-shrink_800/B4EZ6HuehGH8Ag-/0/1780393569079?e=1788768000&v=beta&t=NWJBt9J4EmpXYhEGZZBAuxgVRsuhos4_Q02dg4IbR1U"
+      ],
+      "scraped_at": "2026-08-31T07:51:20.999241"
+    },
+    {
+      "title": "The best salesperson doesn't push products. They ask better questions.\n\n\"What's the occasion?\" \n\nThr...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460255377922621440",
+      "description": "The best salesperson doesn't push products. They ask better questions.\n\n\"What's the occasion?\" \n\nThrowing the questions in, they know more about what you need than you do. No bias. No hidden agenda. No pushing whatever's on promotion this week.\n\nIntercom's Fin for E-commerce doesn't stop at the first question. \nIt keeps listening, digs deeper and discovers what your customer actually needs — even when they can't articulate it themselves.\n\nWhen that same customer comes back next week with a return? Same agent. Same context. No \"can you explain your issue again.\"\n\nOne agent that sells like your best salesperson and supports like your best service rep. No handoff in between.\n\n\nhashtag\n#Ecommerce \nhashtag\n#Intercom \nhashtag\n#AIAgent",
+      "published": "2026-05-13T09:11:26.939000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5610AQGMPopiSBRAxA/image-shrink_800/B56Z4gmuARHMAk-/0/1778663481624?e=1788768000&v=beta&t=0wuDDVtxsfniSHh6oISxfVF7hrg9Z-IaqxLyjBUQhRw"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.082290"
+    },
+    {
+      "title": "Your customers come with buying intent, not keywords.\n\n\"A birthday gift for my mum who hates pink.\"\n...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460250283105841152",
+      "description": "Your customers come with buying intent, not keywords.\n\n\"A birthday gift for my mum who hates pink.\"\n\"A laptop for my daughter — light, under $8K.\"\n\nYour store hands them a search bar and let themselves figure it out.\nThey feel unheard. They leave. You call it bounce rate.\n\nIt's not a traffic problem. It's a listening problem. And it's been broken for a decade.\n\nIntercom just launched Fin for E-commerce. It listens to what your customers actually mean — asks follow-up questions. It narrows thousands of products to three that fit. It walks them to checkout.\n\n\nhashtag\n#Ecommerce \nhashtag\n#CustomerExperience \nhashtag\n#AIAgent",
+      "published": "2026-05-13T08:51:12.240000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQFoRQoj8VS9jQ/feedshare-shrink_800/B56Z4giGaAKMAc-/0/1778662270835?e=1789603200&v=beta&t=ELMhHam01WWkcLGEP2EE13swojAxKQFHAb3XDGGc24s"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.162881"
+    },
+    {
+      "title": "當你的 AI Chatbot 還在重複回答同一堆 FAQ，客戶談了兩分鐘就離開。而他們最想表達的需求，就這樣一併消失了。\n\n成功的 AI Chatbot 不只能節省成本。還是你最強大的客戶聲音收集工具...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453351552414691328",
+      "description": "當你的 AI Chatbot 還在重複回答同一堆 FAQ，客戶談了兩分鐘就離開。而他們最想表達的需求，就這樣一併消失了。\n\n成功的 AI Chatbot 不只能節省成本。還是你最強大的客戶聲音收集工具。\n\n很多企業都忽略了一件事：Chatbot 不單在提供資訊，——而是客戶在告訴你，他們真正需要的是什麼。\n\nAnthropic——Claude AI 的母公司——選擇了 Intercom Fin 作為自己的客服方案。不是因為他們無法自行開發，而是因為大規模的客戶服務，單靠一個好的 AI 模型並不足夠。\n\n你的 Chatbot 應該在收集客戶心聲，而不是把客戶趕走。\n\n5月27日 · 下午2–5時 · 中環 · 20個名額 嘉賓：Charmaine M. — Intercom 亞太區合作夥伴主管\n\n如果你的 AI Chatbot 正在流失客戶而不是了解客戶，這就是你需要參與的對話。\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#AICustomerService \nhashtag\n#Intercom \nhashtag\n#HongKong",
+      "published": "2026-04-24T07:58:06.671000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D561EAQEKAljVjHt-aA/event-background-image-crop_720_1280/B56Z2.fs.wJgAU-/0/1777017484775?e=1788768000&v=beta&t=eEksBwH-dg5HiKxzynGt-B7tdVWIoA8emmRX_tp9InM"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.285367"
+    },
+    {
+      "title": "When your AI gets 'too' helpful - and you're not even mad about it. 🙂 \n\nHonestly? We love this energ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453298301409599488",
+      "description": "When your AI gets 'too' helpful - and you're not even mad about it. 🙂 \n\nHonestly? We love this energy. 🌟 \nA customer asked McDonald's AI for Python help — and it delivered. Correctly. Then asked if you wanted McNuggets. 🍟 🍔 \n\nThat's not a failure. That's a bot that went beyond its job description — and left the customer delighted and slightly confused.\n\nThe best customer AI doesn't just answer the question in front of it. It reads the moment, surprises you, and still closes the loop on what actually matters.\n\nThat's the bar we build toward at DAL — AI that earns a screenshot.\nWhat's the most unexpectedly helpful thing an AI has done for you? Drop it below 👇\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#AIchatbot \nhashtag\n#CX \nhashtag\n#Intercom \nhashtag\n#CustomerExperience \nhashtag\n#HongKongTech \nhashtag\n#DAL \nhashtag\n#MarTech \nhashtag\n#AIexceedsexpectations",
+      "published": "2026-04-24T04:26:30.642000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQGu4BSeZyE1Dg/feedshare-image-high-res/B56Z29vTp6HkAY-/0/1777004788572?e=1789603200&v=beta&t=OLTi1AnPBxloXrLWuRhijbp1J4jTwPIyKMK4vYe2aa0"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.412895"
+    },
+    {
+      "title": "351,000 GitHub stars.\n3.2 million monthly active users.\nMore popular than React ever was.\nThen HKCER...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7450379239641743360",
+      "description": "351,000 GitHub stars.\n3.2 million monthly active users.\nMore popular than React ever was.\nThen HKCERT issued a security advisory.\n\nOpenClaw（龍蝦）is the fastest-growing open-source AI agent in history. It can read your email, browse the web, control your files, and message your customers on WhatsApp — all autonomously.\n\nBut Palo Alto Networks flagged what they called a \"lethal trifecta\": access to private data, exposure to untrusted content, and the ability to take external actions with persistent memory.\n\nFor Hong Kong enterprises handling customer data across regulated industries — this isn't a toy.\n\nWe broke down what OpenClaw actually does, the 9 CVEs discovered so far, and what enterprises should consider before deploying any AI agent.\n\nFull breakdown 👇\nhttps://hubs.la/Q04cgHb30\n\nhashtag\n#OpenClaw \nhashtag\n#AIAgents \nhashtag\n#HongKong \nhashtag\n#EnterpriseAI \nhashtag\n#CustomerIntelligence",
+      "published": "2026-04-16T03:07:12.083000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5610AQHkdr55NWSDWg/image-shrink_800/B56Z2UQbChIUAg-/0/1776308826622?e=1788768000&v=beta&t=P6Rk7CIPptU4-fGfVbdWfjAD1WrQh9hwcho99odWI5I"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.510975"
+    },
+    {
+      "title": "接財納福 · 智繪增長\nDAL 以 AI 驅動的自動化行銷與精準轉化方案，助您精準捕獲商機，實現業績翻倍成長。",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7429423108736053248",
+      "description": "接財納福 · 智繪增長\nDAL 以 AI 驅動的自動化行銷與精準轉化方案，助您精準捕獲商機，實現業績翻倍成長。",
+      "published": "2026-02-17T07:15:01.129000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQF4jybObwEluA/feedshare-shrink_800/B56ZxlDCBVJQAk-/0/1771221819790?e=1789603200&v=beta&t=jNZom2nSpq4WOctIVu6bo3RHceRixWcB94NKTsWiMqM"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.575700"
+    },
+    {
+      "title": "Wrapping Up! AI & U: Defining the Future of Work 🚀\n\nBody: What an incredible turnout at the Master C...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7415381065630113792",
+      "description": "Wrapping Up! AI & U: Defining the Future of Work 🚀\n\nBody: What an incredible turnout at the Master Concept HK Solution Day! A huge thank you to the hundreds of industry leaders who joined us at HKCEC to explore our theme: \"AI & U.\"\n\nFrom the packed keynote sessions to the buzzing hands-on workshops, one thing is clear: AI isn't just a tool—it is the engine empowering the workforce (\"U\") and redefining customer experiences.\n\nKey Takeaways: \n✅ Google Cloud revealed the roadmap to 2026.\n✅ The Security Series proved that safety starts with human behavior, not just tools. \n✅ AI Agents are shifting customer service from reactive to proactive.\n✅ Geospatial with AI unlocked tremendous possibilities \n\nMissed the event? Stay tuned as we recap the key insights from our partners over the coming days!\n\n\nhashtag\n#MasterConcept \nhashtag\n#HKSolutionDay \nhashtag\n#AIandU \nhashtag\n#GoogleCloud \nhashtag\n#DigitalTransformation \nhashtag\n#EventRecap",
+      "published": "2026-01-09T13:16:57.164000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5610AQGGOZnX7XAiOA/image-shrink_800/B56Zui5vNKKEAk-/0/1767964604222?e=1788768000&v=beta&t=y798DQD8QRbobPWw4flFKab2YOBy0qHN1njmZmpyNKU",
+        "https://media.licdn.com/dms/image/v2/D5610AQGpPVDts5zC8Q/image-shrink_800/B56Zui5ve8KEAg-/0/1767964605008?e=1788768000&v=beta&t=q8YCS2iszzG33XjY2BBKNo_T_NrY0QUHHA2smnzMCvo",
+        "https://media.licdn.com/dms/image/v2/D5610AQFA8cg3hnMIyw/image-shrink_800/B56Zui5wVOIYAg-/0/1767964608423?e=1788768000&v=beta&t=G-CYAc02n6ToAzGiJ-iO0ishztAm702vfeyRJtKlfp4",
+        "https://media.licdn.com/dms/image/v2/D5610AQFE8obM2eKx8g/image-shrink_800/B56Zui5wfpHgAg-/0/1767964609682?e=1788768000&v=beta&t=iyU0js_1EOd8MLs22eQC_OdAG7d-Z-nIR91K9QhPTNg"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.689074"
+    },
+    {
+      "title": "🫣 Is Your Marketing Campaign Catching Up with the AI-driven trends?\n\n🔎 Running traditional, linear c...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389511271790022656",
+      "description": "🫣 Is Your Marketing Campaign Catching Up with the AI-driven trends?\n\n🔎 Running traditional, linear campaigns is like navigating with an outdated map—by the time you act, the opportunity is gone. 👋\n\nJoin our HubSpot and Master Concept Group to grow INBOUND sales with HubSpot AI.",
+      "published": "2025-10-30T03:59:37.675000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D561EAQFoIw1wcOuiQA/event-background-image-crop_720_1280/B56ZpOS8V.KAAU-/0/1762250183527?e=1788768000&v=beta&t=h8Wfsm_FRHcQF7iwke5gpaIDezZcH6JaEFVkgIIF5W8"
+      ],
+      "scraped_at": "2026-08-31T07:51:21.795655"
+    },
+    {
+      "title": "Is it CDP vs. CRM, or CDP + CRM? 🤔\n\n💸 Most businesses are leaving potential revenue on the table by ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7384441683343712258",
+      "description": "Is it CDP vs. CRM, or CDP + CRM? 🤔\n\n💸 Most businesses are leaving potential revenue on the table by underestimating the power of modern customer data strategies.\n\nThe reality is, in a world where customer footprints span websites, apps, and social media, traditional CRMs are hitting their limits.\nForward-thinking B2B enterprises in Hong Kong, Taiwan & China are now turning to a new powerhouse: the Customer Data Platform (CDP).\n\nDiscover why these two aren't an either/or choice, but complementary partners essential for:\n➡️ Building a true 360° customer view\n➡️ Delivering hyper-personalized experiences\n➡️ Accelerating revenue growth & LTV\n\nStop guessing, start knowing.\nWe break down the core differences, use cases, and how to choose the right solution for your business.\n\nSee the link to our full guide in comment.\n\n\nhashtag\n#CDP \nhashtag\n#CRM \nhashtag\n#CustomerData \nhashtag\n#MarTech \nhashtag\n#B2BMarketing \nhashtag\n#DigitalTransformation \nhashtag\n#DataStrategy \nhashtag\n#HongKong \nhashtag\n#Taiwan",
+      "published": "2025-10-16T04:14:53.601000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-31T07:51:21.921994"
+    },
+    {
+      "title": "究竟是 CDP 或 CRM 的對決，還是 CDP 加 CRM 的組合？ 🤔\n💸 大多數企業因低估了現代客戶數據策略的力量，正錯失著潛在的巨大收益。\n\n事實上，在客戶足跡遍佈網站、App 和社交媒體的時...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7384440916830347264",
+      "description": "究竟是 CDP 或 CRM 的對決，還是 CDP 加 CRM 的組合？ 🤔\n💸 大多數企業因低估了現代客戶數據策略的力量，正錯失著潛在的巨大收益。\n\n事實上，在客戶足跡遍佈網站、App 和社交媒體的時代，傳統 CRM 已漸見瓶頸。具前瞻性的香港、台灣及大中華區 B2B 企業，正將目光轉向一個全新的強大引擎：客戶數據平台 (CDP)。\n\n立即了解為何這兩者「不是二選一，而是相輔相成的好拍檔」，更是實現以下目標的關鍵：\n➡️ 建立真正的 360 度客戶全方位視圖\n➡️ 提供超個人化的客戶體驗\n➡️ 加速營收增長與顧客終身價值 (LTV)\n\n告別猜測，開始精準洞察。\n我們將為您深入拆解兩者的核心差異、應用場景，並提供最適合您企業的選擇建議。\n\n完整文章指南，連結請見留言區。\n\n\n\nhashtag\n#CDP \nhashtag\n#CRM \nhashtag\n#CustomerData \nhashtag\n#MarTech \nhashtag\n#B2BMarketing\n\nhashtag\n#DigitalTransformation \nhashtag\n#DataStrategy \nhashtag\n#HongKong \nhashtag\n#Taiwan",
+      "published": "2025-10-16T04:11:50.850000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-31T07:51:22.045308"
+    },
+    {
+      "title": "🤯 您的客戶數據是否也散落在各處，像在玩尋寶遊戲？\n從 Facebook 留言、電郵查詢，到門市 POS 紀錄，資訊孤島讓您無法看清客戶的全貌，更難以制定精準的行銷策略。感覺像在管理多重身分的偵探劇，...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7372214407868837888",
+      "description": "🤯 您的客戶數據是否也散落在各處，像在玩尋寶遊戲？\n從 Facebook 留言、電郵查詢，到門市 POS 紀錄，資訊孤島讓您無法看清客戶的全貌，更難以制定精準的行銷策略。感覺像在管理多重身分的偵探劇，而不是您的業務？\n\n在 OMO (Online-Merge-Offline) 時代，單靠傳統 CRM 已不足夠。我們 DAL by Master Concept 認為，真正的致勝關鍵在於擁有一個「數據大腦」— CDP (顧客數據平台)。\n\nCDP 不僅是個數據倉庫，更是企業的增長引擎。它能：\n✅ 自動整合：打通線上線下所有渠道，將散亂的數據點串連成有價值的資訊。\n✅ 身份解析：辨識出同一個客戶在不同平台的身份 (例如 \"Ming Wong\" 和 \"明仔\")，建立真正的 360° 單一客戶視圖。 \n✅ 即時觸發：根據客戶的即時行為，自動化觸發個人化的行銷活動，在對的時機傳遞對的訊息。\n\n正如我們在文章中分享的本地成功案例，善用 CDP 能顯著提升全渠道轉化率、優化行銷 ROI，並建立持久的顧客忠誠度。\n\n🚀 準備好告別數據大亂鬥，開啟您的 Smart Marketing 新篇章了嗎？\n立即閱讀我們的深度文章，全面了解 CDP 的核心功能、本地應用實例，以及如何選擇最適合您業務的平台！\n\n👉 點此閱讀全文：https://lnkd.in/gMpPC_wW\n\n您認為目前在整合客戶數據時，最大的挑戰是什麼？歡迎在下方留言分享您的看法！\n\nhashtag\n#CDP \nhashtag\n#顧客數據平台 \nhashtag\n#數據整合 \nhashtag\n#數碼轉型 \nhashtag\n#MarTech \nhashtag\n#MarketingAutomation \nhashtag\n#個人化行銷 \nhashtag\n#客戶體驗 \nhashtag\n#OMO \nhashtag\n#MasterConcept \nhashtag\n#DigitalActionLab",
+      "published": "2025-09-12T10:28:03.956000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQE9qmpgkOd8vg/feedshare-shrink_800/B56Zk9d7xkKIAg-/0/1757672882613?e=1789603200&v=beta&t=mFx4OFfL4xwipQLQIcCsQzx7AjPFlort61h5kMSCZtU"
+      ],
+      "scraped_at": "2026-08-31T07:51:22.188494"
+    },
+    {
+      "title": "🌇 Sunset Yacht Gathering with VWO & Master Concept 🥂\n\nSome of the best ideas don’t come from boardro...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7371864176924819456",
+      "description": "🌇 Sunset Yacht Gathering with VWO & Master Concept 🥂\n\nSome of the best ideas don’t come from boardrooms or slide decks, they come from real conversations, in the right setting. That’s what this evening is about.\n\nOn September 25th, VWO and Master Concept Group are hosting a yacht networking event in Hong Kong, gathering a small circle of leaders driving growth and innovation in their industries.\n\nIt’s a rare chance to step away from the routine, share experiences, and build meaningful connections while watching the sun set over Victoria Harbour.\n\n⛵ Only 20 leaders are joining us, and we’d love for you to be one of them.\n\nRegistration link in comment. Block your spot now.",
+      "published": "2025-09-11T11:16:22.392000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D561EAQHgRLqrio4V6g/event-background-image-crop_720_1280/B56Zk4fZwqKEAU-/0/1757589381043?e=1788768000&v=beta&t=l-xptcsrGj4EZ086DHhU36ZL5W0GO7TNJxf5Q2Kkr1U"
+      ],
+      "scraped_at": "2026-08-31T07:51:22.289811"
+    },
+    {
+      "title": "Your marketing funnel is broken.\n\nCustomers don’t follow your neatly planned journey anymore—they fo...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7369672875651293185",
+      "description": "Your marketing funnel is broken.\n\nCustomers don’t follow your neatly planned journey anymore—they follow their feeds. With AI-powered search providing instant answers, the old way of pulling users through a linear funnel is failing.\n\nSo, what's the solution?\nIt's not a better funnel; it's a smarter shape. We broke down HubSpot's new \"Loop Marketing\" playbook in this carousel to show you:\n\n➡️ Why 60% of Google searches ending in zero clicks is a wake-up call. \n➡️ How the AI-powered Loop model learns, adapts, and converts in real-time.\n➡️ The tangible business results for enterprises here in Hong Kong. \n➡️ Our Take: What it really takes to build a successful loop.\n\nSwipe through to see the future of marketing.\n\nStart your Loop Marketing: https://lnkd.in/gH_sihRS\nWhatsApp Us: https://wa.me/85263168019\n\n\nhashtag\n#LoopMarketing \nhashtag\n#HubSpot \nhashtag\n#AIinMarketing \nhashtag\n#DigitalTransformation \nhashtag\n#MarketingStrategy \nhashtag\n#MarTech \nhashtag\n#MasterConcept \nhashtag\n#DAL \nhashtag\n#HongKong",
+      "published": "2025-09-05T10:08:55.456000+00:00",
+      "images": [],
+      "scraped_at": "2026-08-31T07:51:22.432505"
+    },
+    {
+      "title": "How to drive an 8% growth in new customers while maintaining an impressive 76% return rate for cruis...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7369289378512236545",
+      "description": "How to drive an 8% growth in new customers while maintaining an impressive 76% return rate for cruise bookings?\nHere's experience from Jetour & HubSpot.",
+      "published": "2025-09-04T08:45:02.613000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQFtWgRGy08ULg/article-cover_image-shrink_423_752/B56ZjWEr.vIAAU-/0/1755938223560?e=1789603200&v=beta&t=A9o97T7rhKx9DMGPMtu5YO7XEYWH0EJECY--YQRBlEg"
+      ],
+      "scraped_at": "2026-08-31T07:51:22.507338"
+    },
     {
       "title": "Churn rarely begins with a cancellation. 😱\nIt begins with small signs that no single system can see ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7498938679047143424",
@@ -12,82 +268,6 @@
         "https://media.licdn.com/dms/image/v2/D4E10AQHLTS0xSjPYfg/image-shrink_800/B4EaBGU.Z3J0Ak-/0/1787886299001?e=1788530400&v=beta&t=Qkh8_UHmAwiT_9BcEWtCfM2TjvXXwyBAXRK2GXZelTY"
       ],
       "scraped_at": "2026-08-28T13:31:10.985108"
-    },
-    {
-      "title": "A platform can still work and still hold the customer journey back. 😧 \n The fault often sits in the ...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7498668758065033216",
-      "description": "A platform can still work and still hold the customer journey back. 😧 \n The fault often sits in the handoffs between systems. 🔎 \n\nCustomer profiles do not match. Teams depend on spreadsheets. Insights arrive after the moment to act has passed.\n\nThese symptoms can trigger an expensive platform review. Yet replacing a system without understanding the wider architecture may add migration risk, operational disruption and another disconnected tool.\n\nBefore committing budget and resources, enterprise teams should assess five areas:\n• Future business requirements\n • Data access across teams\n • Integration with the wider customer stack\n • Identity, consent and ownership controls\n • Commercial value compared with migration cost\n\nThe strongest architecture keeps the systems that still deliver, connects the missing layers and replaces only the components that limit speed, control or measurable growth.\n\nThe goal is a clearer path from customer signal to coordinated action, without rebuilding the entire stack by default.\n\nSwipe through the carousel to assess your current architecture.\n\n\nhashtag\n#CustomerData \nhashtag\n#EnterpriseArchitecture \nhashtag\n#MarTech \nhashtag\n#DigitalTransformation \nhashtag\n#HongKongBusiness",
-      "published": "2026-08-27T09:12:30.451000+00:00",
-      "images": [],
-      "scraped_at": "2026-08-27T12:09:55.531833"
-    },
-    {
-      "title": "Churn rarely begins with a cancellation. 🕵️‍♂️\nIt begins with small signs that no single system can ...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7497931880483229696",
-      "description": "Churn rarely begins with a cancellation. 🕵️‍♂️\nIt begins with small signs that no single system can see clearly. 🔍\n\nA second support request.\nA return to the help centre.\nAn unfinished service journey.\nA gradual decline in product usage.\n\nViewed separately, each event may look routine.\n\nViewed together, they can reveal a customer relationship under pressure.\n\nThe opportunity is not simply to collect more service data. It is to connect behavioural, operational and commercial signals early enough for the business to respond.\n\nThat means giving service, product, data and retention teams a shared view of:\n- What is happening\n- How serious the friction is\n- Which customer needs attention\n- What intervention is appropriate\n- Whether the experience improves afterwards\n\nWhen those teams work from the same signals, customer service becomes more than a support function. It becomes an early-warning system for retention.\n\nWhich CX metric gives your organisation the earliest warning: repeat contact, resolution time, customer effort or usage decline? Comment below.\n\n\nhashtag\n#CustomerExperience \nhashtag\n#CustomerRetention \nhashtag\n#CustomerIntelligence \nhashtag\n#ServiceDesign",
-      "published": "2026-08-25T08:24:25.145000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQFtEEi4tlXvPQ/image-shrink_800/B4EaA4BTD4GwAg-/0/1787646259769?e=1788318000&v=beta&t=zH3194xShgZv6Hdxmo6ti2V5NX7-LBrvYz3T3YGQz2M"
-      ],
-      "scraped_at": "2026-08-26T02:57:04.187702"
-    },
-    {
-      "title": "Most customer-intelligence problems are not data-collection problems.\nThey are signal-to-action prob...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7496139905522380800",
-      "description": "Most customer-intelligence problems are not data-collection problems.\nThey are signal-to-action problems.\n\nYour organisation may already have:\nA CRM.\nProduct analytics.\nMarketing automation.\nCustomer-service data.\nAn experimentation platform.\n\nYet it may still struggle to answer:\nWhich customers are showing intent right now?\nWhich customers are at risk?\nWhat should happen next?\nWhich team or channel should act?\nDid that action create a measurable result?\n\nWe created the Customer Intelligence Maturity Scorecard to help enterprise teams identify where that operating loop is breaking.\n\nIt assesses four capabilities:\nSignal.\nDecision.\nAction.\nLearning.\n\nThe scorecard takes approximately 10 minutes and identifies which capability deserves attention first.\nGet the scorecard and find your most important Signal-to-Action gap.\n\nSee the scorecard link in the first comment\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataMaturity \nhashtag\n#CustomerExperience \nhashtag\n#EnterpriseMarketing",
-      "published": "2026-08-20T09:43:45.021000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQHnZquVeNdXVg/image-shrink_800/B4EaAejgW3H8Ag-/0/1787219019570?e=1787886000&v=beta&t=HaNGJ2VPL1IyoiPAWS5V7LSaADyZJv_PjHBzwhrnOY4"
-      ],
-      "scraped_at": "2026-08-21T02:54:56.013465"
-    },
-    {
-      "title": "A customer visits the same product page three times, checks delivery, then opens your app.\nHow quick...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7495672181243318272",
-      "description": "A customer visits the same product page three times, checks delivery, then opens your app.\nHow quickly can your business turn that intent into a useful response?\n\nMost organisations can record each event.\n\nThe gap appears when those signals sit across separate platforms, reach different teams and lose value before anyone acts.\n\nA practical customer-intelligence workflow connects the full journey:\n\n1. Capture the signals 🔍\nTrack repeated product views, delivery checks and mobile-app activity.\n\n2. Recognise the customer 🕵️‍♂️\nConnect web and app behaviour to a trusted customer or audience profile.\n\n3. Identify the intent 💁\nRecognise the pattern as a high-intent moment, not a collection of unrelated events.\n\n4. Make the decision 🎯\nChoose the next action based on customer value, consent and journey stage.\n\n5. Activate the response ▶️\nReach the customer through the channel that fits the moment.\n\n6. Measure the outcome 📊\nCheck whether the action improved conversion or added noise to the journey.\n\nThe business advantage comes from reducing the time between customer intent and a relevant response.\n\nThat is how DAL approaches Customer Intelligence: connect signals to actions, then measure the outcome through the Signal → Decide → Act → Learn loop.\n\nShare your biggest challenge when designing your workflow when handling customer data. 👇\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#CustomerJourney \nhashtag\n#Personalisation \nhashtag\n#CustomerData \nhashtag\n#GrowthMarketing \nhashtag\n#MarketingAutomation \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness",
-      "published": "2026-08-19T02:45:10.863000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQGjdRfuFXZs_Q/image-shrink_800/B4EaAX6HIyK0Ag-/0/1787107505325?e=1787727600&v=beta&t=3wlqickMa68XdUJBJZnBWe21D7o2WBVIh_yhUR8AIhc"
-      ],
-      "scraped_at": "2026-08-19T06:27:01.885798"
-    },
-    {
-      "title": "你的品牌有網站、App、門市和 WhatsApp，顧客轉換渠道時卻要重新說明需求。\n每一次重新開始，都會消耗顧客信任，也令企業重複浪費行銷預算。\n\nOmni Channel（全渠道）要求所有接觸點共享...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7493617429022162944",
-      "description": "你的品牌有網站、App、門市和 WhatsApp，顧客轉換渠道時卻要重新說明需求。\n每一次重新開始，都會消耗顧客信任，也令企業重複浪費行銷預算。\n\nOmni Channel（全渠道）要求所有接觸點共享顧客身分、互動紀錄和即時狀態。\n\n企業需要一個共用的顧客數據基礎。\nCDP 可整合網站、App、POS、CRM、會員及客服數據，建立統一客戶視圖，讓各渠道根據同一份顧客背景作出行動。\n\n你可從新文章了解：\n• Omni Channel 與 Multichannel 的核心差異\n• CDP 如何辨識跨渠道的同一位顧客\n• 香港企業可從哪一條顧客旅程開始\n• 實踐全渠道行銷的四步策略藍圖\n\n如果你的企業已經擁有多個渠道，但顧客旅程仍然斷裂，這篇指南會幫你找出下一步。\n\n完整文章連結放在第一則留言。\n\n\nhashtag\n#Omnichannel \nhashtag\n#CDP \nhashtag\n#CustomerExperience \nhashtag\n#CustomerIntelligence",
-      "published": "2026-08-13T10:40:19.758000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQH2C5UIFdE-cQ/image-shrink_800/B4EZ_6tU9LHsAg-/0/1786617614498?e=1787284800&v=beta&t=gWxDMnX9-KLg-HnJ2AVbV6nC7d8BJpGwrh-0O40oE0M"
-      ],
-      "scraped_at": "2026-08-14T03:55:39.431767"
-    },
-    {
-      "title": "Customer data has no value until it changes a decision.\nCustomer intelligence turns scattered signal...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7493227555341164545",
-      "description": "Customer data has no value until it changes a decision.\nCustomer intelligence turns scattered signals into coordinated action.\n\nMany organisations can collect behaviour, transactions and conversations.\n\nFar fewer can connect those signals to the next best decision, activate the right response and learn from the outcome.\n\nThat is the role of the DAL operating loop:\n\nSIGNAL\nCapture behaviour, transactions, conversations and context.\n\nDECIDE\nDetermine what the signal means and which response matters.\n\nACT\nReach the customer, or improve the experience, through the right channel.\n\nLEARN\nMeasure the outcome and improve the next decision.\n\nSignal → Decide → Act → Learn\n\nEach stage depends on the next.\n\nSignals without decisions become dashboards.\nDecisions without action become presentations.\nActions without learning become repeated guesses.\n\nA working customer intelligence system shortens the distance between customer behaviour and a useful business response.\n\nWhich stage is currently the hardest for your organisation? Comment below.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataAnalytics \nhashtag\n#MarketingAutomation \nhashtag\n#DigitalTransformation \nhashtag\n#DataStrategy \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness",
-      "published": "2026-08-12T08:51:06.629000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQHLFQH8f7899w/image-shrink_800/B4EZ_1KvPxK4Ag-/0/1786524661234?e=1787198400&v=beta&t=cJe7H0f1N8U5_iQmZpy6HKIg4LBLCa92bnsX-qVcr4Y"
-      ],
-      "scraped_at": "2026-08-13T03:59:09.115133"
-    },
-    {
-      "title": "One customer. Four systems. Four different versions.\nWhy do your systems see four customers when you...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7490965670638161920",
-      "description": "One customer. Four systems. Four different versions.\nWhy do your systems see four customers when your buyer is only one?\n\nA business can invest in CRM, analytics, automation and customer service platforms, yet still struggle to act on customer behaviour.\n\nThe warning signs usually appear across teams.\nIf you ignore these signs, you will miss out the revenue already exist. \n\nTeams lose time reconciling data. Customers receive disconnected experiences. Decisions arrive too late to influence the outcome.\n\nA working Customer Intelligence System connects the full operating loop:\nSignal → Decide → Act → Learn\n\nDAL helps enterprises connect fragmented customer signals to coordinated action, so teams can personalise at scale and measure the business impact. This reflects DAL’s positioning as Asia’s Customer Intelligence Partner and its focus on precise, evidence-based growth decisions.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataStrategy \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness \nhashtag\n#CustomerData \nhashtag\n#MarketingAnalytics \nhashtag\n#MarTech \nhashtag\n#DigitalTransformation",
-      "published": "2026-08-06T03:03:11.292000+00:00",
-      "images": [],
-      "scraped_at": "2026-08-06T04:55:44.664060"
-    },
-    {
-      "title": "Your customer experiences one company.\nWhy do your systems see four?\n\nBut inside that company:\nThe C...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7488513927702667268",
-      "description": "Your customer experiences one company.\nWhy do your systems see four?\n\nBut inside that company:\nThe CRM knows who they are.\nProduct analytics knows what they did.\nCustomer service knows why they complained.\nMarketing automation knows which message they received.\n\nAnd each team is working from a different version of the customer.\nThat gap creates more than untidy data.\n\nIt creates delayed decisions, irrelevant messages, broken handoffs and missed revenue.\n\nCustomer intelligence closes the loop:\nSignal → Decide → Act → Learn.\nNot another dashboard.\n\nA system that helps teams recognise what is happening, decide what matters and take coordinated action.\n\nWhich handoff breaks most often in your organisation?\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataStrategy \nhashtag\n#CustomerExperience \nhashtag\n#HongKongBusiness",
-      "published": "2026-07-30T08:40:50.225000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4D10AQEz9LTaTBoTUw/image-shrink_800/B4DZ.yLt_RH0Ak-/0/1785400844744?e=1786082400&v=beta&t=-Iz8xu2m-39nK53GVK4zWGsNTkKPzh59QXpmuIxqPgY"
-      ],
-      "scraped_at": "2026-07-31T05:24:27.391032"
     },
     {
       "title": "At The MarTech Summit Hong Kong, DAL joined OneSignal to explore one of the biggest questions facing...",
@@ -144,59 +324,6 @@
       "scraped_at": "2026-06-18T06:44:21.406519"
     },
     {
-      "title": "Most AI chatbots in HK were useless before 2023. Here's what actually changed — RAG, multilingual su...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470744064267587584",
-      "description": "Most AI chatbots in HK were useless before 2023. Here's what actually changed — RAG, multilingual support, WhatsApp integration — and why it matters for your business now.",
-      "published": "2026-06-11T07:49:44.634000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5612AQGQUKdQgkDdRQ/article-cover_image-shrink_423_752/B56Z61AcrRJQAY-/0/1781153262193?e=1782950400&v=beta&t=Hg1_1SfJcdSEWl-sqC67HlyQI3wPepLlHNky_y1zsC4"
-      ],
-      "scraped_at": "2026-06-12T06:25:56.798089"
-    },
-    {
-      "title": "🚀 We'll be at AWS Summit Hong Kong next week — will you?\n\n📅 June 17, 2026\n📍 HKCEC, Wan Chai\n\nCome fi...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470687979229986816",
-      "description": "🚀 We'll be at AWS Summit Hong Kong next week — will you?\n\n📅 June 17, 2026\n📍 HKCEC, Wan Chai\n\nCome find us at our booth — we're teaming up with Asana to show you what happens when AI-powered work management meets enterprise cloud infrastructure.\n\nThink: AI agents that actually understand your workflows, pull data from every tool your team uses, and execute — not just chat.\n\nWhether you're running ops, leading growth, or figuring out how AI fits into your stack — this is the conversation you don't want to miss.\n\n🎁 Swing by our booth for a live demo + a little something we've prepared for visitors 👀\n\nDrop a 🙋 in the comments if you'll be there — let's connect!\n\n\nhashtag\n#AWSSummit \nhashtag\n#AWSSummitHK \nhashtag\n#Asana \nhashtag\n#AI \nhashtag\n#EnterpriseAI \nhashtag\n#WorkManagement \nhashtag\n#HongKong \nhashtag\n#CloudComputing \nhashtag\n#DigitalTransformation",
-      "published": "2026-06-11T04:06:52.919000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQH43jSt2nkvoA/image-shrink_800/B4EZ603HTsJMAo-/0/1781150807698?e=1781766000&v=beta&t=K8dS-AY092EOVjmxdbdAPLnWmblekwKBc5NBz-rCSkc"
-      ],
-      "scraped_at": "2026-06-11T06:40:15.332168"
-    },
-    {
-      "title": "一個識得用廣東話對答，唔會突然轉國語台嘅 AI Customer Service Agent - Fin AI ✨\n\nWe spoke Cantonese to Fin AI customer ser...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7467511895630094338",
-      "description": "一個識得用廣東話對答，唔會突然轉國語台嘅 AI Customer Service Agent - Fin AI ✨\n\nWe spoke Cantonese to Fin AI customer service agent. It understood every word.\n\nThat was the moment the room filled with surprise. 😍\n\nMost of the AI solution we've tested stumbles on Cantonese. It's always been the excuse: \"We support Chinese\" — meaning Mandarin, meaning not how your HK customers actually speak or type.\n\nIntercom's Fin handled it. Even for half-English half-Chinese — the way every HK person actually messages. Fin kept up without missing a beat.\n\n45 languages. Native, not translated. Same agent, same context, same conversation. 👍\n\nFin is powered by the same AI that Anthropic (the company behind Claude) chose for their own customer support. \n\nIf you've been told \"AI doesn't work for Cantonese\" — that's no longer true. Happy to show you what we showed the room. \n\nDM me or book 30 minutes: https://hubs.la/Q04jJkrj0\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#AICustomerService \nhashtag\n#Intercom \nhashtag\n#HongKong \nhashtag\n#Cantonese",
-      "published": "2026-06-02T09:46:15.580000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D4E10AQGMJK-EaJ5-cg/image-shrink_800/B4EZ6HudpSGUAk-/0/1780393565340?e=1781074800&v=beta&t=UUUoMK36-A7Bi9dUbo-vMMVVIQLU7AiMtq7AZCElE2E",
-        "https://media.licdn.com/dms/image/v2/D4E10AQEGiniAMb1cTg/image-shrink_800/B4EZ6Hud9gGQAk-/0/1780393566694?e=1781074800&v=beta&t=Uxpu7-dpikSfHrJ9y7k7s7MSdCLwnHCKeNoFI93F1Cc",
-        "https://media.licdn.com/dms/image/v2/D4E10AQFeiFTn5b5b9A/image-shrink_800/B4EZ6HueJAIIAg-/0/1780393567238?e=1781074800&v=beta&t=7TfF8ukLyHEHVIVf2RBYzNTCWhEC0Kwc0sGex_5b1Zc",
-        "https://media.licdn.com/dms/image/v2/D4E10AQH-eiwbJBkEOA/image-shrink_800/B4EZ6HuehGH8Ag-/0/1780393569079?e=1781074800&v=beta&t=TYsFIxSigNQl4fDyThCSeKG225TMqjDDNpdNi4eM5RE"
-      ],
-      "scraped_at": "2026-06-03T06:44:56.335377"
-    },
-    {
-      "title": "The best salesperson doesn't push products. They ask better questions.\n\n\"What's the occasion?\" \n\nThr...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460255377922621440",
-      "description": "The best salesperson doesn't push products. They ask better questions.\n\n\"What's the occasion?\" \n\nThrowing the questions in, they know more about what you need than you do. No bias. No hidden agenda. No pushing whatever's on promotion this week.\n\nIntercom's Fin for E-commerce doesn't stop at the first question. \nIt keeps listening, digs deeper and discovers what your customer actually needs — even when they can't articulate it themselves.\n\nWhen that same customer comes back next week with a return? Same agent. Same context. No \"can you explain your issue again.\"\n\nOne agent that sells like your best salesperson and supports like your best service rep. No handoff in between.\n\n\nhashtag\n#Ecommerce \nhashtag\n#Intercom \nhashtag\n#AIAgent",
-      "published": "2026-05-13T09:11:26.939000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5610AQGMPopiSBRAxA/image-shrink_800/B56Z4gmuARHMAk-/0/1778663481624?e=1779343200&v=beta&t=TgW9nYYZbANRGPhSZYCOkhvJBv4s1ScCsZdKFno3pVY"
-      ],
-      "scraped_at": "2026-05-14T05:40:53.248888"
-    },
-    {
-      "title": "Your customers come with buying intent, not keywords.\n\n\"A birthday gift for my mum who hates pink.\"\n...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460250283105841152",
-      "description": "Your customers come with buying intent, not keywords.\n\n\"A birthday gift for my mum who hates pink.\"\n\"A laptop for my daughter — light, under $8K.\"\n\nYour store hands them a search bar and let themselves figure it out.\nThey feel unheard. They leave. You call it bounce rate.\n\nIt's not a traffic problem. It's a listening problem. And it's been broken for a decade.\n\nIntercom just launched Fin for E-commerce. It listens to what your customers actually mean — asks follow-up questions. It narrows thousands of products to three that fit. It walks them to checkout.\n\n\nhashtag\n#Ecommerce \nhashtag\n#CustomerExperience \nhashtag\n#AIAgent",
-      "published": "2026-05-13T08:51:12.240000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5622AQFoRQoj8VS9jQ/feedshare-shrink_800/B56Z4giGaAKMAc-/0/1778662270835?e=1780531200&v=beta&t=frwuA296JDIqElfvFNAzv3jkPlSTLHKil7nEc16h-hk"
-      ],
-      "scraped_at": "2026-05-14T05:40:53.331025"
-    },
-    {
       "title": "當你的 AI 「太過」樂於助人——但你完全唔介意，甚至有點可愛。🙂\n\n老實講，我哋好鍾意呢種vibe。🌟\n有位客人問 McDonald's 嘅 AI 點樣寫 Python——而佢真係答到。答得啱。然後...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7459512682195353600",
       "description": "當你的 AI 「太過」樂於助人——但你完全唔介意，甚至有點可愛。🙂\n\n老實講，我哋好鍾意呢種vibe。🌟\n有位客人問 McDonald's 嘅 AI 點樣寫 Python——而佢真係答到。答得啱。然後問你要唔要加 McNuggets。🍟🍔 🥰 \n\n呢啲唔係失敗。呢個係一個超越本份嘅 AI——令客人喜出望外又不忘本分\n。\n最好嘅客戶 AI 唔係淨係答眼前嘅問題。佢會捉到個 moment，俾你一個驚喜，然後依然做好真正重要嘅任務。\n\n呢個就係 DAL 追求嘅標準——做到令人想截圖分享嘅 AI。\nAI 做過最出乎你意料嘅嘢係咩？留言話我哋知 👇",
@@ -247,26 +374,6 @@
       "scraped_at": "2026-05-14T05:40:53.912785"
     },
     {
-      "title": "當你的 AI Chatbot 還在重複回答同一堆 FAQ，客戶談了兩分鐘就離開。而他們最想表達的需求，就這樣一併消失了。\n\n成功的 AI Chatbot 不只能節省成本。還是你最強大的客戶聲音收集工具...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453351552414691328",
-      "description": "當你的 AI Chatbot 還在重複回答同一堆 FAQ，客戶談了兩分鐘就離開。而他們最想表達的需求，就這樣一併消失了。\n\n成功的 AI Chatbot 不只能節省成本。還是你最強大的客戶聲音收集工具。\n\n很多企業都忽略了一件事：Chatbot 不單在提供資訊，——而是客戶在告訴你，他們真正需要的是什麼。\n\nAnthropic——Claude AI 的母公司——選擇了 Intercom Fin 作為自己的客服方案。不是因為他們無法自行開發，而是因為大規模的客戶服務，單靠一個好的 AI 模型並不足夠。\n\n你的 Chatbot 應該在收集客戶心聲，而不是把客戶趕走。\n\n5月27日 · 下午2–5時 · 中環 · 20個名額 嘉賓：Charmaine M. — Intercom 亞太區合作夥伴主管\n\n如果你的 AI Chatbot 正在流失客戶而不是了解客戶，這就是你需要參與的對話。\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#AICustomerService \nhashtag\n#Intercom \nhashtag\n#HongKong",
-      "published": "2026-04-24T07:58:06.671000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D561EAQEKAljVjHt-aA/event-background-image-crop_720_1280/B56Z2.fs.wJgAU-/0/1777017484775?e=1779343200&v=beta&t=0QSPXAgVj24F0H8Fx8ScOmoAquejVU_mXGTItuk1tLE"
-      ],
-      "scraped_at": "2026-05-14T05:40:54.027286"
-    },
-    {
-      "title": "When your AI gets 'too' helpful - and you're not even mad about it. 🙂 \n\nHonestly? We love this energ...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453298301409599488",
-      "description": "When your AI gets 'too' helpful - and you're not even mad about it. 🙂 \n\nHonestly? We love this energy. 🌟 \nA customer asked McDonald's AI for Python help — and it delivered. Correctly. Then asked if you wanted McNuggets. 🍟 🍔 \n\nThat's not a failure. That's a bot that went beyond its job description — and left the customer delighted and slightly confused.\n\nThe best customer AI doesn't just answer the question in front of it. It reads the moment, surprises you, and still closes the loop on what actually matters.\n\nThat's the bar we build toward at DAL — AI that earns a screenshot.\nWhat's the most unexpectedly helpful thing an AI has done for you? Drop it below 👇\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#AIchatbot \nhashtag\n#CX \nhashtag\n#Intercom \nhashtag\n#CustomerExperience \nhashtag\n#HongKongTech \nhashtag\n#DAL \nhashtag\n#MarTech \nhashtag\n#AIexceedsexpectations",
-      "published": "2026-04-24T04:26:30.642000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5622AQGu4BSeZyE1Dg/feedshare-image-high-res/B56Z29vTp6HkAY-/0/1777004788572?e=1780531200&v=beta&t=afPbObcHq91wlgT4b0KWOMgGKZnOykVI9yGlrEOlvgw"
-      ],
-      "scraped_at": "2026-05-14T05:40:54.155276"
-    },
-    {
       "title": "If you live in HubSpot all day, you know the pain:\n\nClaude gives you a smart insight… and you still ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7399331293391511552",
       "description": "If you live in HubSpot all day, you know the pain:\n\nClaude gives you a smart insight… and you still have to click around HubSpot to actually do anything with it. 😅\n\nNot anymore.\n\nClaude 🤝 HubSpot = Real AI CRM Assistant\nWith the new Claude–HubSpot upgrade, you can now:\n🔸 Create / update contacts, deals, tasks, notes directly from Claude\n🔸 Let Claude read real engagement history (emails, calls, meetings, tasks, notes)\n🔸 Go from insight ➜ action in one step\n\nWhy it matters:\n- ⚡ Work faster – no more breaking flow to “update later”\n- 🧠 Better insights – Claude sees full deal context\n- 🧾 Less admin – if Claude finds it, Claude can update it\n- 🎯 Smarter decisions – CRM finally feels alive\n\nAt DAL (Digital Action Lab by Master Concept Group), we’re already helping teams in HK & TW plug Claude into HubSpot and turn it into a real GTM copilot, not just a database.\n\nWant Claude working inside your HubSpot, not just beside it?\n 👉 DM us and we’ll show you what’s possible.\n\n\nhashtag\n#DigitalActionLab \nhashtag\n#MasterConcept \nhashtag\n#HubSpot \nhashtag\n#ClaudeAI \nhashtag\n#RevOps \nhashtag\n#MarketingAutomation",
@@ -298,24 +405,6 @@
         "https://media.licdn.com/dms/image/v2/D561EAQEpdyU0yr5xMA/event-background-image-crop_720_1280/B56Zp_H8OMKEAY-/0/1763069383676?e=1779343200&v=beta&t=W7oQc_UBUJn8IZ2am2qd13U431KG-iuP8EwvJTI831U"
       ],
       "scraped_at": "2026-05-14T05:40:54.531624"
-    },
-    {
-      "title": "🫣 Is Your Marketing Campaign Catching Up with the AI-driven trends?\n\n🔎 Running traditional, linear c...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389511271790022656",
-      "description": "🫣 Is Your Marketing Campaign Catching Up with the AI-driven trends?\n\n🔎 Running traditional, linear campaigns is like navigating with an outdated map—by the time you act, the opportunity is gone. 👋\n\nJoin our HubSpot and Master Concept Group to grow INBOUND sales with HubSpot AI.",
-      "published": "2025-10-30T03:59:37.675000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D561EAQFoIw1wcOuiQA/event-background-image-crop_720_1280/B56ZpOS8V.KAAU-/0/1762250183527?e=1779343200&v=beta&t=FMdPa5KJSnKh3U7U3qDGhYO6FVxZhUr8O5K-VmjQIfs"
-      ],
-      "scraped_at": "2026-05-14T05:40:54.630319"
-    },
-    {
-      "title": "Is it CDP vs. CRM, or CDP + CRM? 🤔\n\n💸 Most businesses are leaving potential revenue on the table by ...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7384441683343712258",
-      "description": "Is it CDP vs. CRM, or CDP + CRM? 🤔\n\n💸 Most businesses are leaving potential revenue on the table by underestimating the power of modern customer data strategies.\n\nThe reality is, in a world where customer footprints span websites, apps, and social media, traditional CRMs are hitting their limits.\nForward-thinking B2B enterprises in Hong Kong, Taiwan & China are now turning to a new powerhouse: the Customer Data Platform (CDP).\n\nDiscover why these two aren't an either/or choice, but complementary partners essential for:\n➡️ Building a true 360° customer view\n➡️ Delivering hyper-personalized experiences\n➡️ Accelerating revenue growth & LTV\n\nStop guessing, start knowing.\nWe break down the core differences, use cases, and how to choose the right solution for your business.\n\nSee the link to our full guide in comment.\n\n\nhashtag\n#CDP \nhashtag\n#CRM \nhashtag\n#CustomerData \nhashtag\n#MarTech \nhashtag\n#B2BMarketing \nhashtag\n#DigitalTransformation \nhashtag\n#DataStrategy \nhashtag\n#HongKong \nhashtag\n#Taiwan",
-      "published": "2025-10-16T04:14:53.601000+00:00",
-      "images": [],
-      "scraped_at": "2026-05-14T05:40:54.754154"
     },
     {
       "title": "Digital Action Lab (DAL) is now Hong Kong & Taiwan’s FIRST Intercom Gold Partner.\n\nDon't settle for ...",
@@ -394,39 +483,6 @@
       "scraped_at": "2026-05-12T05:32:09.849301"
     },
     {
-      "title": "351,000 GitHub stars.\n3.2 million monthly active users.\nMore popular than React ever was.\nThen HKCER...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7450379239641743360",
-      "description": "351,000 GitHub stars.\n3.2 million monthly active users.\nMore popular than React ever was.\nThen HKCERT issued a security advisory.\n\nOpenClaw（龍蝦）is the fastest-growing open-source AI agent in history. It can read your email, browse the web, control your files, and message your customers on WhatsApp — all autonomously.\n\nBut Palo Alto Networks flagged what they called a \"lethal trifecta\": access to private data, exposure to untrusted content, and the ability to take external actions with persistent memory.\n\nFor Hong Kong enterprises handling customer data across regulated industries — this isn't a toy.\n\nWe broke down what OpenClaw actually does, the 9 CVEs discovered so far, and what enterprises should consider before deploying any AI agent.\n\nFull breakdown 👇\nhttps://hubs.la/Q04cgHb30\n\nhashtag\n#OpenClaw \nhashtag\n#AIAgents \nhashtag\n#HongKong \nhashtag\n#EnterpriseAI \nhashtag\n#CustomerIntelligence",
-      "published": "2026-04-16T03:07:12.083000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5610AQHkdr55NWSDWg/image-shrink_800/B56Z2UQbChIUAg-/0/1776308826622?e=1776920400&v=beta&t=pWJHD85vyWsYfETn0duF9gTgCGYpQ9ApwyGh31HTMXk"
-      ],
-      "scraped_at": "2026-04-16T04:45:06.794780"
-    },
-    {
-      "title": "接財納福 · 智繪增長\nDAL 以 AI 驅動的自動化行銷與精準轉化方案，助您精準捕獲商機，實現業績翻倍成長。",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7429423108736053248",
-      "description": "接財納福 · 智繪增長\nDAL 以 AI 驅動的自動化行銷與精準轉化方案，助您精準捕獲商機，實現業績翻倍成長。",
-      "published": "2026-02-17T07:15:01.129000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5622AQF4jybObwEluA/feedshare-shrink_800/B56ZxlDCBVJQAk-/0/1771221819790?e=1773273600&v=beta&t=shArWcrterqtVTUNvKDyl7DShLCd7cdVcoyA2bySyuE"
-      ],
-      "scraped_at": "2026-02-18T04:11:41.758407"
-    },
-    {
-      "title": "Wrapping Up! AI & U: Defining the Future of Work 🚀\n\nBody: What an incredible turnout at the Master C...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7415381065630113792",
-      "description": "Wrapping Up! AI & U: Defining the Future of Work 🚀\n\nBody: What an incredible turnout at the Master Concept HK Solution Day! A huge thank you to the hundreds of industry leaders who joined us at HKCEC to explore our theme: \"AI & U.\"\n\nFrom the packed keynote sessions to the buzzing hands-on workshops, one thing is clear: AI isn't just a tool—it is the engine empowering the workforce (\"U\") and redefining customer experiences.\n\nKey Takeaways: \n✅ Google Cloud revealed the roadmap to 2026.\n✅ The Security Series proved that safety starts with human behavior, not just tools. \n✅ AI Agents are shifting customer service from reactive to proactive.\n✅ Geospatial with AI unlocked tremendous possibilities \n\nMissed the event? Stay tuned as we recap the key insights from our partners over the coming days!\n\n\nhashtag\n#MasterConcept \nhashtag\n#HKSolutionDay \nhashtag\n#AIandU \nhashtag\n#GoogleCloud \nhashtag\n#DigitalTransformation \nhashtag\n#EventRecap",
-      "published": "2026-01-09T13:16:57.164000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5610AQGGOZnX7XAiOA/image-shrink_800/B56Zui5vNKKEAk-/0/1767964604222?e=1768622400&v=beta&t=9bbOXx6v8LNctuNA5gLz3_rULVlt5df3uIsJv8z1Ilg",
-        "https://media.licdn.com/dms/image/v2/D5610AQGpPVDts5zC8Q/image-shrink_800/B56Zui5ve8KEAg-/0/1767964605008?e=1768622400&v=beta&t=yqyvSWYZf3CAt9dTUTPe7faK0TaDJPwbRSCuvB6kwB4",
-        "https://media.licdn.com/dms/image/v2/D5610AQFA8cg3hnMIyw/image-shrink_800/B56Zui5wVOIYAg-/0/1767964608423?e=1768622400&v=beta&t=A73zwYcls-cPpYbk_TalO-wX5o8AJOIgFbR-cAkjef4",
-        "https://media.licdn.com/dms/image/v2/D5610AQFE8obM2eKx8g/image-shrink_800/B56Zui5wfpHgAg-/0/1767964609682?e=1768622400&v=beta&t=TcAnm5gmwWAPYC1DA-ZDBwJg0txnbPNMypeVuR-NwMk"
-      ],
-      "scraped_at": "2026-01-10T03:18:32.086289"
-    },
-    {
       "title": "We asked Hong Kong’s digital leaders what keeps them up at night. \nThe answer wasn't \"More Traffic.\"...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7402151988853153792",
       "description": "We asked Hong Kong’s digital leaders what keeps them up at night. \nThe answer wasn't \"More Traffic.\" It was \"AI Visibility.\"\n\nJust wrapped up an incredible executive session with Amplitude.\n\nThe energy in the room was electric, but the post-event data tells the real story. \nWe surveyed our guests—leaders from Finance, Retail, and Tech—on their #1 priority for 2026.\n\nThe overwhelming winner? Generative Engine Optimization (GEO).\n\nThe realization is hitting hard: \n❌ Ranking #1 on Google doesn't matter if ChatGPT answers the user's question without a click. \n✅ The new battleground is ensuring your brand is \"visible\" and \"recommended\" by AI agents.\n\nA huge thank you to everyone who joined the conversation. \nThe shift from \"Search\" to \"Answer\" is here, and today proved that Hong Kong's top enterprises are ready to tackle it.\n\nMissed the session? We are opening up 5 more slots for the Custom AI Visibility Audit (the same one our guests received).\n\nComment \"VISIBILITY\" below, and I’ll DM you the details.\nJames B. Lindsay Baljin S. Amelia Xu Ai Nico Ng\n\nhashtag\n#DigitalTransformation \nhashtag\n#AI \nhashtag\n#Amplitude \nhashtag\n#MasterConcept \nhashtag\n#GEO \nhashtag\n#MarketingStrategy \nhashtag\n#DataAnalytics",
@@ -448,42 +504,6 @@
         "https://media.licdn.com/dms/image/v2/D5610AQG0YpFA6tZBxA/image-shrink_800/B56ZrEZFJjIsAc-/0/1764231500721?e=1764907200&v=beta&t=KGavHuUgPdAYc9jzEEToQjo3TAgKkDSsWl7PH5gDqh8"
       ],
       "scraped_at": "2025-11-28T03:54:22.465326"
-    },
-    {
-      "title": "究竟是 CDP 或 CRM 的對決，還是 CDP 加 CRM 的組合？ 🤔\n💸 大多數企業因低估了現代客戶數據策略的力量，正錯失著潛在的巨大收益。\n\n事實上，在客戶足跡遍佈網站、App 和社交媒體的時...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7384440916830347264",
-      "description": "究竟是 CDP 或 CRM 的對決，還是 CDP 加 CRM 的組合？ 🤔\n💸 大多數企業因低估了現代客戶數據策略的力量，正錯失著潛在的巨大收益。\n\n事實上，在客戶足跡遍佈網站、App 和社交媒體的時代，傳統 CRM 已漸見瓶頸。具前瞻性的香港、台灣及大中華區 B2B 企業，正將目光轉向一個全新的強大引擎：客戶數據平台 (CDP)。\n\n立即了解為何這兩者「不是二選一，而是相輔相成的好拍檔」，更是實現以下目標的關鍵：\n➡️ 建立真正的 360 度客戶全方位視圖\n➡️ 提供超個人化的客戶體驗\n➡️ 加速營收增長與顧客終身價值 (LTV)\n\n告別猜測，開始精準洞察。\n我們將為您深入拆解兩者的核心差異、應用場景，並提供最適合您企業的選擇建議。\n\n完整文章指南，連結請見留言區。\n\n\n\nhashtag\n#CDP \nhashtag\n#CRM \nhashtag\n#CustomerData \nhashtag\n#MarTech \nhashtag\n#B2BMarketing\n\nhashtag\n#DigitalTransformation \nhashtag\n#DataStrategy \nhashtag\n#HongKong \nhashtag\n#Taiwan",
-      "published": "2025-10-16T04:11:50.850000+00:00",
-      "images": [],
-      "scraped_at": "2025-11-21T12:51:23.180984"
-    },
-    {
-      "title": "🌇 Sunset Yacht Gathering with VWO & Master Concept 🥂\n\nSome of the best ideas don’t come from boardro...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7371864176924819456",
-      "description": "🌇 Sunset Yacht Gathering with VWO & Master Concept 🥂\n\nSome of the best ideas don’t come from boardrooms or slide decks, they come from real conversations, in the right setting. That’s what this evening is about.\n\nOn September 25th, VWO and Master Concept Group are hosting a yacht networking event in Hong Kong, gathering a small circle of leaders driving growth and innovation in their industries.\n\nIt’s a rare chance to step away from the routine, share experiences, and build meaningful connections while watching the sun set over Victoria Harbour.\n\n⛵ Only 20 leaders are joining us, and we’d love for you to be one of them.\n\nRegistration link in comment. Block your spot now.",
-      "published": "2025-09-11T11:16:22.392000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D561EAQHgRLqrio4V6g/event-background-image-crop_720_1280/B56Zk4fZwqKEAU-/0/1757589381043?e=1764306000&v=beta&t=gJBc-QVBF_qSf6w-weJM_8utLpcSGV87un7m4TkUzuE"
-      ],
-      "scraped_at": "2025-11-21T12:51:23.213867"
-    },
-    {
-      "title": "Your marketing funnel is broken.\n\nCustomers don’t follow your neatly planned journey anymore—they fo...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7369672875651293185",
-      "description": "Your marketing funnel is broken.\n\nCustomers don’t follow your neatly planned journey anymore—they follow their feeds. With AI-powered search providing instant answers, the old way of pulling users through a linear funnel is failing.\n\nSo, what's the solution?\nIt's not a better funnel; it's a smarter shape. We broke down HubSpot's new \"Loop Marketing\" playbook in this carousel to show you:\n\n➡️ Why 60% of Google searches ending in zero clicks is a wake-up call. \n➡️ How the AI-powered Loop model learns, adapts, and converts in real-time.\n➡️ The tangible business results for enterprises here in Hong Kong. \n➡️ Our Take: What it really takes to build a successful loop.\n\nSwipe through to see the future of marketing.\n\nStart your Loop Marketing: https://lnkd.in/gH_sihRS\nWhatsApp Us: https://wa.me/85263168019\n\n\nhashtag\n#LoopMarketing \nhashtag\n#HubSpot \nhashtag\n#AIinMarketing \nhashtag\n#DigitalTransformation \nhashtag\n#MarketingStrategy \nhashtag\n#MarTech \nhashtag\n#MasterConcept \nhashtag\n#DAL \nhashtag\n#HongKong",
-      "published": "2025-09-05T10:08:55.456000+00:00",
-      "images": [],
-      "scraped_at": "2025-11-21T12:51:23.261598"
-    },
-    {
-      "title": "How to drive an 8% growth in new customers while maintaining an impressive 76% return rate for cruis...",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7369289378512236545",
-      "description": "How to drive an 8% growth in new customers while maintaining an impressive 76% return rate for cruise bookings?\nHere's experience from Jetour & HubSpot.",
-      "published": "2025-09-04T08:45:02.613000+00:00",
-      "images": [
-        "https://media.licdn.com/dms/image/v2/D5612AQFtWgRGy08ULg/article-cover_image-shrink_423_752/B56ZjWEr.vIAAU-/0/1755938223560?e=1765411200&v=beta&t=mNXYzbXcYmp5xqamQWYCgaNcFeJVTqrupfmTWkGH20w"
-      ],
-      "scraped_at": "2025-11-21T12:51:23.286312"
     }
   ]
 }
