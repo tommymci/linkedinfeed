@@ -1,8 +1,18 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-08-31T07:51:22.560420",
+  "updated_at": "2026-09-01T06:59:33.074215",
   "posts": [
+    {
+      "title": "Your customer signal can arrive in milliseconds and still reach the business too late.\n The gap betw...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7500387996211339264",
+      "description": "Your customer signal can arrive in milliseconds and still reach the business too late.\n The gap between capture and action is where customer intelligence loses value.\n\nA payment fails.\n Product usage drops.\n A service issue escalates.\n\nYour systems may capture each signal correctly. But if the next decision comes hours later, the opportunity to respond may already be gone.\n\nThis is decision latency.\n\nTo find it, track five timestamps across your customer journey:\n\n🔸 Captured \nWhen the signal enters your data stack.\n\n🔹 Resolved \nWhen your systems connect it to the correct customer or account.\n\n🔸 Evaluated \nWhen a rule, model or workflow determines the next action.\n\n🔹 Activated \nWhen the selected channel receives that action.\n\n🔸 Measured \nWhen the outcome returns to your intelligence layer.\n\nThen look at the gaps between them.\n\n🎯 A “real-time” customer experience depends on more than real-time data. Your business also needs to decide and act within the window where the signal still matters. \n\n✨ Start with one high-value journey and measure its end-to-end decision latency.\n\nHow long does your stack take to turn a customer signal into action?\n\nSave this framework for your next customer-data architecture review.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#RealTimeData \nhashtag\n#MarketingTechnology \nhashtag\n#DataArchitecture",
+      "published": "2026-09-01T03:04:08.767000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQHlGgSLFK1t_Q/image-shrink_800/B4EaBa7HqpGgAk-/0/1788231842770?e=1788850800&v=beta&t=hggmKqALjQiMZeRygSXGSMaJXGOSO2N6-RAN1oUdfBg"
+      ],
+      "scraped_at": "2026-09-01T06:59:32.887207"
+    },
     {
       "title": "Personalisation can be technically possible and still be the wrong decision.\nThe real question is no...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7500070721608478721",

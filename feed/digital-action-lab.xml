@@ -4,11 +4,113 @@
   <channel>
     <title>Data &amp; AI Lab | DAL</title>
     <link>https://www.linkedin.com/company/digital-action-lab/</link>
-    <description><![CDATA[Posts: 49 | Last Update: 2026-08-31 03:51 PM HKT]]></description>
+    <description><![CDATA[Posts: 50 | Last Update: 2026-09-01 02:59 PM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 15:51:22 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 14:59:33 +0800</lastBuildDate>
+    <item>
+      <title>Your customer signal can arrive in milliseconds and still reach the business too late.
+ The gap betw...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7500387996211339264</link>
+      <description><![CDATA[Your customer signal can arrive in milliseconds and still reach the business too late.
+ The gap between capture and action is where customer intelligence loses value.
+
+A payment fails.
+ Product usage drops.
+ A service issue escalates.
+
+Your systems may capture each signal correctly. But if the next decision comes hours later, the opportunity to respond may already be gone.
+
+This is decision latency.
+
+To find it, track five timestamps across your customer journey:
+
+🔸 Captured 
+When the signal enters your data stack.
+
+🔹 Resolved 
+When your systems connect it to the correct customer or account.
+
+🔸 Evaluated 
+When a rule, model or workflow determines the next action.
+
+🔹 Activated 
+When the selected channel receives that action.
+
+🔸 Measured 
+When the outcome returns to your intelligence layer.
+
+Then look at the gaps between them.
+
+🎯 A “real-time” customer experience depends on more than real-time data. Your business also needs to decide and act within the window where the signal still matters. 
+
+✨ Start with one high-value journey and measure its end-to-end decision latency.
+
+How long does your stack take to turn a customer signal into action?
+
+Save this framework for your next customer-data architecture review.
+
+
+hashtag
+#CustomerIntelligence 
+hashtag
+#RealTimeData 
+hashtag
+#MarketingTechnology 
+hashtag
+#DataArchitecture<br/><br/><img src="https://media.licdn.com/dms/image/v2/D4E10AQHlGgSLFK1t_Q/image-shrink_800/B4EaBa7HqpGgAk-/0/1788231842770?e=1788850800&v=beta&t=hggmKqALjQiMZeRygSXGSMaJXGOSO2N6-RAN1oUdfBg" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[Your customer signal can arrive in milliseconds and still reach the business too late.
+ The gap between capture and action is where customer intelligence loses value.
+
+A payment fails.
+ Product usage drops.
+ A service issue escalates.
+
+Your systems may capture each signal correctly. But if the next decision comes hours later, the opportunity to respond may already be gone.
+
+This is decision latency.
+
+To find it, track five timestamps across your customer journey:
+
+🔸 Captured 
+When the signal enters your data stack.
+
+🔹 Resolved 
+When your systems connect it to the correct customer or account.
+
+🔸 Evaluated 
+When a rule, model or workflow determines the next action.
+
+🔹 Activated 
+When the selected channel receives that action.
+
+🔸 Measured 
+When the outcome returns to your intelligence layer.
+
+Then look at the gaps between them.
+
+🎯 A “real-time” customer experience depends on more than real-time data. Your business also needs to decide and act within the window where the signal still matters. 
+
+✨ Start with one high-value journey and measure its end-to-end decision latency.
+
+How long does your stack take to turn a customer signal into action?
+
+Save this framework for your next customer-data architecture review.
+
+
+hashtag
+#CustomerIntelligence 
+hashtag
+#RealTimeData 
+hashtag
+#MarketingTechnology 
+hashtag
+#DataArchitecture<br/><br/><img src="https://media.licdn.com/dms/image/v2/D4E10AQHlGgSLFK1t_Q/image-shrink_800/B4EaBa7HqpGgAk-/0/1788231842770?e=1788850800&v=beta&t=hggmKqALjQiMZeRygSXGSMaJXGOSO2N6-RAN1oUdfBg" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7500387996211339264</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D4E10AQHlGgSLFK1t_Q/image-shrink_800/B4EaBa7HqpGgAk-/0/1788231842770?e=1788850800&amp;v=beta&amp;t=hggmKqALjQiMZeRygSXGSMaJXGOSO2N6-RAN1oUdfBg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 01 Sep 2026 11:04:08 +0800</pubDate>
+    </item>
     <item>
       <title>Personalisation can be technically possible and still be the wrong decision.
 The real question is no...</title>
