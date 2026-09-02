@@ -1,8 +1,18 @@
 {
   "page_name": "CyberSecurity Insight Hub",
   "slug": "mc-zero-trust",
-  "updated_at": "2026-08-26T03:00:01.666307",
+  "updated_at": "2026-09-02T06:38:22.594083",
   "posts": [
+    {
+      "title": "Would air traffic control ever let a plane take off without knowing who the pilot is or where the fl...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7500749344804020224",
+      "description": "Would air traffic control ever let a plane take off without knowing who the pilot is or where the flight is headed? 🛬\n\nProbably not!\n\nYet, many organisations deploy AI Agents with direct access to internal databases, CRMs, and APIs without clear identity oversight. Unlike traditional chatbots, agents take actions. If hit by Prompt Injection or left with excessive permissions, the unintended consequences can spread fast. 😱\n\nTotal bans aren't realistic, but establishing an \"Air Traffic Control\" framework by balancing Identity Management with an AI Gateway might be a practical way to let your AI initiatives take off safely. ✈️\n\nCurious how this framework helps establish a secure runway for enterprise AI? \n🔗 Click below to read the full article 🔗\nhttps://hubs.la/Q04vPS190 \n\n\n\nhashtag\n#MasterConcept \nhashtag\n#CyberSecurity \nhashtag\n#Cloudflare \nhashtag\n#Okta \nhashtag\n#AIAgent \nhashtag\n#AgenticAI \nhashtag\n#AIGateway \nhashtag\n#AIGovernance \nhashtag\n#NonHumanIdentity \nhashtag\n#PromptInjection",
+      "published": "2026-09-02T03:00:00.985000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4D10AQEwKB6PSvFluA/image-shrink_160/B4DaBgDyXULAAU-/0/1788318000843?e=1788937200&v=beta&t=m7U3v5S-OYy5TZTQvnEcA9uXT02hWGn-lNAOLWVu2lI"
+      ],
+      "scraped_at": "2026-09-02T06:38:22.437099"
+    },
     {
       "title": "Traditional VPNs leave internal systems exposed once compromised. It’s time for security to follow t...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7498197567604670464",
