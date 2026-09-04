@@ -1,8 +1,18 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-09-03T06:39:13.141945",
+  "updated_at": "2026-09-04T06:42:10.308622",
   "posts": [
+    {
+      "title": "🎯 A high-intent customer signal starts losing value the moment you capture it. \n⚠️ Ten minutes of de...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7501519444037287937",
+      "description": "🎯 A high-intent customer signal starts losing value the moment you capture it. \n⚠️ Ten minutes of delay can turn an opportunity into yesterday’s data.\n\nA customer visits your pricing page at 10:03 AM.\n\nAt that moment, they may be actively evaluating your offer.\n\nA few minutes later, they may be comparing alternatives, speaking to another provider or moving on to something else.\n\nIf your automation responds the next morning, the data is still accurate.\n\nThe customer context may no longer be.\n\nEnterprises spend a lot of effort collecting more customer data. Response time deserves the same attention.\n\nFor every high-value signal, define two things:\n1. Signal useful window\n How long does this behaviour remain commercially relevant?\n2. Organisational response time \nHow long does it take your systems and teams to turn that signal into an appropriate action?\n\nThe gap between those two numbers is your signal latency.\n\nA pricing-page visit, product comparison, abandoned application, service escalation or sudden change in usage can each have a different useful window.\n\nCollecting the signal is only the start.\n\nYour customer intelligence system needs to recognise it, understand the context, decide what it means and activate the right response while the opportunity still exists.\n\nPick one high-intent customer signal in your organisation: how long does it take you to go from behaviour to action?\n\nSeconds? Minutes? Hours? The next day?\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#RealTimeData \nhashtag\n#Personalisation \nhashtag\n#MarketingTechnology \nhashtag\n#CustomerExperience",
+      "published": "2026-09-04T06:00:06.950000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQFyl8LoebrsWg/image-shrink_800/B4EaBrAKqMIcAk-/0/1788501601234?e=1789110000&v=beta&t=fwfOvSb_GSgRBZPyAbkQ6ZsVwoDAEh0ozY7v3-G7abI"
+      ],
+      "scraped_at": "2026-09-04T06:42:10.126631"
+    },
     {
       "title": "Four teams can see the same customer signal and reach four different decisions. \nThe customer still ...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7501159273062842368",
