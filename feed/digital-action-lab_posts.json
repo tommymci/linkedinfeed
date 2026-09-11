@@ -1,8 +1,58 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-09-04T06:42:10.308622",
+  "updated_at": "2026-09-11T06:48:26.670908",
   "posts": [
+    {
+      "title": "A buyer can discover your company through an AI platform and visit your website later through anothe...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7504058675771387904",
+      "description": "A buyer can discover your company through an AI platform and visit your website later through another route.\n\nThe journey might look like:\nAI answer\n→ brand search\n→ website\n→ product page\n→ enquiry\n\nYour analytics may record:\n\n🔸 Organic Search\nThe AI influence disappears from the visible attribution path.\nThe same problem can happen when a buyer reads an AI-generated comparison, remembers the brand and visits directly later.\nTeams measuring AI-era discovery should combine several signals:\n\n🔸 AI referral traffic \nTrack visits where the platform sends a visible referral.\n\n🔸 Branded search movement \nWatch whether demand for your brand changes alongside AI visibility.\n\n🔸Landing-page behaviour\nMeasure what AI-referred visitors do after arrival.\n\n🔸Self-reported discovery\nGive prospects an option to identify AI platforms as a discovery source.\n\n🔸 CRM source context \nPreserve that information beyond the first session.\n\nAI visibility belongs inside the customer journey measurement model, not in a separate vanity dashboard.\n\n\nhashtag\n#AISearch \nhashtag\n#MarketingAttribution \nhashtag\n#CustomerJourney \nhashtag\n#CustomerIntelligence",
+      "published": "2026-09-11T06:10:06.972000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQFDAB5RWbeECA/image-shrink_800/B4EaCPFlXJGoAg-/0/1789107001103?e=1789714800&v=beta&t=exZnBd9UWG8eTpiq2zMNWElTq5L3Nq5opNwORLN15FE"
+      ],
+      "scraped_at": "2026-09-11T06:48:26.048276"
+    },
+    {
+      "title": "Your customer profile changes constantly.\n\nA customer may:\nUpgrade a plan.\nWithdraw consent.\nOpen a ...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7503649834881609728",
+      "description": "Your customer profile changes constantly.\n\nA customer may:\nUpgrade a plan.\nWithdraw consent.\nOpen a support case.\nComplete onboarding.\nMove into a different lifecycle stage.\n\nIf an automated action ran yesterday, looking at today’s profile may not explain the decision.\n\nA reliable Customer Intelligence System should preserve enough history to answer:\nWhich customer state existed at the time?\nWhich attributes were available?\nWhich consent state applied?\nWhich model or rule version ran?\nWhich journey configuration was active?\n\nThis is customer-state replay.\nIt allows your team to reconstruct the context behind a previous decision without relying on the current profile.\nThat becomes important when you optimise models, audit customer journeys or investigate unexpected outcomes.\n\nSave this checklist for your data architecture roadmap.\n\n\nhashtag\n#DataArchitecture \nhashtag\n#CustomerIntelligence \nhashtag\n#AIGovernance \nhashtag\n#MarketingTechnology",
+      "published": "2026-09-10T03:05:31.708000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQE6TzvBJIu5fg/image-shrink_800/B4EaCJRvzwJMAg-/0/1789009526704?e=1789714800&v=beta&t=2rkI1FLsiM6HcZi5GmzI2Nu2ex8sr4A_uMafgAFFlcc"
+      ],
+      "scraped_at": "2026-09-11T06:48:26.157892"
+    },
+    {
+      "title": "💁 A predictive model does not need to act every time it produces a score.\n\nSuppose a model predicts:...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7503332340954464256",
+      "description": "💁 A predictive model does not need to act every time it produces a score.\n\nSuppose a model predicts:\n88% churn risk\nThat may justify an intervention.\n\nNow suppose another customer receives:\n54% churn risk\nShould the same journey trigger?\n\nA production decision system needs more than a prediction.\nIt needs an action threshold.\n\nFor each automated decision, define:\n➡️ Prediction\nWhat the model estimates.\n➡️ Confidence\nHow certain the system is.\n➡️ Threshold\nThe minimum evidence required before an action becomes eligible.\n➡️ Cost of error\nWhat happens if the system gets the decision wrong.\n➡️ Fallback\nThe safe behaviour when confidence remains below the threshold.\n\nSometimes the correct automated action is no action.\n\nAI becomes more useful when the system knows when its evidence is insufficient.\n\n\nhashtag\n#EnterpriseAI \nhashtag\n#PredictiveAnalytics \nhashtag\n#CustomerIntelligence \nhashtag\n#AIGovernance",
+      "published": "2026-09-09T06:03:55.257000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQF5XILvn-8DAQ/image-shrink_800/B4EaCEw_K6JkAg-/0/1788933830018?e=1789714800&v=beta&t=zlKCKWnxqX8i1bQBrxQnJe05RRScNykHfkgCxVezeCM"
+      ],
+      "scraped_at": "2026-09-11T06:48:26.269596"
+    },
+    {
+      "title": "💁Two systems can receive the same customer action and record two different meanings.\n\nTake:\n“Purchas...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7502923986494910465",
+      "description": "💁Two systems can receive the same customer action and record two different meanings.\n\nTake:\n“Purchase completed.”\nOne system may record it when payment succeeds.\nAnother records it after fulfilment. \nA third may include refunds in the same metric.\nThe numbers can all be technically correct.\nThe definitions are different.\n\nA useful tracking contract should define:\n➡️ Event name \nThe exact action being recorded.\n\n➡️ Trigger condition \nThe condition that creates the record.\n\n➡️ Required properties \nThe fields that must exist.\n\n➡️ Identity key \nThe customer or account identifier attached to it.\n\n➡️ Source \nWhich system generated the signal.\n\n➡️ Timestamp rule \nWhich moment counts as the event time.\n\n➡️ Owner \nWhich team maintains the definition.\n\nCustomer intelligence depends on shared meaning before it depends on sophisticated models.\n\nSave this structure for your next tracking implementation.\n\n\nhashtag\n#CustomerData \nhashtag\n#Analytics \nhashtag\n#DataGovernance \nhashtag\n#CustomerIntelligence",
+      "published": "2026-09-08T03:01:15.967000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQExp1O2IT86zA/image-shrink_800/B4EaB.9lvyIEAg-/0/1788836470640?e=1789714800&v=beta&t=az7OsOe1aGGZ8nS1h1zkHucjfpfyvfhLq6453-eob_I"
+      ],
+      "scraped_at": "2026-09-11T06:48:26.375594"
+    },
+    {
+      "title": "🔸First visit → enquiry\n🔹Trial → activation\n🔸Purchase → repeat purchase\n🔹Churn signal → retention act...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7502608869957804032",
+      "description": "🔸First visit → enquiry\n🔹Trial → activation\n🔸Purchase → repeat purchase\n🔹Churn signal → retention action\n\nNow pressure-test it with four questions:\n\n🔹Signal\nDo you capture the customer behaviour that matters at the right moment?\n\n🔸Owner\nDoes someone clearly own what happens next?\n\n🔹Decision\nCan your team determine the right action while the signal is still useful?\n\n🔸Measurement\nCan you tell whether that action changed the customer outcome?\n\nYou do not need a perfect architecture diagram to find the first problem.\n\nA simple journey map often tells you where to investigate first: missing data, unclear ownership, slow decision-making or weak measurement.\n\nAnd the first useful improvement may already be possible with the platforms and data your organisation has today.\n\nQuick check: which gap causes the most trouble in your organisation?\n\nSignal · Owner · Decision · Measurement\n\nDrop one word in the comments ↓\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#CustomerJourney \nhashtag\n#MarTech \nhashtag\n#DigitalTransformation \nhashtag\n#MarketingOperations",
+      "published": "2026-09-07T06:09:06.330000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQGqB-X7fKvcPw/image-shrink_800/B4EaB6e_o4K8Ag-/0/1788761340811?e=1789714800&v=beta&t=eYYAXBIPdjEaVGkLUVJMtUL7ZJJqLYb1FX5fviyhCtk"
+      ],
+      "scraped_at": "2026-09-11T06:48:26.495872"
+    },
     {
       "title": "🎯 A high-intent customer signal starts losing value the moment you capture it. \n⚠️ Ten minutes of de...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7501519444037287937",
