@@ -1,8 +1,18 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-09-11T06:48:26.670908",
+  "updated_at": "2026-09-14T07:20:25.603526",
   "posts": [
+    {
+      "title": "A Customer Intelligence System should behave safely when part of the stack fails.\nTest it. \n\nTempora...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7505145840043245569",
+      "description": "A Customer Intelligence System should behave safely when part of the stack fails.\nTest it. \n\nTemporarily simulate five failure conditions in a controlled environment:\n🔸 Identity unavailable\nCan the journey avoid attaching the wrong profile?\n🔸 Behavioural signal delayed\nDoes the system wait, use a fallback or act on stale data?\n🔸 Consent missing\nDoes activation stop automatically?\n🔸 Model unavailable\nCan the journey use approved rule-based logic?\n🔸 Activation channel offline\n\nDoes the system retry, switch channel or suppress the action?\nThe objective is controlled degradation.\n\nA missing component should not create a bad customer decision somewhere else in the journey.\n\nProduction systems need failure behaviour designed before the failure occurs.\n\nRun the five-failure test against one automated journey.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataResilience \nhashtag\n#MarketingAutomation \nhashtag\n#EnterpriseArchitecture",
+      "published": "2026-09-14T06:10:07.133000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQF5--XUCBzwGQ/image-shrink_800/B4EaCeiWy1IQAg-/0/1789366201920?e=1789977600&v=beta&t=1K7j2lyRDYjgFFJIEM8t53LQOdRpbC435w18xkpWuvo"
+      ],
+      "scraped_at": "2026-09-14T07:20:25.438617"
+    },
     {
       "title": "A buyer can discover your company through an AI platform and visit your website later through anothe...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7504058675771387904",
