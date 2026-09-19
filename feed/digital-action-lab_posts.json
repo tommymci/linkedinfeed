@@ -1,8 +1,38 @@
 {
   "page_name": "Data & AI Lab | DAL",
   "slug": "digital-action-lab",
-  "updated_at": "2026-09-14T07:20:25.603526",
+  "updated_at": "2026-09-19T06:50:39.838664",
   "posts": [
+    {
+      "title": "The most exciting Customer Intelligence use case is not always the best place to start.\n\nBefore prio...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7506249359634677761",
+      "description": "The most exciting Customer Intelligence use case is not always the best place to start.\n\nBefore prioritising an idea, ask six questions:\n🔸 Business value\n What measurable outcome could improve?\n🔸 Customer relevance\n Would solving the problem materially improve the customer experience?\n🔸 Signal readiness\n Do we have enough information to recognise the situation?\n🔸 Actionability\n Can the organisation actually respond?\n🔸 Measurement\n Can we determine whether the action worked?\n🔸 Implementation effort\n \nWhat is required to make the use case operational?\nA technically impressive idea with weak business value may stay a demonstration.\nA simpler use case with strong value, usable signals and measurable outcomes can become a foundation for much more.\n\n➡️ Start where value, feasibility and learning intersect.\n\nSave this framework before prioritising your next Customer Intelligence use case.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DigitalStrategy \nhashtag\n#DataAnalytics \nhashtag\n#MarTech",
+      "published": "2026-09-17T07:15:06.706000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQFxIkw0x3UCWA/image-shrink_800/B4EaCuN_.NJ8Ag-/0/1789629300907?e=1790406000&v=beta&t=9422jUBoWA4Xpvye1NiDK2eLBatQtzhOgjwV396G9P8"
+      ],
+      "scraped_at": "2026-09-19T06:50:39.485833"
+    },
+    {
+      "title": "Your organisation may collect thousands of customer signals every day.\nPage views.\nSearches.\nProduct...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7505886975179149312",
+      "description": "Your organisation may collect thousands of customer signals every day.\nPage views.\nSearches.\nProduct usage.\nTransactions.\nCampaign responses.\nService conversations.\nCRM attributes.\n\nBut ask a harder question:\n➡️ How many of those signals actually change what the organisation does?\n\nA signal becomes useful when it can influence a decision:\nWho needs attention?\nWhat should happen next?\nWhich channel should respond?\nShould the business act at all?\nAnd did that action improve the outcome?\n\nIf the information is collected, stored and reported — but never changes a decision — its operational value may be close to zero.\n\nThe goal isn't to collect every possible customer signal.\nIt is to identify the signals that matter enough to trigger better decisions.\n\n💡 What's one customer signal your organisation collects today but rarely uses?\n\n\nhashtag\n#CustomerData \nhashtag\n#CustomerIntelligence \nhashtag\n#Analytics \nhashtag\n#DataStrategy",
+      "published": "2026-09-16T07:15:07.519000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQGONHnJv7MTrg/image-shrink_800/B4EaCpEaauH8Ao-/0/1789542901790?e=1790406000&v=beta&t=cr8uOx93q0EdCM265SHxXC-pNrBavTbiI8FsxqV3D2E"
+      ],
+      "scraped_at": "2026-09-19T06:50:39.583326"
+    },
+    {
+      "title": "Customer Intelligence should eventually show up somewhere on the P&L.\nNot because you connected anot...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7505524581374521344",
+      "description": "Customer Intelligence should eventually show up somewhere on the P&L.\nNot because you connected another data source.\nNot because you created another customer profile.\nAnd not because another dashboard went live.\n\nThe value should appear through something measurable:\n🔸 Revenue growth\nBetter conversion, retention, cross-sell or customer value.\n🔸 Cost reduction\nLess manual segmentation, reconciliation and campaign operations.\n🔸 Risk reduction\nFewer inappropriate, conflicting or poorly governed customer actions.\n🔸 Speed\n\nA shorter distance between recognising a customer situation and responding to it.\nCustomer Intelligence becomes valuable when better information produces better decisions — and those decisions change business outcomes.\n\nThe question is not:\n➡️ “How much customer data do we have?”\nIt is:\n➡️ “What financial outcome changes because we can use it?”\n\nSave these four value levers for your next Customer Intelligence investment discussion.\n\n\nhashtag\n#CustomerIntelligence \nhashtag\n#DataStrategy \nhashtag\n#DigitalTransformation \nhashtag\n#CustomerExperience",
+      "published": "2026-09-15T07:15:06.103000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D4E10AQGd3k8-kPiYfw/image-shrink_800/B4EaCj60asG8Ag-/0/1789456500740?e=1790406000&v=beta&t=NtsyAiTyby1-pFm9ZGDOlsaU8QyGmoguUoSkRYXDw6Y"
+      ],
+      "scraped_at": "2026-09-19T06:50:39.688386"
+    },
     {
       "title": "A Customer Intelligence System should behave safely when part of the stack fails.\nTest it. \n\nTempora...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7505145840043245569",
