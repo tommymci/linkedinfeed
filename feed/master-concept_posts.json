@@ -1,8 +1,31 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-10-05T07:51:58.824719",
+  "updated_at": "2026-10-08T08:08:59.100461",
   "posts": [
+    {
+      "title": "Why do so many enterprise AI projects get stuck at the Pilot stage?\n\nAt today’s Master Concept Group...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7513433057190907904",
+      "description": "Why do so many enterprise AI projects get stuck at the Pilot stage?\n\nAt today’s Master Concept Group x Cloudflare lunch event, we discussed a common reality: the challenge is often not that AI isn’t smart enough, but that enterprise security and governance aren’t ready for it.\nFrom Shadow AI and data flows to permissions and real-world workflows, these are critical barriers to moving AI into production.\n\nThat’s where CloudflareOS comes in. ✨ \n\nWith Gatekeeper controlling AI access to internal systems and Gadget providing a secure, isolated execution environment, enterprises can move forward with clearer boundaries around access and data.\nMoving from Pilot to Production isn’t just about building AI. It’s about making AI safe to operate inside the enterprise.\n\nThank you to everyone who joined us today!\n\nWant to explore how to bring AI into your enterprise securely?\nFeel free to reach out.🙋‍♂️",
+      "published": "2026-10-07T03:00:33.670000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQHJgyj8lqbg3A/feedshare-shrink_800/B56aEQyrYGJoAc-/0/1791283083234?e=1793232000&v=beta&t=ApJHRrwVK8QPb_oet0KyUI_0YG9L5vwU67K-Kx2S6EQ",
+        "https://media.licdn.com/dms/image/v2/D5622AQHc9myL5lq-Vw/feedshare-shrink_800/B56aEQyraXJcAc-/0/1791283083394?e=1793232000&v=beta&t=hdHIsoFFsSIiHty3GKyBwBz3yxuHxGK9NfIlkEYCH3s",
+        "https://media.licdn.com/dms/image/v2/D5622AQFAws3YcJSB8w/feedshare-shrink_800/B56aEQyrToH8Ag-/0/1791283082946?e=1793232000&v=beta&t=6q0WxbTIeV40zmPAwbNDgvH97OODsoddeyqeLvty1ZM",
+        "https://media.licdn.com/dms/image/v2/D5622AQGw6zHLVy6s5Q/feedshare-shrink_800/B56aEQyrYOIMAg-/0/1791283083189?e=1793232000&v=beta&t=yyHUlQS4GC8KDIQtxohmG9uXpuaW5RDfFNtMmkAfQeM"
+      ],
+      "scraped_at": "2026-10-08T08:08:58.579507"
+    },
+    {
+      "title": "🚨 𝗠𝗮𝗷𝗼𝗿 𝗚𝗼𝗼𝗴𝗹𝗲 𝗠𝗮𝗽𝘀 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 𝗨𝗽𝗱𝗮𝘁𝗲: Legacy Places, Directions, and Distance Matrix APIs are discont...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7513128155881189376",
+      "description": "🚨 𝗠𝗮𝗷𝗼𝗿 𝗚𝗼𝗼𝗴𝗹𝗲 𝗠𝗮𝗽𝘀 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 𝗨𝗽𝗱𝗮𝘁𝗲: Legacy Places, Directions, and Distance Matrix APIs are discontinued effective October 5th, 2026.\n\nIf your team relies on Google Maps location services, here’s what you need to know:\n🔹 𝐖𝐡𝐚𝐭’𝐬 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠: Google is sunsetting legacy endpoints in favor of the upgraded Places (New) and Routes APIs—offering richer data, faster performance, and refined cost controls.\n🔹 𝗛𝗼𝘄 𝗬𝗼𝘂’𝗿𝗲 𝗔𝗳𝗳𝗲𝗰𝘁𝗲𝗱: Newly created Cloud projects cannot enable legacy APIs and will be directed to Places (New) and Routes APIs.\n🔹 𝗪𝗵𝗮𝘁 𝗧𝗼 𝗗𝗼 𝗡𝗲𝘅𝘁: Audit your Cloud console for legacy endpoint calls and plan your migration path.\n\nNeed help navigating the migration? As an official Google Premier Partner in APAC, Master Concept can guide you through a zero-downtime migration — completely free of charge.\n\nReach out to our team directly for questions or technical support: 📩 geospatial@masterconcept.ai \n\n👇 Read the news and FAQs here: https://lnkd.in/evts4A-G \n\n\nhashtag\n#GoogleMapsPlatform \nhashtag\n#GoogleMapsAPI \nhashtag\n#PlacesAPI \nhashtag\n#RoutesAPI \nhashtag\n#LocationServices \nhashtag\n#DeveloperNews \nhashtag\n#Geospatial \nhashtag\n#GoogleCloud",
+      "published": "2026-10-06T06:48:59.533000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/sync/v2/D4E27AQE48TOeQMlj0g/articleshare-shrink_160/B4EaEP9P45K8AQ-/0/1791269079708?e=1792054800&v=beta&t=KUPkpftFNiG_VwHaAKQdl2YUbu9AJkz3PTt8okiiJI0"
+      ],
+      "scraped_at": "2026-10-08T08:08:58.817110"
+    },
     {
       "title": "⏰ Final chance to register!\nDon't let data silos slow down your decisions and environmental goals ac...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7512715672297132032",
