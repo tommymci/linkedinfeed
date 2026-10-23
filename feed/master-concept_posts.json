@@ -1,8 +1,31 @@
 {
   "page_name": "Master Concept Group",
   "slug": "master-concept",
-  "updated_at": "2026-10-22T06:53:22.660177",
+  "updated_at": "2026-10-23T06:41:47.629987",
   "posts": [
+    {
+      "title": "🚨 緊急資安警報：PHP2Shell 重大漏洞 (CVSS 9.2)  🚨\n\nPHP 官方已發布緊急安全更新，修補代號「PHP2Shell」的重大漏洞。攻擊者不需任何帳號密碼，只需送出特製請求，就能在...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7519254763176108032",
+      "description": "🚨 緊急資安警報：PHP2Shell 重大漏洞 (CVSS 9.2)  🚨\n\nPHP 官方已發布緊急安全更新，修補代號「PHP2Shell」的重大漏洞。攻擊者不需任何帳號密碼，只需送出特製請求，就能在伺服器上執行任意程式並完全接管主機！\n\n💡 快速掌握 3 大重點：\n影響範圍極廣：只要網站使用 PHP 5.4 以後的版本皆受影響，涵蓋過去十年的所有版本。如果您有使用 WordPress、Drupal、Joomla 等平台或內部系統，請務必立刻檢查！\n\n嚴重災情風險：伺服器可能遭植入後門、勒索軟體，或導致記憶體中的資料庫密碼、API 金鑰等機敏資料外洩\n\n立即行動指南：\n升級 PHP：立即更新至安全版本（如 8.5.12、8.4.27、8.3.36、8.2.35 以上）\n部署 WAF 防護：在完成系統修補前，建議先透過 WAF（如 Cloudflare）在網站入口擋下惡意請求\n全面盤點：檢查是否有大量異常檔案上傳請求或不明 PHP 檔案，確認是否已被入侵\n\n遇到這種重大漏洞，節奏很重要：先用 WAF 擋住攻擊、盤點受影響的系統，最後徹底更新修補\n\n想了解詳細的排查步驟與防護方式，完整筆記在這邊👇\n🔗https://lnkd.in/gR2ixgtK\n\n\n\nhashtag\n#PHP2Shell \nhashtag\n#CyberSecurity \nhashtag\n#資訊安全 \nhashtag\n#WAF \nhashtag\n#MasterConcept",
+      "published": "2026-10-23T04:33:56.539000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQE1WUQF_jimyA/feedshare-shrink_800/B56aFnCXJxI4Ac-/0/1792730035080?e=1794441600&v=beta&t=DO0pkJMQQ5O9ymE7PJaWX-BXqB9lE1avDL7CFRqXuho"
+      ],
+      "scraped_at": "2026-10-23T06:41:47.284416"
+    },
+    {
+      "title": "That's a wrap on an incredible Cloudflare Connect and Global Partner Summit. It is clear that the mo...",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7519205280216170496",
+      "description": "That's a wrap on an incredible Cloudflare Connect and Global Partner Summit. It is clear that the momentum across our partner ecosystem has never been stronger. The collaboration and strategic conversations throughout the week reinforced how essential our partners are in driving services innovation and solving complex security and connectivity challenges for customers worldwide. Thank you to everyone who joined us, and a huge congratulations to the Regional and Global winners of our 2026 Annual Partner Awards!\n\nGlobalDots\nCDW\nAccenture\nPresidio\nRadius Channels\nSentinelOne\nAccelia\nACPL Systems\nNTT DATA, Inc.\nETEVERS GROUP\nMaster Concept Group\nBespin Global China\nCentcloud\nKyndryl\nMindware\nPrime Formation\nMTN\nFocus Group\nSoftcat\nArctiq\nRed River\nAdapture",
+      "published": "2026-10-23T01:17:18.882000+00:00",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQF2GfxWVgfmYA/feedshare-shrink_800/B56aFeqj1iH4Ak-/0/1792589577797?e=1794441600&v=beta&t=lbWo3iV7KSX0zdMB9qfr-hDvRMX6HGQQcxj_6t5HX_8",
+        "https://media.licdn.com/dms/image/v2/D5622AQG8BdbFbU-fjQ/feedshare-shrink_800/B56aFeqj3bJ8Ac-/0/1792589578182?e=1794441600&v=beta&t=nWw2seKqK3N2j1wpA5xbaoM5CUT49LJ5lDUbUR-SxpA",
+        "https://media.licdn.com/dms/image/v2/D5622AQFkAIpgGT0pJQ/feedshare-shrink_800/B56aFeqj5oHQAc-/0/1792589578049?e=1794441600&v=beta&t=tNthi4klzc5zWwjt35MJ2Gpgy3sfa2aEeyW9Z2J1lHo",
+        "https://media.licdn.com/dms/image/v2/D5622AQEUb_n3CscHJw/feedshare-shrink_800/B56aFeqk66IcAc-/0/1792589585961?e=1794441600&v=beta&t=SCPe06Rr_crtMgohjlLvrL-48Zzu21uarGBj8RhIgl0"
+      ],
+      "scraped_at": "2026-10-23T06:41:47.458834"
+    },
     {
       "title": "What's costing your fleet the most — breakdowns, fuel or inefficient routes?\n\nWe recently asked flee...",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7518850454278230016",

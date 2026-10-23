@@ -4,11 +4,137 @@
   <channel>
     <title>Master Concept Group</title>
     <link>https://www.linkedin.com/company/master-concept/</link>
-    <description><![CDATA[Posts: 182 | Last Update: 2026-10-22 02:53 PM HKT]]></description>
+    <description><![CDATA[Posts: 184 | Last Update: 2026-10-23 02:41 PM HKT]]></description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 14:53:22 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 14:41:47 +0800</lastBuildDate>
+    <item>
+      <title>🚨 緊急資安警報：PHP2Shell 重大漏洞 (CVSS 9.2)  🚨
+
+PHP 官方已發布緊急安全更新，修補代號「PHP2Shell」的重大漏洞。攻擊者不需任何帳號密碼，只需送出特製請求，就能在...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7519254763176108032</link>
+      <description><![CDATA[🚨 緊急資安警報：PHP2Shell 重大漏洞 (CVSS 9.2)  🚨
+
+PHP 官方已發布緊急安全更新，修補代號「PHP2Shell」的重大漏洞。攻擊者不需任何帳號密碼，只需送出特製請求，就能在伺服器上執行任意程式並完全接管主機！
+
+💡 快速掌握 3 大重點：
+影響範圍極廣：只要網站使用 PHP 5.4 以後的版本皆受影響，涵蓋過去十年的所有版本。如果您有使用 WordPress、Drupal、Joomla 等平台或內部系統，請務必立刻檢查！
+
+嚴重災情風險：伺服器可能遭植入後門、勒索軟體，或導致記憶體中的資料庫密碼、API 金鑰等機敏資料外洩
+
+立即行動指南：
+升級 PHP：立即更新至安全版本（如 8.5.12、8.4.27、8.3.36、8.2.35 以上）
+部署 WAF 防護：在完成系統修補前，建議先透過 WAF（如 Cloudflare）在網站入口擋下惡意請求
+全面盤點：檢查是否有大量異常檔案上傳請求或不明 PHP 檔案，確認是否已被入侵
+
+遇到這種重大漏洞，節奏很重要：先用 WAF 擋住攻擊、盤點受影響的系統，最後徹底更新修補
+
+想了解詳細的排查步驟與防護方式，完整筆記在這邊👇
+🔗https://lnkd.in/gR2ixgtK
+
+
+
+hashtag
+#PHP2Shell 
+hashtag
+#CyberSecurity 
+hashtag
+#資訊安全 
+hashtag
+#WAF 
+hashtag
+#MasterConcept<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQE1WUQF_jimyA/feedshare-shrink_800/B56aFnCXJxI4Ac-/0/1792730035080?e=1794441600&v=beta&t=DO0pkJMQQ5O9ymE7PJaWX-BXqB9lE1avDL7CFRqXuho" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[🚨 緊急資安警報：PHP2Shell 重大漏洞 (CVSS 9.2)  🚨
+
+PHP 官方已發布緊急安全更新，修補代號「PHP2Shell」的重大漏洞。攻擊者不需任何帳號密碼，只需送出特製請求，就能在伺服器上執行任意程式並完全接管主機！
+
+💡 快速掌握 3 大重點：
+影響範圍極廣：只要網站使用 PHP 5.4 以後的版本皆受影響，涵蓋過去十年的所有版本。如果您有使用 WordPress、Drupal、Joomla 等平台或內部系統，請務必立刻檢查！
+
+嚴重災情風險：伺服器可能遭植入後門、勒索軟體，或導致記憶體中的資料庫密碼、API 金鑰等機敏資料外洩
+
+立即行動指南：
+升級 PHP：立即更新至安全版本（如 8.5.12、8.4.27、8.3.36、8.2.35 以上）
+部署 WAF 防護：在完成系統修補前，建議先透過 WAF（如 Cloudflare）在網站入口擋下惡意請求
+全面盤點：檢查是否有大量異常檔案上傳請求或不明 PHP 檔案，確認是否已被入侵
+
+遇到這種重大漏洞，節奏很重要：先用 WAF 擋住攻擊、盤點受影響的系統，最後徹底更新修補
+
+想了解詳細的排查步驟與防護方式，完整筆記在這邊👇
+🔗https://lnkd.in/gR2ixgtK
+
+
+
+hashtag
+#PHP2Shell 
+hashtag
+#CyberSecurity 
+hashtag
+#資訊安全 
+hashtag
+#WAF 
+hashtag
+#MasterConcept<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQE1WUQF_jimyA/feedshare-shrink_800/B56aFnCXJxI4Ac-/0/1792730035080?e=1794441600&v=beta&t=DO0pkJMQQ5O9ymE7PJaWX-BXqB9lE1avDL7CFRqXuho" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7519254763176108032</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5622AQE1WUQF_jimyA/feedshare-shrink_800/B56aFnCXJxI4Ac-/0/1792730035080?e=1794441600&amp;v=beta&amp;t=DO0pkJMQQ5O9ymE7PJaWX-BXqB9lE1avDL7CFRqXuho" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 23 Oct 2026 12:33:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>That's a wrap on an incredible Cloudflare Connect and Global Partner Summit. It is clear that the mo...</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7519205280216170496</link>
+      <description><![CDATA[That's a wrap on an incredible Cloudflare Connect and Global Partner Summit. It is clear that the momentum across our partner ecosystem has never been stronger. The collaboration and strategic conversations throughout the week reinforced how essential our partners are in driving services innovation and solving complex security and connectivity challenges for customers worldwide. Thank you to everyone who joined us, and a huge congratulations to the Regional and Global winners of our 2026 Annual Partner Awards!
+
+GlobalDots
+CDW
+Accenture
+Presidio
+Radius Channels
+SentinelOne
+Accelia
+ACPL Systems
+NTT DATA, Inc.
+ETEVERS GROUP
+Master Concept Group
+Bespin Global China
+Centcloud
+Kyndryl
+Mindware
+Prime Formation
+MTN
+Focus Group
+Softcat
+Arctiq
+Red River
+Adapture<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQF2GfxWVgfmYA/feedshare-shrink_800/B56aFeqj1iH4Ak-/0/1792589577797?e=1794441600&v=beta&t=lbWo3iV7KSX0zdMB9qfr-hDvRMX6HGQQcxj_6t5HX_8" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></description>
+      <content:encoded><![CDATA[That's a wrap on an incredible Cloudflare Connect and Global Partner Summit. It is clear that the momentum across our partner ecosystem has never been stronger. The collaboration and strategic conversations throughout the week reinforced how essential our partners are in driving services innovation and solving complex security and connectivity challenges for customers worldwide. Thank you to everyone who joined us, and a huge congratulations to the Regional and Global winners of our 2026 Annual Partner Awards!
+
+GlobalDots
+CDW
+Accenture
+Presidio
+Radius Channels
+SentinelOne
+Accelia
+ACPL Systems
+NTT DATA, Inc.
+ETEVERS GROUP
+Master Concept Group
+Bespin Global China
+Centcloud
+Kyndryl
+Mindware
+Prime Formation
+MTN
+Focus Group
+Softcat
+Arctiq
+Red River
+Adapture<br/><br/><img src="https://media.licdn.com/dms/image/v2/D5622AQF2GfxWVgfmYA/feedshare-shrink_800/B56aFeqj1iH4Ak-/0/1792589577797?e=1794441600&v=beta&t=lbWo3iV7KSX0zdMB9qfr-hDvRMX6HGQQcxj_6t5HX_8" style="max-width: 100%; height: auto; margin: 10px 0;" /><br/>]]></content:encoded>
+      <guid isPermaLink="false">https://www.linkedin.com/feed/update/urn:li:activity:7519205280216170496</guid>
+      <enclosure url="https://media.licdn.com/dms/image/v2/D5622AQF2GfxWVgfmYA/feedshare-shrink_800/B56aFeqj1iH4Ak-/0/1792589577797?e=1794441600&amp;v=beta&amp;t=lbWo3iV7KSX0zdMB9qfr-hDvRMX6HGQQcxj_6t5HX_8" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 23 Oct 2026 09:17:18 +0800</pubDate>
+    </item>
     <item>
       <title>What's costing your fleet the most — breakdowns, fuel or inefficient routes?
 
